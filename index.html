@@ -622,13 +622,14 @@
       };
     }
 
-    // Terminar: cierra el pedido y regresa a la pantalla principal
+    // Terminar: cierra el pedido, refresca el inventario y regresa al inicio
     function terminarPedido(){
       carrito = [];
       guardarCarrito();
       actualizarCarrito();
       cerrarCarrito();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      cargarInventarioLive();   // vuelve a leer las existencias reales de Google
     }
 
     // Clics dentro del carrito (cantidades y quitar)
@@ -708,6 +709,15 @@
             })
           });
         }catch(err){ /* si falla el registro, el pedido igual se manda por WhatsApp */ }
+      }
+
+      // Bajar de inmediato el inventario mostrado (localmente), sin esperar a Google
+      if(INV_LIVE){
+        carrito.forEach(i => {
+          const k = normCod(i.codigo);
+          if(INV_LIVE[k] !== undefined) INV_LIVE[k] = INV_LIVE[k] - i.cant;
+        });
+        pintar();
       }
 
       window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
