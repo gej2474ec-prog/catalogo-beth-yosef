@@ -4,69 +4,6 @@
 
 const PRODUCTOS = [
   {
-    "codigo": "00118",
-    "descripcion": "Kurson pechuga de pavo clásica kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "00118.jpg",
-    "existencia": 100.0
-  },
-  {
-    "codigo": "11156",
-    "descripcion": "Kurson pechuga de pavo ahumada kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "11156.jpg",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "00712",
-    "descripcion": "Kurson pechuga de pavo Hickory kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "00712.jpg",
-    "existencia": 30.0
-  },
-  {
-    "codigo": "900113",
-    "descripcion": "Kurson pechuga de pavo rostizada kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "900113.jpg",
-    "existencia": 25.0
-  },
-  {
-    "codigo": "00112",
-    "descripcion": "Kurson pechuga de pavo a las finas hierbas kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "00112.jpg",
-    "existencia": 120.0
-  },
-  {
-    "codigo": "900108",
-    "descripcion": "Kurson jamón de pavo kosher kg",
-    "precio": 622.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "900108.jpg",
-    "existencia": 650.0
-  },
-  {
-    "codigo": "00114",
-    "descripcion": "Kurson pastel de pavo con aceituna kosher kg",
-    "precio": 410.0,
-    "familia": "CARNES FRIAS NACIONALES",
-    "unidad": "kg",
-    "foto": "00114.jpg",
-    "existencia": 4.0
-  },
-  {
     "codigo": "00115",
     "descripcion": "Kurson pastel de pavo con pimiento kosher kg",
     "precio": 410.0,
@@ -361,7 +298,7 @@ const PRODUCTOS = [
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "Pz",
     "foto": "857907008284.jpg",
-    "existencia": 10.0
+    "existencia": 0.0
   },
   {
     "codigo": "710069404540",
@@ -379,7 +316,7 @@ const PRODUCTOS = [
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "Pz",
     "foto": "815871012409.jpg",
-    "existencia": 4.0
+    "existencia": 0.0
   },
   {
     "codigo": "077245107931",
@@ -577,7 +514,7 @@ const PRODUCTOS = [
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "Pz",
     "foto": "794711002025.jpg",
-    "existencia": 4.0
+    "existencia": 1.0
   },
   {
     "codigo": "049682900987",
@@ -586,7 +523,7 @@ const PRODUCTOS = [
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "Pz",
     "foto": "049682900987.jpg",
-    "existencia": 35.0
+    "existencia": 5.0
   },
   {
     "codigo": "043427007252",
