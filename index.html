@@ -105,6 +105,8 @@
     .nombre{font-weight:700;margin:4px 0;font-size:1.02rem;flex:1}
     .codigo{font-size:.78rem;color:var(--suave);margin-top:2px}
     .codigo b{color:var(--texto);font-weight:600}
+    .existencia{font-size:.8rem;color:var(--suave);margin-top:4px}
+    .existencia b{color:#16a34a;font-weight:700}
     .precio{font-size:1.35rem;font-weight:800;margin-top:10px}
     .precio .u{font-size:.8rem;color:var(--suave);font-weight:600}
     .precio .base{font-size:.85rem;color:var(--suave);text-decoration:line-through;font-weight:600;margin-left:6px}
@@ -250,7 +252,7 @@
   </header>
 
   <div class="clientebar">
-    👤 <label for="cliente">¿Cliente con precio especial?</label>
+    👤 <label for="cliente">¿Cliente de mayoreo?</label>
     <input id="cliente" type="text" inputmode="text" placeholder="N° de cliente" autocomplete="off">
     <span id="clienteMsg"></span>
   </div>
@@ -435,6 +437,12 @@
         if(agotado) card.className = 'card agotado';
 
         const cinta = agotado ? `<div class="cinta-agotado">AGOTADO</div>` : "";
+
+        // Mostrar existencia disponible (solo si hay control de inventario y hay stock)
+        const existenciaHtml = (!agotado && exist !== null && exist !== undefined && exist > 0)
+          ? `<div class="existencia">Disponibles: <b>${fmtCant(exist)}${p.unidad ? ' ' + p.unidad : ''}</b></div>`
+          : "";
+
         const controles = agotado
           ? `<div class="agotado-msg">😔 Agotado por ahora</div>`
           : `
@@ -454,6 +462,7 @@
             <div class="nombre">${p.descripcion}</div>
             ${lineaCodigo}
             <div class="precio">${precioHtml}</div>
+            ${existenciaHtml}
             ${controles}
           </div>
         `;
