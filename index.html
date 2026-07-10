@@ -202,6 +202,12 @@
       padding:14px;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;
     }
     #enviarWa:hover{background:var(--verde-osc)}
+    #terminar{
+      width:100%;display:flex;align-items:center;justify-content:center;gap:8px;
+      background:var(--acento);color:#fff;border:none;margin-top:8px;
+      padding:14px;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer;
+    }
+    #terminar:hover{background:var(--acento-osc)}
     #vaciar{width:100%;background:none;border:none;color:var(--suave);margin-top:8px;cursor:pointer;font-size:.85rem;padding:6px}
     .carritoVacio{text-align:center;color:var(--suave);padding:50px 20px}
 
@@ -504,12 +510,23 @@
         <div class="total"><span>Total aprox.</span><span>${formatoPrecio(total)}</span></div>
         <div class="nota">* El total es aproximado; el precio final puede variar según el peso real.</div>
         <button id="enviarWa" type="button">💬 Enviar pedido por WhatsApp</button>
+        <button id="terminar" type="button" style="display:none">✅ Terminar pedido</button>
         <button id="vaciar" type="button">Vaciar pedido</button>
       `;
       document.getElementById('enviarWa').onclick = enviarPedido;
+      document.getElementById('terminar').onclick = terminarPedido;
       document.getElementById('vaciar').onclick = () => {
         carrito = []; guardarCarrito(); actualizarCarrito();
       };
+    }
+
+    // Terminar: cierra el pedido y regresa a la pantalla principal
+    function terminarPedido(){
+      carrito = [];
+      guardarCarrito();
+      actualizarCarrito();
+      cerrarCarrito();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
     // Clics dentro del carrito (cantidades y quitar)
@@ -558,6 +575,10 @@
       const lineaCliente = clienteActual ? `Cliente: ${clienteActual}\n` : "";
       const msg = `Hola, quiero hacer este pedido:\n${lineaCliente}\n${lineas.join('\n')}\n\nTotal aprox.: ${formatoPrecio(total)}\n\n----- Captura (codigo  precio  cantidad) -----\n${captura}`;
       window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
+
+      // Al volver a esta pantalla, mostrar el botón para terminar el pedido
+      const btnT = document.getElementById('terminar');
+      if(btnT) btnT.style.display = 'flex';
     }
 
     // Abrir / cerrar el panel
