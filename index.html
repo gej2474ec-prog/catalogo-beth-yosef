@@ -551,10 +551,12 @@
         const cod = i.codigo ? ` (Cód. ${i.codigo})` : "";
         return `• ${i.desc}${cod}\n   ${fmtCant(i.cant)}${u} × ${formatoPrecio(i.precio)} = ${formatoPrecio(sub)}`;
       });
-      // Bloque de captura: solo codigo y cantidad
-      const captura = carrito.map(i => `${i.codigo} ${fmtCant(i.cant)}`).join('\n');
+      // Bloque de captura: codigo [tab] cantidad [tab] precio (sin signo $)
+      const captura = carrito.map(i =>
+        `${i.codigo}\t${fmtCant(i.cant)}\t${(i.precio || 0).toFixed(2)}`
+      ).join('\n');
       const lineaCliente = clienteActual ? `Cliente: ${clienteActual}\n` : "";
-      const msg = `Hola, quiero hacer este pedido:\n${lineaCliente}\n${lineas.join('\n')}\n\nTotal aprox.: ${formatoPrecio(total)}\n\n----- Captura (codigo cantidad) -----\n${captura}`;
+      const msg = `Hola, quiero hacer este pedido:\n${lineaCliente}\n${lineas.join('\n')}\n\nTotal aprox.: ${formatoPrecio(total)}\n\n----- Captura (codigo  cantidad  precio) -----\n${captura}`;
       window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
     }
 
