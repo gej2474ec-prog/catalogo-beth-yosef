@@ -321,6 +321,7 @@
         document.querySelectorAll('.chip').forEach(c => c.classList.remove('activo'));
         b.classList.add('activo');
         pintar();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       };
       contFiltros.appendChild(b);
     });
