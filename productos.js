@@ -81,7 +81,7 @@ const PRODUCTOS = [
     "precio": 670.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "KG",
-    "foto": "",
+    "foto": "03345.jpg",
     "existencia": 235.0
   },
   {
@@ -340,7 +340,7 @@ const PRODUCTOS = [
     "codigo": "5500010007610",
     "descripcion": "YUMMY PIZZA CHEESE KOSHER LB",
     "precio": 235.0,
-    "familia": "CONGELADO IMPORTADO",
+    "familia": "QUESO IMPORTADO",
     "unidad": "KG",
     "foto": "5500010007610.jpg",
     "existencia": 200.0
@@ -351,7 +351,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "CARNES FRIAS CHARCUTI",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "7503046084698.jpg",
     "existencia": 36.0
   },
   {
@@ -450,7 +450,7 @@ const PRODUCTOS = [
     "precio": 169.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "7503046084117.jpg",
     "existencia": 56.0
   },
   {
