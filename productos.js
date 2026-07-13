@@ -171,7 +171,7 @@ const PRODUCTOS = [
     "precio": 30.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "890360003038.jpg",
     "existencia": 12.0
   },
   {
@@ -207,7 +207,7 @@ const PRODUCTOS = [
     "precio": 270.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "850775007434.jpg",
     "existencia": 16.0
   },
   {
@@ -216,7 +216,7 @@ const PRODUCTOS = [
     "precio": 270.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "850775007410.jpg",
     "existencia": 20.0
   },
   {
@@ -333,7 +333,7 @@ const PRODUCTOS = [
     "precio": 271.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "651219102018.jpg",
     "existencia": 12.0
   },
   {
@@ -711,7 +711,7 @@ const PRODUCTOS = [
     "precio": 17.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "7501161502028.jpg",
     "existencia": 405.0
   },
   {
@@ -729,7 +729,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "077544001039.jpg",
     "existencia": 24.0
   },
   {
