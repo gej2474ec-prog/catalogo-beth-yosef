@@ -27,12 +27,18 @@
       position:sticky;top:0;z-index:30;
       background:#fff;
       color:var(--texto);
-      padding:8px 16px;
+      padding:22px 20px 16px;
       border-bottom:3px solid var(--acento);
-      display:flex;align-items:center;gap:12px;
+      display:flex;align-items:center;justify-content:center;gap:12px;
+      transition:padding .2s ease;
     }
-    header .logo{height:40px;width:auto;max-width:180px;display:block;margin:0}
-    header p{color:var(--suave);font-size:.85rem;margin:0}
+    header .logo{
+      max-width:300px;width:70%;height:auto;display:block;margin:0;
+      transition:max-width .2s ease, width .2s ease, height .2s ease;
+    }
+    /* Al hacer scroll: logo chico a la izquierda */
+    header.compacto{justify-content:flex-start;padding:8px 16px}
+    header.compacto .logo{max-width:170px;width:auto;height:40px}
 
     .barra{
       position:sticky;top:59px;z-index:10;
@@ -227,9 +233,9 @@
 
     /* ---------- En CELULAR: vista tipo lista (foto chica a la izquierda) ---------- */
     @media (max-width: 600px){
-      header .logo{height:34px}
-      header p{display:none}
-      .barra{top:53px}
+      header .logo{width:65%;max-width:240px;height:auto}
+      header.compacto .logo{width:auto;max-width:150px;height:32px}
+      .barra{top:51px}
       .grid{grid-template-columns:1fr;gap:10px;padding:12px}
       .card{flex-direction:row;align-items:flex-start}
       .card:hover{transform:none;box-shadow:0 1px 3px rgba(0,0,0,.06)}
@@ -795,6 +801,13 @@
       actualizarCarrito();
     }
     inputCliente.addEventListener('input', aplicarCliente);
+
+    // Efecto: al bajar, el logo se hace chico y se va a la izquierda
+    const elHeader = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 30) elHeader.classList.add('compacto');
+      else elHeader.classList.remove('compacto');
+    }, { passive: true });
 
     // Arranque
     aplicarCliente();
