@@ -701,7 +701,13 @@
       const captura = carrito.map(i =>
         `${i.codigo}\t${(i.precio || 0).toFixed(2)}\t${fmtCant(i.cant)}`
       ).join('\n');
-      const lineaCliente = clienteActual ? `Cliente: ${clienteActual}\n` : "";
+      let lineaCliente = "";
+      if(clienteActual){
+        let tipo = "";
+        if(listaCliente()) tipo = " (precio especial)";
+        else if(descuentoCliente() > 0) tipo = " (" + descuentoCliente() + "% de descuento)";
+        lineaCliente = `Cliente: ${clienteActual}${tipo}\n`;
+      }
       const msg = `Hola, quiero hacer este pedido:\n${lineaCliente}\n${lineas.join('\n')}\n\nTotal aprox.: ${formatoPrecio(total)}\n\n----- Captura (codigo  precio  cantidad) -----\n${captura}`;
 
       // Registrar el pedido en la Hoja de Google (si está configurada)
