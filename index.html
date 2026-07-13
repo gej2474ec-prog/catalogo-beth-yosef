@@ -24,17 +24,18 @@
       line-height:1.5;
     }
     header{
+      position:sticky;top:0;z-index:30;
       background:#fff;
       color:var(--texto);
-      padding:24px 20px 18px;
-      text-align:center;
+      padding:8px 16px;
       border-bottom:3px solid var(--acento);
+      display:flex;align-items:center;gap:12px;
     }
-    header .logo{max-width:300px;width:70%;height:auto;display:block;margin:0 auto}
-    header p{color:var(--suave);margin-top:8px;font-size:.95rem}
+    header .logo{height:40px;width:auto;max-width:180px;display:block;margin:0}
+    header p{color:var(--suave);font-size:.85rem;margin:0}
 
     .barra{
-      position:sticky;top:0;z-index:10;
+      position:sticky;top:59px;z-index:10;
       background:var(--tarjeta);
       border-bottom:1px solid var(--borde);
       padding:12px 16px;
@@ -226,6 +227,9 @@
 
     /* ---------- En CELULAR: vista tipo lista (foto chica a la izquierda) ---------- */
     @media (max-width: 600px){
+      header .logo{height:34px}
+      header p{display:none}
+      .barra{top:53px}
       .grid{grid-template-columns:1fr;gap:10px;padding:12px}
       .card{flex-direction:row;align-items:flex-start}
       .card:hover{transform:none;box-shadow:0 1px 3px rgba(0,0,0,.06)}
@@ -248,7 +252,6 @@
 
   <header>
     <img id="logo" class="logo" src="logo.png" alt="Logo">
-    <p id="eslogan">Catálogo de productos</p>
   </header>
 
   <div class="clientebar">
@@ -284,7 +287,6 @@
   <script>
     // --- Rellenar textos de la tienda ---
     document.getElementById('logo').alt = CONFIG.nombreTienda;
-    document.getElementById('eslogan').textContent = CONFIG.eslogan;
     document.title = CONFIG.nombreTienda + " · Catálogo";
     document.getElementById('pie').textContent = CONFIG.nombreTienda + " — Catálogo actualizado";
 
