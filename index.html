@@ -165,7 +165,8 @@
     .btn-add.ok{background:var(--verde)}
 
     .vacio{text-align:center;color:var(--suave);padding:60px 20px;grid-column:1/-1}
-    footer{text-align:center;padding:30px 20px 100px;color:var(--suave);font-size:.85rem}
+    footer{text-align:center;padding:30px 20px 100px;color:var(--suave);font-size:.85rem;font-weight:700}
+    #pie .powered{font-size:.72rem;font-weight:400;opacity:.6;margin-top:4px}
 
     /* ---------- Botón flotante del carrito ---------- */
     #verPedido{
@@ -313,7 +314,7 @@
     // --- Rellenar textos de la tienda ---
     document.getElementById('logo').alt = CONFIG.nombreTienda;
     document.title = CONFIG.nombreTienda + " · Catálogo";
-    document.getElementById('pie').textContent = CONFIG.nombreTienda;
+    document.getElementById('pie').innerHTML = CONFIG.nombreTienda + '<div class="powered">Powered by Eduardo</div>';
 
     let categoriaActual = "Todos";
     let textoBusqueda = "";
