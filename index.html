@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catálogo</title>
+  <!-- App instalable (PWA) -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#e1251b">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="BETH YOSEF">
   <style>
     :root{
       --acento:#e1251b;
@@ -855,6 +862,13 @@
       pintar();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // App instalable: registrar el service worker
+    if('serviceWorker' in navigator){
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+      });
+    }
 
     // Arranque
     aplicarCliente();
