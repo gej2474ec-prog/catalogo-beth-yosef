@@ -1147,6 +1147,26 @@
       await cargarScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js');
     }
 
+    // Prepara el logo como imagen para el PDF
+    let _logoDataURL = null;
+    function obtenerLogoDataURL(){
+      return new Promise((res) => {
+        if(_logoDataURL !== null) return res(_logoDataURL || null);
+        const img = new Image();
+        img.onload = () => {
+          try{
+            const c = document.createElement('canvas');
+            c.width = img.naturalWidth; c.height = img.naturalHeight;
+            c.getContext('2d').drawImage(img, 0, 0);
+            _logoDataURL = c.toDataURL('image/png');
+          }catch(e){ _logoDataURL = ''; }
+          res(_logoDataURL || null);
+        };
+        img.onerror = () => { _logoDataURL = ''; res(null); };
+        img.src = 'logo.png';
+      });
+    }
+
     // Descargar / compartir la cotización como PDF de verdad
     async function descargarPDF(){
       if(cotizaItems.length === 0) return;
@@ -1174,16 +1194,25 @@
         return ['', String(i.desc || ''), '', String(fmtCant(i.cant)), '—', 'Por cotizar'];
       });
 
-      doc.setTextColor(225, 37, 27); doc.setFontSize(20); doc.setFont(undefined, 'bold');
-      doc.text(CONFIG.nombreTienda || 'BETH YOSEF', 14, 18);
+      const logoData = await obtenerLogoDataURL();
+      let y = 14;
+      if(logoData){
+        const w = 55, h = w * (323 / 1088);   // proporción del logo horizontal
+        doc.addImage(logoData, 'PNG', 14, 10, w, h);
+        y = 10 + h + 7;
+      }else{
+        doc.setTextColor(225, 37, 27); doc.setFontSize(20); doc.setFont(undefined, 'bold');
+        doc.text(CONFIG.nombreTienda || 'BETH YOSEF', 14, 18);
+        y = 25;
+      }
       doc.setTextColor(90, 90, 90); doc.setFontSize(11); doc.setFont(undefined, 'normal');
       let sub = 'COTIZACIÓN';
       if(nombre) sub += ' · ' + nombre;
       if(clienteActual) sub += ' · Cliente ' + clienteActual;
-      doc.text(sub, 14, 25);
+      doc.text(sub, 14, y);
 
       doc.autoTable({
-        startY: 30,
+        startY: y + 5,
         head: [['Código', 'Producto', 'Unidad', 'Cant.', 'Precio', 'Total']],
         body: body,
         foot: [['', '', '', '', 'GRAN TOTAL', formatoPrecio(total)]],
