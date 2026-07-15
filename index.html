@@ -391,7 +391,7 @@
     <div class="pie" id="cotizaPie"></div>
   </aside>
 
-  <script src="productos.js?v=bf0df1eb"></script>
+  <script src="productos.js?v=3a75d98d"></script>
   <script>
     // --- Rellenar textos de la tienda ---
     document.getElementById('logo').alt = CONFIG.nombreTienda;
@@ -436,6 +436,18 @@
     Object.keys(DESC).forEach(k => { DESC_NORM[k.trim().toLowerCase()] = Number(DESC[k]) || 0; });
     function descuentoCliente(){
       return DESC_NORM[clienteActual.trim().toLowerCase()] || 0;
+    }
+
+    // Clientes restringidos: solo ven los productos de su hoja de precios
+    const REST = (typeof RESTRINGIDOS !== 'undefined') ? RESTRINGIDOS : [];
+    const REST_NORM = new Set(REST.map(x => String(x).trim().toLowerCase()));
+    function clienteRestringido(){
+      return REST_NORM.has(clienteActual.trim().toLowerCase());
+    }
+    // Conjunto de códigos que puede ver el cliente restringido (de su lista de precios)
+    function codigosPermitidos(){
+      const lista = listaCliente();
+      return lista ? new Set(Object.keys(lista)) : new Set();
     }
 
     const PROD_POR_COD = {};
@@ -532,7 +544,12 @@
       const grid = document.getElementById('grid');
       grid.innerHTML = "";
 
+      // Si el cliente es restringido, solo mostramos los códigos de su lista
+      const restringido = clienteRestringido();
+      const permitidos = restringido ? codigosPermitidos() : null;
+
       const lista = PRODUCTOS.filter(p => {
+        if(permitidos && !permitidos.has(normCod(p.codigo))) return false;
         const okCat = categoriaActual === "Todos" || p.familia === categoriaActual;
         const okBusca = p.descripcion.toLowerCase().includes(textoBusqueda)
                      || p.codigo.toLowerCase().includes(textoBusqueda);
