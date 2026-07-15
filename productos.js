@@ -811,7 +811,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752007921.jpg",
-    "existencia": 56.0
+    "existencia": 59.0
   },
   {
     "codigo": "087752007907",
@@ -1072,7 +1072,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752001295.jpg",
-    "existencia": null
+    "existencia": 60.0
   },
   {
     "codigo": "087752001363",
@@ -1081,7 +1081,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752001363.JPG",
-    "existencia": null
+    "existencia": 47.0
   },
   {
     "codigo": "087752002568",
@@ -1126,7 +1126,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752006474.jpeg",
-    "existencia": null
+    "existencia": 37.0
   },
   {
     "codigo": "087752006894",
@@ -1135,7 +1135,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752006894.JPG",
-    "existencia": null
+    "existencia": 122.0
   },
   {
     "codigo": "087752007419",
@@ -1162,7 +1162,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752011225.jpg",
-    "existencia": null
+    "existencia": 19.0
   },
   {
     "codigo": "087752011805",
@@ -1225,7 +1225,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752016428.jpg",
-    "existencia": null
+    "existencia": 35.0
   },
   {
     "codigo": "087752017746",
@@ -1306,7 +1306,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752023440.jpg",
-    "existencia": null
+    "existencia": 13.0
   },
   {
     "codigo": "087752024577",
@@ -1360,7 +1360,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "087752035740.jpeg",
-    "existencia": null
+    "existencia": 54.0
   },
   {
     "codigo": "087752035757",
@@ -1378,7 +1378,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "736040014270.jpg",
-    "existencia": null
+    "existencia": 6.0
   },
   {
     "codigo": "844510015280",
@@ -1396,7 +1396,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "852884001433.jpg",
-    "existencia": null
+    "existencia": 78.0
   },
   {
     "codigo": "852884003550",
@@ -1405,7 +1405,7 @@ const PRODUCTOS = [
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
     "foto": "852884003550.jpg",
-    "existencia": null
+    "existencia": 19.0
   },
   {
     "codigo": "852884003567",
