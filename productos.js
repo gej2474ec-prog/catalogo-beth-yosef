@@ -3061,3 +3061,5 @@ const DESCUENTOS = {
   "raul": 25.0,
   "Isaac": 30.0
 };
+
+const BASE_DATOS = [{"codigo": "1001", "descripcion": "PRODUCTO DE EJEMPLO 1", "unidad": "pieza", "precio": 150.0}, {"codigo": "1002", "descripcion": "PRODUCTO DE EJEMPLO 2", "unidad": "kg", "precio": 89.5}];

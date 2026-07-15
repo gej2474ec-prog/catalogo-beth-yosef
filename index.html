@@ -246,6 +246,49 @@
     #vaciar{width:100%;background:none;border:none;color:var(--suave);margin-top:8px;cursor:pointer;font-size:.85rem;padding:6px}
     .carritoVacio{text-align:center;color:var(--suave);padding:50px 20px}
 
+    /* ---------- Cotización ---------- */
+    .btn-cotiza{
+      padding:11px 16px;border-radius:999px;border:2px solid var(--acento);
+      background:#fff;color:var(--acento);font-weight:700;font-size:.9rem;
+      cursor:pointer;white-space:nowrap;
+    }
+    .btn-cotiza:hover{background:#fff5f5}
+    #fondoCotiza{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:50;display:none}
+    #cotiza{
+      position:fixed;top:0;right:0;height:100%;width:100%;max-width:440px;
+      background:var(--tarjeta);z-index:60;display:none;flex-direction:column;
+      box-shadow:-8px 0 30px rgba(0,0,0,.2);
+    }
+    #cotiza .cab{padding:18px 20px;border-bottom:1px solid var(--borde);display:flex;align-items:center;justify-content:space-between}
+    #cotiza .cab h2{font-size:1.2rem}
+    #cerrarCotiza{background:none;border:none;font-size:1.6rem;cursor:pointer;color:var(--suave);line-height:1}
+    #cotizaBody{flex:1;overflow-y:auto;padding:14px 16px}
+    #cotizaBuscar{width:100%;padding:11px 14px;border:1px solid var(--borde);border-radius:10px;font-size:1rem;outline:none}
+    #cotizaBuscar:focus{border-color:var(--acento)}
+    .cot-res{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 4px;border-bottom:1px solid var(--borde)}
+    .cot-res .mini{font-size:.78rem;color:var(--suave)}
+    .cot-add{width:34px;height:34px;flex:none;border:1px solid var(--acento);background:#fff;color:var(--acento);border-radius:8px;font-size:1.2rem;cursor:pointer}
+    .cotiza-especial{margin-top:14px;background:#f9fafb;border:1px solid var(--borde);border-radius:12px;padding:12px}
+    .cotiza-especial .lbl{font-size:.85rem;color:var(--suave);margin-bottom:6px;font-weight:600}
+    .cotiza-especial #espDesc{width:100%;padding:10px 12px;border:1px solid var(--borde);border-radius:8px;font-size:.95rem;outline:none}
+    .cotiza-especial .fila{display:flex;gap:8px;margin-top:8px}
+    .cotiza-especial #espCant{width:80px;padding:10px;border:1px solid var(--borde);border-radius:8px;text-align:center;font-weight:600;-moz-appearance:textfield}
+    .cotiza-especial #espAgregar{flex:1;background:var(--acento);color:#fff;border:none;border-radius:8px;font-weight:700;cursor:pointer}
+    #cotizaLista{margin-top:14px}
+    .cot-item{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--borde)}
+    .cot-item .d{flex:1;min-width:0}
+    .cot-item .dn{font-weight:600;font-size:.92rem}
+    .cot-item .dc{font-size:.78rem;color:var(--suave)}
+    .cot-item .df{display:flex;align-items:center;justify-content:space-between;margin-top:6px}
+    .cot-item .sub{font-weight:700;font-size:.9rem;white-space:nowrap}
+    .cot-item .porcot{font-size:.78rem;color:#b45309;font-weight:700}
+    .cot-item .quitar{background:none;border:none;color:#ef4444;cursor:pointer;font-size:.78rem;padding:0;margin-top:4px}
+    #cotizaNombre{width:100%;margin-top:14px;padding:11px 14px;border:1px solid var(--borde);border-radius:10px;font-size:1rem;outline:none}
+    #cotiza .pie{padding:16px 20px;border-top:1px solid var(--borde)}
+    #enviarCotiza{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--verde);color:#fff;border:none;padding:14px;border-radius:12px;font-weight:700;font-size:1rem;cursor:pointer}
+    #enviarCotiza:hover{background:var(--verde-osc)}
+    .cotizaVacio{text-align:center;color:var(--suave);padding:20px}
+
     /* ---------- En CELULAR: vista tipo lista (foto chica a la izquierda) ---------- */
     @media (max-width: 600px){
       header .logo{width:65%;max-width:240px;height:auto}
@@ -297,6 +340,7 @@
 
   <div class="barra">
     <input id="buscar" type="search" placeholder="🔍 Buscar por descripción o código...">
+    <button id="btnCotiza" class="btn-cotiza" type="button">🧾 Cotización</button>
     <div class="filtros" id="filtros"></div>
     <div class="hint-fam"><span>→</span> desliza para más categorías <span>→</span></div>
   </div>
@@ -319,7 +363,31 @@
     <div class="pie" id="pieCarrito"></div>
   </aside>
 
-  <script src="productos.js?v=99283a38"></script>
+  <!-- Ventana de Cotización -->
+  <div id="fondoCotiza"></div>
+  <aside id="cotiza">
+    <div class="cab">
+      <h2>🧾 Cotización</h2>
+      <button id="cerrarCotiza">&times;</button>
+    </div>
+    <div id="cotizaBody">
+      <input id="cotizaBuscar" type="search" placeholder="🔍 Buscar producto de la lista...">
+      <div id="cotizaResultados"></div>
+      <div class="cotiza-especial">
+        <div class="lbl">¿No lo encuentras? Escríbelo y lo cotizamos:</div>
+        <input id="espDesc" type="text" placeholder="Qué necesitas (ej. 5 cajas de aceite)">
+        <div class="fila">
+          <input id="espCant" type="number" value="1" min="0" step="1" inputmode="decimal">
+          <button id="espAgregar" type="button">Agregar</button>
+        </div>
+      </div>
+      <div id="cotizaLista"></div>
+      <input id="cotizaNombre" type="text" placeholder="Tu nombre (opcional)">
+    </div>
+    <div class="pie" id="cotizaPie"></div>
+  </aside>
+
+  <script src="productos.js?v=bda26679"></script>
   <script>
     // --- Rellenar textos de la tienda ---
     document.getElementById('logo').alt = CONFIG.nombreTienda;
@@ -876,6 +944,151 @@
         navigator.serviceWorker.register('sw.js').catch(() => {});
       });
     }
+
+    // ================= COTIZACIÓN =================
+    const BASE = (typeof BASE_DATOS !== 'undefined') ? BASE_DATOS : [];
+    let cotizaItems = [];
+    const fondoCotiza = document.getElementById('fondoCotiza');
+    const elCotiza = document.getElementById('cotiza');
+    const cotizaBuscar = document.getElementById('cotizaBuscar');
+    const cotizaResultados = document.getElementById('cotizaResultados');
+
+    document.getElementById('btnCotiza').onclick = () => {
+      fondoCotiza.style.display = 'block'; elCotiza.style.display = 'flex';
+    };
+    function cerrarCotiza(){ fondoCotiza.style.display = 'none'; elCotiza.style.display = 'none'; }
+    document.getElementById('cerrarCotiza').onclick = cerrarCotiza;
+    fondoCotiza.onclick = cerrarCotiza;
+
+    // Buscar en la base de datos
+    cotizaBuscar.addEventListener('input', () => {
+      const q = cotizaBuscar.value.trim().toLowerCase();
+      if(q.length < 2){ cotizaResultados.innerHTML = ''; cotizaResultados._res = []; return; }
+      const res = [];
+      for(let i = 0; i < BASE.length && res.length < 25; i++){
+        const p = BASE[i];
+        if((p.descripcion || '').toLowerCase().includes(q) || String(p.codigo || '').toLowerCase().includes(q)) res.push(p);
+      }
+      cotizaResultados._res = res;
+      cotizaResultados.innerHTML = res.length ? res.map((p, i) => `
+        <div class="cot-res">
+          <div><div><b>${p.descripcion || ''}</b></div>
+          <div class="mini">${p.codigo ? ('Cód. ' + p.codigo + ' · ') : ''}${formatoPrecio(p.precio)}${p.unidad ? (' / ' + p.unidad) : ''}</div></div>
+          <button class="cot-add" data-i="${i}" type="button">+</button>
+        </div>`).join('')
+        : '<div class="mini" style="padding:8px 4px">Sin resultados. Puedes pedirlo abajo como "por cotizar".</div>';
+    });
+    cotizaResultados.addEventListener('click', e => {
+      const b = e.target.closest('.cot-add'); if(!b) return;
+      const p = cotizaResultados._res[parseInt(b.dataset.i, 10)];
+      if(!p) return;
+      cotizaItems.push({ tipo:'lista', codigo:p.codigo, desc:p.descripcion, unidad:p.unidad, precio:p.precio || 0, cant:1 });
+      cotizaBuscar.value = ''; cotizaResultados.innerHTML = ''; cotizaResultados._res = [];
+      renderCotiza();
+    });
+
+    // Artículo especial (por cotizar)
+    document.getElementById('espAgregar').onclick = () => {
+      const d = document.getElementById('espDesc').value.trim();
+      let c = parseFloat(document.getElementById('espCant').value); if(!c || c <= 0) c = 1;
+      if(!d){ alert('Escribe qué necesitas.'); return; }
+      cotizaItems.push({ tipo:'especial', desc:d, cant:fmtCant(c), precio:0 });
+      document.getElementById('espDesc').value = ''; document.getElementById('espCant').value = '1';
+      renderCotiza();
+    };
+
+    function renderCotiza(){
+      const cont = document.getElementById('cotizaLista');
+      const pie = document.getElementById('cotizaPie');
+      if(cotizaItems.length === 0){
+        cont.innerHTML = '<div class="cotizaVacio">Aún no agregas nada a la cotización.</div>';
+        pie.innerHTML = '';
+        return;
+      }
+      let total = 0;
+      cont.innerHTML = cotizaItems.map((i, idx) => {
+        const stepper = `
+          <div class="miniqty">
+            <button class="cmenos" type="button">−</button>
+            <input class="ccant" type="number" value="${i.cant}" min="0" step="1" inputmode="decimal">
+            <button class="cmas" type="button">+</button>
+          </div>`;
+        if(i.tipo === 'lista'){
+          const sub = i.precio * i.cant; total += sub;
+          const cod = i.codigo ? 'Cód. ' + i.codigo + ' · ' : '';
+          const u = i.unidad ? ' / ' + i.unidad : '';
+          return `<div class="cot-item" data-idx="${idx}"><div class="d">
+            <div class="dn">${i.desc}</div>
+            <div class="dc">${cod}${formatoPrecio(i.precio)}${u}</div>
+            <div class="df">${stepper}<div class="sub">${formatoPrecio(sub)}</div></div>
+            <button class="quitar" type="button">Quitar</button>
+          </div></div>`;
+        }
+        return `<div class="cot-item" data-idx="${idx}"><div class="d">
+          <div class="dn">${i.desc}</div>
+          <div class="df">${stepper}<div class="porcot">Por cotizar</div></div>
+          <button class="quitar" type="button">Quitar</button>
+        </div></div>`;
+      }).join('');
+      pie.innerHTML = `
+        <div style="display:flex;justify-content:space-between;font-weight:800;font-size:1.05rem;margin-bottom:6px"><span>Subtotal (con precio)</span><span>${formatoPrecio(total)}</span></div>
+        <div style="font-size:.75rem;color:var(--suave);margin-bottom:10px">Los artículos "por cotizar" se te pasan a mano.</div>
+        <button id="enviarCotiza" type="button">💬 Enviar cotización por WhatsApp</button>
+      `;
+      document.getElementById('enviarCotiza').onclick = enviarCotiza;
+    }
+
+    // Cantidades y quitar dentro de la cotización
+    document.getElementById('cotizaLista').addEventListener('click', e => {
+      const fila = e.target.closest('.cot-item'); if(!fila) return;
+      const idx = parseInt(fila.dataset.idx, 10);
+      if(e.target.classList.contains('cmenos')){
+        cotizaItems[idx].cant = fmtCant(Math.max(0, cotizaItems[idx].cant - 1));
+        if(cotizaItems[idx].cant === 0) cotizaItems.splice(idx, 1);
+      }else if(e.target.classList.contains('cmas')){
+        cotizaItems[idx].cant = fmtCant(cotizaItems[idx].cant + 1);
+      }else if(e.target.classList.contains('quitar')){
+        cotizaItems.splice(idx, 1);
+      }else return;
+      renderCotiza();
+    });
+    document.getElementById('cotizaLista').addEventListener('change', e => {
+      if(!e.target.classList.contains('ccant')) return;
+      const fila = e.target.closest('.cot-item');
+      const idx = parseInt(fila.dataset.idx, 10);
+      let v = parseFloat(e.target.value); if(!v || v < 0) v = 0;
+      cotizaItems[idx].cant = fmtCant(v);
+      if(cotizaItems[idx].cant === 0) cotizaItems.splice(idx, 1);
+      renderCotiza();
+    });
+
+    function enviarCotiza(){
+      if(cotizaItems.length === 0) return;
+      const nombre = document.getElementById('cotizaNombre').value.trim();
+      const conPrecio = cotizaItems.filter(i => i.tipo === 'lista');
+      const especiales = cotizaItems.filter(i => i.tipo === 'especial');
+      let total = 0;
+      let msg = '🧾 SOLICITUD DE COTIZACIÓN\n';
+      if(nombre) msg += 'Cliente: ' + nombre + '\n';
+      if(clienteActual) msg += 'N° cliente: ' + clienteActual + '\n';
+      msg += '\n';
+      if(conPrecio.length){
+        msg += '— CON PRECIO —\n';
+        conPrecio.forEach(i => {
+          const s = i.precio * i.cant; total += s;
+          const u = i.unidad ? ' ' + i.unidad : '';
+          const cod = i.codigo ? ' (Cód. ' + i.codigo + ')' : '';
+          msg += `• ${fmtCant(i.cant)}${u} ${i.desc}${cod} — ${formatoPrecio(i.precio)} = ${formatoPrecio(s)}\n`;
+        });
+        msg += 'Subtotal: ' + formatoPrecio(total) + '\n\n';
+      }
+      if(especiales.length){
+        msg += '— POR COTIZAR —\n';
+        especiales.forEach(i => { msg += `• ${fmtCant(i.cant)} — ${i.desc}\n`; });
+      }
+      window.open('https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(msg), '_blank');
+    }
+    renderCotiza();
 
     // Arranque
     aplicarCliente();
