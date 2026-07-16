@@ -2,7 +2,7 @@
    Estrategia: "stale-while-revalidate" — muestra AL INSTANTE lo que ya
    tiene guardado (funciona aunque los datos vayan lentos) y actualiza en
    segundo plano para la próxima vez. */
-const CACHE = 'bethyosef-v1';
+const CACHE = 'bethyosef-v2';
 
 self.addEventListener('install', function (e) { self.skipWaiting(); });
 

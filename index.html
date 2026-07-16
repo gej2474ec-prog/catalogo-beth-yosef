@@ -408,7 +408,7 @@
     <div class="pie" id="cotizaPie"></div>
   </aside>
 
-  <script src="productos.js?v=0ff2b7c7"></script>
+  <script src="productos.js?v=5aa0bddc"></script>
   <script>
     // --- Rellenar textos de la tienda ---
     document.getElementById('logo').alt = CONFIG.nombreTienda;
@@ -1011,7 +1011,24 @@
     }
 
     // ================= COTIZACIÓN =================
-    const BASE = (typeof BASE_DATOS !== 'undefined') ? BASE_DATOS : [];
+    // La base de cotizaciones es lo más pesado, así que va en 'basedatos.js'
+    // y se carga SOLO cuando el cliente abre Cotización (la página abre rápido).
+    var BASEDATOS_SRC = "basedatos.js?v=41d3b62f";   // publicar.py le agrega ?v=hash
+    let BASE = Array.isArray(window.BASE_DATOS) ? window.BASE_DATOS : [];
+    let basePedida = false;
+    function cargarBaseCotiza(cb){
+      if(BASE.length){ if(cb) cb(); return; }
+      window.addEventListener('basedatos-lista', function(){
+        BASE = window.BASE_DATOS || [];
+        if(cb) cb();
+      }, { once: true });
+      if(basePedida) return;   // ya se está bajando; el listener responderá
+      basePedida = true;
+      const s = document.createElement('script');
+      s.src = BASEDATOS_SRC;
+      s.onerror = function(){ basePedida = false; };
+      document.head.appendChild(s);
+    }
     let cotizaItems = [];
     let cotizaFolio = null;
     // Folio único por cotización: COT-AAAAMMDD-HHMMSS (se genera una vez y se reutiliza)
@@ -1031,8 +1048,13 @@
 
     document.getElementById('btnCotiza').onclick = () => {
       fondoCotiza.style.display = 'block'; elCotiza.style.display = 'flex';
-      renderResultados();   // mostrar el catálogo de la lista de precios
       renderCotiza();       // refrescar precios según el cliente actual
+      if(BASE.length){
+        renderResultados();
+      }else{
+        cotizaResultados.innerHTML = '<p style="text-align:center;padding:26px;color:#888">Cargando catálogo…</p>';
+        cargarBaseCotiza(() => renderResultados());
+      }
     };
     function cerrarCotiza(){ fondoCotiza.style.display = 'none'; elCotiza.style.display = 'none'; }
     document.getElementById('cerrarCotiza').onclick = cerrarCotiza;
