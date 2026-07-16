@@ -9,7 +9,7 @@ const PRODUCTOS = [
     "precio": 378.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "859.64",
+    "foto": "",
     "existencia": 859.64
   },
   {
@@ -18,7 +18,7 @@ const PRODUCTOS = [
     "precio": 378.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "792.12",
+    "foto": "",
     "existencia": 792.12
   },
   {
@@ -27,7 +27,7 @@ const PRODUCTOS = [
     "precio": 208.56,
     "familia": "RES",
     "unidad": "K",
-    "foto": "136.5",
+    "foto": "",
     "existencia": 136.5
   },
   {
@@ -36,7 +36,7 @@ const PRODUCTOS = [
     "precio": 208.56,
     "familia": "RES",
     "unidad": "K",
-    "foto": "268.58",
+    "foto": "",
     "existencia": 268.58
   },
   {
@@ -45,7 +45,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "243.48",
+    "foto": "",
     "existencia": 243.48
   },
   {
@@ -54,7 +54,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "455.88",
+    "foto": "10008.jpg",
     "existencia": 455.88
   },
   {
@@ -63,7 +63,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "19.1",
+    "foto": "10007.jpg",
     "existencia": 19.1
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "268.8",
+    "foto": "10002.jpg",
     "existencia": 268.8
   },
   {
@@ -81,7 +81,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "49.2",
+    "foto": "",
     "existencia": 49.2
   },
   {
@@ -90,7 +90,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "118.39",
+    "foto": "",
     "existencia": 118.39
   },
   {
@@ -99,7 +99,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "48.2",
+    "foto": "",
     "existencia": 48.2
   },
   {
@@ -108,7 +108,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "165.6",
+    "foto": "",
     "existencia": 165.6
   },
   {
@@ -117,7 +117,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "149.78",
+    "foto": "",
     "existencia": 149.78
   },
   {
@@ -126,7 +126,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "119.26",
+    "foto": "",
     "existencia": 119.26
   },
   {
@@ -135,7 +135,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "190.68",
+    "foto": "",
     "existencia": 190.68
   },
   {
@@ -144,7 +144,7 @@ const PRODUCTOS = [
     "precio": 460.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "76.22",
+    "foto": "",
     "existencia": 76.22
   },
   {
@@ -153,7 +153,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "1033.12",
+    "foto": "",
     "existencia": 1033.12
   },
   {
@@ -162,7 +162,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "26.14",
+    "foto": "",
     "existencia": 26.14
   },
   {
@@ -171,7 +171,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "813.3",
+    "foto": "",
     "existencia": 813.3
   },
   {
@@ -180,7 +180,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "63.26",
+    "foto": "",
     "existencia": 63.26
   },
   {
@@ -189,7 +189,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "33.14",
+    "foto": "",
     "existencia": 33.14
   },
   {
@@ -198,7 +198,7 @@ const PRODUCTOS = [
     "precio": 308.65,
     "familia": "RES",
     "unidad": "K",
-    "foto": "20.6",
+    "foto": "",
     "existencia": 20.6
   },
   {
@@ -207,7 +207,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "23.68",
+    "foto": "",
     "existencia": 23.68
   },
   {
@@ -216,7 +216,7 @@ const PRODUCTOS = [
     "precio": 700.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "23.54",
+    "foto": "",
     "existencia": 23.54
   },
   {
@@ -225,7 +225,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "211.66",
+    "foto": "",
     "existencia": 211.66
   },
   {
@@ -234,7 +234,7 @@ const PRODUCTOS = [
     "precio": 644.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "51.98",
+    "foto": "",
     "existencia": 51.98
   },
   {
@@ -243,7 +243,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "22.66",
+    "foto": "",
     "existencia": 22.66
   },
   {
@@ -252,7 +252,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "23.78",
+    "foto": "",
     "existencia": 23.78
   },
   {
@@ -261,7 +261,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "212.02",
+    "foto": "",
     "existencia": 212.02
   },
   {
@@ -270,7 +270,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "209.81",
+    "foto": "",
     "existencia": 209.81
   },
   {
@@ -279,7 +279,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "22.98",
+    "foto": "",
     "existencia": 22.98
   },
   {
@@ -288,7 +288,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "99.62",
+    "foto": "",
     "existencia": 99.62
   },
   {
@@ -297,7 +297,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "98.94",
+    "foto": "",
     "existencia": 98.94
   },
   {
@@ -306,7 +306,7 @@ const PRODUCTOS = [
     "precio": 429.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "264.5",
+    "foto": "",
     "existencia": 264.5
   },
   {
@@ -315,7 +315,7 @@ const PRODUCTOS = [
     "precio": 650.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "47.93",
+    "foto": "",
     "existencia": 47.93
   },
   {
@@ -324,7 +324,7 @@ const PRODUCTOS = [
     "precio": 1365.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "274.65",
+    "foto": "",
     "existencia": 274.65
   },
   {
@@ -333,7 +333,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "384.17",
+    "foto": "",
     "existencia": 384.17
   },
   {
@@ -342,7 +342,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "21.12",
+    "foto": "10009.jpg",
     "existencia": 21.12
   },
   {
@@ -351,7 +351,7 @@ const PRODUCTOS = [
     "precio": 210.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "66.6",
+    "foto": "",
     "existencia": 66.6
   },
   {
@@ -360,7 +360,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "136.92",
+    "foto": "10014.jpg",
     "existencia": 136.92
   },
   {
@@ -369,7 +369,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "15.9",
+    "foto": "10020.jpg",
     "existencia": 15.9
   },
   {
@@ -378,7 +378,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "74.02",
+    "foto": "10021.jpg",
     "existencia": 74.02
   },
   {
@@ -387,7 +387,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "8",
+    "foto": "10016.jpg",
     "existencia": 8.0
   },
   {
@@ -396,7 +396,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "457.8",
+    "foto": "",
     "existencia": 457.8
   },
   {
@@ -405,7 +405,7 @@ const PRODUCTOS = [
     "precio": 256.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "52.7",
+    "foto": "",
     "existencia": 52.7
   },
   {
@@ -414,7 +414,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "36.7",
+    "foto": "10022.jpg",
     "existencia": 36.7
   },
   {
@@ -423,7 +423,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "47.24",
+    "foto": "10025.jpg",
     "existencia": 47.24
   },
   {
@@ -432,7 +432,7 @@ const PRODUCTOS = [
     "precio": 1638.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "259.64",
+    "foto": "10028.jpg",
     "existencia": 259.64
   },
   {
@@ -441,7 +441,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "129",
+    "foto": "",
     "existencia": 129.0
   },
   {
@@ -450,7 +450,7 @@ const PRODUCTOS = [
     "precio": 158.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "1869.95",
+    "foto": "00029.jpg",
     "existencia": 1869.95
   },
   {
@@ -459,7 +459,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "310.96",
+    "foto": "",
     "existencia": 310.96
   },
   {
@@ -468,7 +468,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "786",
+    "foto": "",
     "existencia": 786.0
   },
   {
@@ -477,7 +477,7 @@ const PRODUCTOS = [
     "precio": 318.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "65.7",
+    "foto": "12593.jpg",
     "existencia": 65.7
   },
   {
@@ -486,7 +486,7 @@ const PRODUCTOS = [
     "precio": 144.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "59.48",
+    "foto": "",
     "existencia": 59.48
   },
   {
@@ -495,7 +495,7 @@ const PRODUCTOS = [
     "precio": 360.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "319.84",
+    "foto": "",
     "existencia": 319.84
   },
   {
@@ -504,7 +504,7 @@ const PRODUCTOS = [
     "precio": 360.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "777.2",
+    "foto": "",
     "existencia": 777.2
   },
   {
@@ -513,7 +513,7 @@ const PRODUCTOS = [
     "precio": 1130.0,
     "familia": "RES",
     "unidad": "PZ",
-    "foto": "22.3",
+    "foto": "",
     "existencia": 22.3
   },
   {
@@ -522,7 +522,7 @@ const PRODUCTOS = [
     "precio": 1365.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "13.2",
+    "foto": "10035.jpg",
     "existencia": 13.2
   },
   {
@@ -531,7 +531,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "21.3",
+    "foto": "10043.jpg",
     "existencia": 21.3
   },
   {
@@ -540,7 +540,7 @@ const PRODUCTOS = [
     "precio": 513.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "469.52",
+    "foto": "10040.jpg",
     "existencia": 469.52
   },
   {
@@ -549,7 +549,7 @@ const PRODUCTOS = [
     "precio": 720.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "50",
+    "foto": "10046.jpeg",
     "existencia": 50.0
   },
   {
@@ -558,7 +558,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "115.1",
+    "foto": "10048.jpg",
     "existencia": 115.1
   },
   {
@@ -567,7 +567,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "717.4",
+    "foto": "00050.jpg",
     "existencia": 717.4
   },
   {
@@ -576,7 +576,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "68.5",
+    "foto": "10052.jpg",
     "existencia": 68.5
   },
   {
@@ -585,7 +585,7 @@ const PRODUCTOS = [
     "precio": 260.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "48.5",
+    "foto": "",
     "existencia": 48.5
   },
   {
@@ -594,7 +594,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "156.1",
+    "foto": "",
     "existencia": 156.1
   },
   {
@@ -603,7 +603,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "49.34",
+    "foto": "",
     "existencia": 49.34
   },
   {
@@ -612,7 +612,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "2057.14",
+    "foto": "",
     "existencia": 2057.14
   },
   {
@@ -621,7 +621,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "4738.94",
+    "foto": "",
     "existencia": 4738.94
   },
   {
@@ -630,7 +630,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "9864.3",
+    "foto": "",
     "existencia": 9864.3
   },
   {
@@ -639,7 +639,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "578.1",
+    "foto": "",
     "existencia": 578.1
   },
   {
@@ -648,7 +648,7 @@ const PRODUCTOS = [
     "precio": 644.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "51",
+    "foto": "10861.jpeg",
     "existencia": 51.0
   },
   {
@@ -657,7 +657,7 @@ const PRODUCTOS = [
     "precio": 318.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "54",
+    "foto": "10033.jpg",
     "existencia": 54.0
   },
   {
@@ -666,7 +666,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "5.8",
+    "foto": "10103.jpg",
     "existencia": 5.8
   },
   {
@@ -675,7 +675,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "383.76",
+    "foto": "",
     "existencia": 383.76
   },
   {
@@ -684,7 +684,7 @@ const PRODUCTOS = [
     "precio": 539.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "30.8",
+    "foto": "10004.jpg",
     "existencia": 30.8
   },
   {
@@ -693,7 +693,7 @@ const PRODUCTOS = [
     "precio": 400.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "264",
+    "foto": "",
     "existencia": 264.0
   },
   {
@@ -702,7 +702,7 @@ const PRODUCTOS = [
     "precio": 80.0,
     "familia": "RES",
     "unidad": "K",
-    "foto": "438.04",
+    "foto": "",
     "existencia": 438.04
   },
   {
@@ -711,7 +711,7 @@ const PRODUCTOS = [
     "precio": 513.0,
     "familia": "RES IMPORTADA",
     "unidad": "K",
-    "foto": "122.66",
+    "foto": "",
     "existencia": 122.66
   },
   {
@@ -720,7 +720,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "RES IMPORTADA",
     "unidad": "K",
-    "foto": "18.02",
+    "foto": "",
     "existencia": 18.02
   },
   {
@@ -729,7 +729,7 @@ const PRODUCTOS = [
     "precio": 750.0,
     "familia": "RES IMPORTADA",
     "unidad": "K",
-    "foto": "277.66",
+    "foto": "",
     "existencia": 277.66
   },
   {
@@ -738,7 +738,7 @@ const PRODUCTOS = [
     "precio": 700.0,
     "familia": "RES IMPORTADA",
     "unidad": "K",
-    "foto": "510.86",
+    "foto": "",
     "existencia": 510.86
   },
   {
@@ -747,7 +747,7 @@ const PRODUCTOS = [
     "precio": 1110.0,
     "familia": "TERNERA",
     "unidad": "K",
-    "foto": "942.92",
+    "foto": "",
     "existencia": 942.92
   },
   {
@@ -756,7 +756,7 @@ const PRODUCTOS = [
     "precio": 1110.0,
     "familia": "TERNERA",
     "unidad": "K",
-    "foto": "133",
+    "foto": "10069.jpg",
     "existencia": 133.0
   },
   {
@@ -765,7 +765,7 @@ const PRODUCTOS = [
     "precio": 1110.0,
     "familia": "TERNERA",
     "unidad": "K",
-    "foto": "181",
+    "foto": "10081.jpg",
     "existencia": 181.0
   },
   {
@@ -774,7 +774,7 @@ const PRODUCTOS = [
     "precio": 1110.0,
     "familia": "TERNERA",
     "unidad": "K",
-    "foto": "166.6",
+    "foto": "10083.jpg",
     "existencia": 166.6
   },
   {
@@ -783,7 +783,7 @@ const PRODUCTOS = [
     "precio": 1110.0,
     "familia": "TERNERA",
     "unidad": "K",
-    "foto": "17.5",
+    "foto": "10085.jpg",
     "existencia": 17.5
   },
   {
@@ -792,7 +792,7 @@ const PRODUCTOS = [
     "precio": 950.0,
     "familia": "CARNERO",
     "unidad": "K",
-    "foto": "1311.06",
+    "foto": "",
     "existencia": 1311.06
   },
   {
@@ -801,7 +801,7 @@ const PRODUCTOS = [
     "precio": 1400.0,
     "familia": "CARNERO",
     "unidad": "K",
-    "foto": "478",
+    "foto": "40091.jpg",
     "existencia": 478.0
   },
   {
@@ -810,7 +810,7 @@ const PRODUCTOS = [
     "precio": 153.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "299.54",
+    "foto": "",
     "existencia": 299.54
   },
   {
@@ -819,7 +819,7 @@ const PRODUCTOS = [
     "precio": 70.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "1383.16",
+    "foto": "20003.jpg",
     "existencia": 1383.16
   },
   {
@@ -828,7 +828,7 @@ const PRODUCTOS = [
     "precio": 82.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "32.9",
+    "foto": "",
     "existencia": 32.9
   },
   {
@@ -837,7 +837,7 @@ const PRODUCTOS = [
     "precio": 60.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "10.6",
+    "foto": "20556.jpg",
     "existencia": 10.6
   },
   {
@@ -846,7 +846,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "PZ",
-    "foto": "23",
+    "foto": "",
     "existencia": 23.0
   },
   {
@@ -855,7 +855,7 @@ const PRODUCTOS = [
     "precio": 60.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "25.66",
+    "foto": "20107.jpg",
     "existencia": 25.66
   },
   {
@@ -864,7 +864,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "9150.52",
+    "foto": "",
     "existencia": 9150.52
   },
   {
@@ -873,7 +873,7 @@ const PRODUCTOS = [
     "precio": 60.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "11.4",
+    "foto": "20104.jpg",
     "existencia": 11.4
   },
   {
@@ -882,7 +882,7 @@ const PRODUCTOS = [
     "precio": 95.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "2228.72",
+    "foto": "20720.jpg",
     "existencia": 2228.72
   },
   {
@@ -891,7 +891,7 @@ const PRODUCTOS = [
     "precio": 210.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "84.5",
+    "foto": "",
     "existencia": 84.5
   },
   {
@@ -900,7 +900,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "539",
+    "foto": "",
     "existencia": 539.0
   },
   {
@@ -909,7 +909,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "43.84",
+    "foto": "",
     "existencia": 43.84
   },
   {
@@ -918,7 +918,7 @@ const PRODUCTOS = [
     "precio": 60.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "168.94",
+    "foto": "",
     "existencia": 168.94
   },
   {
@@ -927,7 +927,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "67.5",
+    "foto": "",
     "existencia": 67.5
   },
   {
@@ -936,7 +936,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "222.88",
+    "foto": "20722.jpg",
     "existencia": 222.88
   },
   {
@@ -945,7 +945,7 @@ const PRODUCTOS = [
     "precio": 270.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "1286.32",
+    "foto": "20711.jpg",
     "existencia": 1286.32
   },
   {
@@ -954,7 +954,7 @@ const PRODUCTOS = [
     "precio": 1.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "123.26",
+    "foto": "",
     "existencia": 123.26
   },
   {
@@ -963,7 +963,7 @@ const PRODUCTOS = [
     "precio": 95.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "889.68",
+    "foto": "20710.jpg",
     "existencia": 889.68
   },
   {
@@ -972,7 +972,7 @@ const PRODUCTOS = [
     "precio": 95.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "22.46",
+    "foto": "",
     "existencia": 22.46
   },
   {
@@ -981,7 +981,7 @@ const PRODUCTOS = [
     "precio": 95.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "833.6",
+    "foto": "20715.jpg",
     "existencia": 833.6
   },
   {
@@ -990,7 +990,7 @@ const PRODUCTOS = [
     "precio": 80.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "323.6",
+    "foto": "",
     "existencia": 323.6
   },
   {
@@ -999,7 +999,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "POLLO",
     "unidad": "PZ",
-    "foto": "72.9",
+    "foto": "",
     "existencia": 72.9
   },
   {
@@ -1008,7 +1008,7 @@ const PRODUCTOS = [
     "precio": 150.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "565.66",
+    "foto": "",
     "existencia": 565.66
   },
   {
@@ -1017,7 +1017,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "430.7",
+    "foto": "",
     "existencia": 430.7
   },
   {
@@ -1026,7 +1026,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "421.94",
+    "foto": "",
     "existencia": 421.94
   },
   {
@@ -1035,7 +1035,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "994.26",
+    "foto": "",
     "existencia": 994.26
   },
   {
@@ -1044,7 +1044,7 @@ const PRODUCTOS = [
     "precio": 38.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "48.65",
+    "foto": "",
     "existencia": 48.65
   },
   {
@@ -1053,7 +1053,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "POLLO",
     "unidad": "PZ",
-    "foto": "16",
+    "foto": "",
     "existencia": 16.0
   },
   {
@@ -1062,7 +1062,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "POLLO",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "",
     "existencia": 24.0
   },
   {
@@ -1071,7 +1071,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "51.5",
+    "foto": "",
     "existencia": 51.5
   },
   {
@@ -1080,7 +1080,7 @@ const PRODUCTOS = [
     "precio": 420.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "7.5",
+    "foto": "",
     "existencia": 7.5
   },
   {
@@ -1089,7 +1089,7 @@ const PRODUCTOS = [
     "precio": 120.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "39.5",
+    "foto": "",
     "existencia": 39.5
   },
   {
@@ -1098,7 +1098,7 @@ const PRODUCTOS = [
     "precio": 420.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "70.8",
+    "foto": "60810.jpg",
     "existencia": 70.8
   },
   {
@@ -1107,7 +1107,7 @@ const PRODUCTOS = [
     "precio": 700.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "72.7",
+    "foto": "",
     "existencia": 72.7
   },
   {
@@ -1116,7 +1116,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "197.4",
+    "foto": "",
     "existencia": 197.4
   },
   {
@@ -1125,7 +1125,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "36",
+    "foto": "60710.jpg",
     "existencia": 36.0
   },
   {
@@ -1134,7 +1134,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "99",
+    "foto": "",
     "existencia": 99.0
   },
   {
@@ -1143,7 +1143,7 @@ const PRODUCTOS = [
     "precio": 260.0,
     "familia": "POLLO",
     "unidad": "K",
-    "foto": "195",
+    "foto": "60714.jpg",
     "existencia": 195.0
   },
   {
@@ -1152,7 +1152,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "PAVO",
     "unidad": "PZ",
-    "foto": "517.32",
+    "foto": "",
     "existencia": 517.32
   },
   {
@@ -1161,7 +1161,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "19.3",
+    "foto": "30224.jpg",
     "existencia": 19.3
   },
   {
@@ -1170,7 +1170,7 @@ const PRODUCTOS = [
     "precio": 397.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "31.4",
+    "foto": "30997.jpg",
     "existencia": 31.4
   },
   {
@@ -1179,7 +1179,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "85.4",
+    "foto": "",
     "existencia": 85.4
   },
   {
@@ -1188,7 +1188,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "PZ",
-    "foto": "483.54",
+    "foto": "",
     "existencia": 483.54
   },
   {
@@ -1197,7 +1197,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "203.3",
+    "foto": "",
     "existencia": 203.3
   },
   {
@@ -1206,7 +1206,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "1599.56",
+    "foto": "",
     "existencia": 1599.56
   },
   {
@@ -1215,7 +1215,7 @@ const PRODUCTOS = [
     "precio": 320.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "331.93",
+    "foto": "",
     "existencia": 331.93
   },
   {
@@ -1224,7 +1224,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "831.72",
+    "foto": "",
     "existencia": 831.72
   },
   {
@@ -1233,7 +1233,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "2.5",
+    "foto": "",
     "existencia": 2.5
   },
   {
@@ -1242,7 +1242,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "101.5",
+    "foto": "",
     "existencia": 101.5
   },
   {
@@ -1251,7 +1251,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "142.5",
+    "foto": "",
     "existencia": 142.5
   },
   {
@@ -1260,7 +1260,7 @@ const PRODUCTOS = [
     "precio": 5.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "8.4",
+    "foto": "",
     "existencia": 8.4
   },
   {
@@ -1269,7 +1269,7 @@ const PRODUCTOS = [
     "precio": 5.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "20.3",
+    "foto": "",
     "existencia": 20.3
   },
   {
@@ -1278,7 +1278,7 @@ const PRODUCTOS = [
     "precio": 5.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "67.2",
+    "foto": "",
     "existencia": 67.2
   },
   {
@@ -1287,7 +1287,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "123.62",
+    "foto": "",
     "existencia": 123.62
   },
   {
@@ -1296,7 +1296,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "57.7",
+    "foto": "",
     "existencia": 57.7
   },
   {
@@ -1305,7 +1305,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "74.12",
+    "foto": "",
     "existencia": 74.12
   },
   {
@@ -1314,7 +1314,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "178.9",
+    "foto": "",
     "existencia": 178.9
   },
   {
@@ -1323,7 +1323,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "46.08",
+    "foto": "",
     "existencia": 46.08
   },
   {
@@ -1332,7 +1332,7 @@ const PRODUCTOS = [
     "precio": 900.0,
     "familia": "PAVO",
     "unidad": "K",
-    "foto": "37.35",
+    "foto": "",
     "existencia": 37.35
   },
   {
@@ -1341,7 +1341,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "74.7",
+    "foto": "900109.jpg",
     "existencia": 74.7
   },
   {
@@ -1350,7 +1350,7 @@ const PRODUCTOS = [
     "precio": 431.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "9.2",
+    "foto": "00114.jpg",
     "existencia": 9.2
   },
   {
@@ -1359,7 +1359,7 @@ const PRODUCTOS = [
     "precio": 431.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "9.2",
+    "foto": "00115.jpg",
     "existencia": 9.2
   },
   {
@@ -1368,7 +1368,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "73.4",
+    "foto": "900119.jpg",
     "existencia": 73.4
   },
   {
@@ -1377,7 +1377,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "30.9",
+    "foto": "11156.jpg",
     "existencia": 48.6
   },
   {
@@ -1386,7 +1386,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "56",
+    "foto": "00118.jpg",
     "existencia": 166.4
   },
   {
@@ -1395,7 +1395,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "104.7",
+    "foto": "900056.jpg",
     "existencia": 25.8
   },
   {
@@ -1404,7 +1404,7 @@ const PRODUCTOS = [
     "precio": 85.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7501134500105.jpeg",
     "existencia": 288.0
   },
   {
@@ -1413,7 +1413,7 @@ const PRODUCTOS = [
     "precio": 164.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "7501134500365.jpg",
     "existencia": 480.0
   },
   {
@@ -1422,7 +1422,7 @@ const PRODUCTOS = [
     "precio": 169.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "108",
+    "foto": "7503046084100.jpg",
     "existencia": 264.0
   },
   {
@@ -1431,7 +1431,7 @@ const PRODUCTOS = [
     "precio": 169.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "56",
+    "foto": "7503046084117.jpg",
     "existencia": 348.0
   },
   {
@@ -1440,7 +1440,7 @@ const PRODUCTOS = [
     "precio": 273.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7501134500464.jpg",
     "existencia": 450.0
   },
   {
@@ -1449,7 +1449,7 @@ const PRODUCTOS = [
     "precio": 36.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "57",
+    "foto": "7501134500600.jpg",
     "existencia": 1199.0
   },
   {
@@ -1458,7 +1458,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7501134505384.jpeg",
     "existencia": 12.0
   },
   {
@@ -1467,7 +1467,7 @@ const PRODUCTOS = [
     "precio": 126.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7501134500471.jpeg",
     "existencia": 156.0
   },
   {
@@ -1476,7 +1476,7 @@ const PRODUCTOS = [
     "precio": 96.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "7501134505391.jpg",
     "existencia": 948.0
   },
   {
@@ -1485,7 +1485,7 @@ const PRODUCTOS = [
     "precio": 156.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "7501134510944.jpg",
     "existencia": 372.0
   },
   {
@@ -1494,7 +1494,7 @@ const PRODUCTOS = [
     "precio": 86.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "7501134501867.jpg",
     "existencia": 492.0
   },
   {
@@ -1503,7 +1503,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "7501134500495.jpg",
     "existencia": 1488.0
   },
   {
@@ -1512,7 +1512,7 @@ const PRODUCTOS = [
     "precio": 450.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "20.9",
+    "foto": "30877.jpeg",
     "existencia": 20.9
   },
   {
@@ -1521,7 +1521,7 @@ const PRODUCTOS = [
     "precio": 313.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "120",
+    "foto": "7501134501003.jpg",
     "existencia": 120.0
   },
   {
@@ -1530,7 +1530,7 @@ const PRODUCTOS = [
     "precio": 164.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7501134500372.jpg",
     "existencia": 24.0
   },
   {
@@ -1539,7 +1539,7 @@ const PRODUCTOS = [
     "precio": 653.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "108",
+    "foto": "900044.jpg",
     "existencia": 108.0
   },
   {
@@ -1548,7 +1548,7 @@ const PRODUCTOS = [
     "precio": 650.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "7.5",
+    "foto": "",
     "existencia": 7.5
   },
   {
@@ -1557,7 +1557,7 @@ const PRODUCTOS = [
     "precio": 372.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "660",
+    "foto": "7501134500617.jpg",
     "existencia": 660.0
   },
   {
@@ -1566,7 +1566,7 @@ const PRODUCTOS = [
     "precio": 59.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "40",
+    "foto": "7501134505629.jpg",
     "existencia": 40.0
   },
   {
@@ -1575,7 +1575,7 @@ const PRODUCTOS = [
     "precio": 164.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "198",
+    "foto": "7501134500679.jpg",
     "existencia": 198.0
   },
   {
@@ -1584,7 +1584,7 @@ const PRODUCTOS = [
     "precio": 550.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "9.7",
+    "foto": "",
     "existencia": 9.7
   },
   {
@@ -1593,7 +1593,7 @@ const PRODUCTOS = [
     "precio": 116.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "876",
+    "foto": "7501134500433.jpg",
     "existencia": 876.0
   },
   {
@@ -1602,7 +1602,7 @@ const PRODUCTOS = [
     "precio": 278.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "1058",
+    "foto": "7501134500914.jpg",
     "existencia": 1058.0
   },
   {
@@ -1611,7 +1611,7 @@ const PRODUCTOS = [
     "precio": 296.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "300",
+    "foto": "",
     "existencia": 300.0
   },
   {
@@ -1620,7 +1620,7 @@ const PRODUCTOS = [
     "precio": 148.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "1810",
+    "foto": "",
     "existencia": 1810.0
   },
   {
@@ -1629,7 +1629,7 @@ const PRODUCTOS = [
     "precio": 217.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "123",
+    "foto": "",
     "existencia": 123.0
   },
   {
@@ -1638,7 +1638,7 @@ const PRODUCTOS = [
     "precio": 305.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "1056",
+    "foto": "7501134500440.jpg",
     "existencia": 1056.0
   },
   {
@@ -1647,7 +1647,7 @@ const PRODUCTOS = [
     "precio": 650.0,
     "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "8",
+    "foto": "",
     "existencia": 8.0
   },
   {
@@ -1656,7 +1656,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "CARNES FRIAS NACIONALE",
     "unidad": "K",
-    "foto": "534.5",
+    "foto": "",
     "existencia": 534.5
   },
   {
@@ -1665,7 +1665,7 @@ const PRODUCTOS = [
     "precio": 340.0,
     "familia": "CARNES FRIAS NACIONALE",
     "unidad": "K",
-    "foto": "477",
+    "foto": "",
     "existencia": 477.0
   },
   {
@@ -1674,7 +1674,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "CARNES FRIAS CHARCUTI",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7503046084698.jpg",
     "existencia": 36.0
   },
   {
@@ -1683,7 +1683,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "CARNES FRIAS CHARCUTI",
     "unidad": "PZ",
-    "foto": "54",
+    "foto": "7503046084346.jpg",
     "existencia": 54.0
   },
   {
@@ -1692,7 +1692,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "CARNES FRIAS CHARCUTI",
     "unidad": "PZ",
-    "foto": "18",
+    "foto": "7503046084353.jpg",
     "existencia": 18.0
   },
   {
@@ -1701,7 +1701,7 @@ const PRODUCTOS = [
     "precio": 215.0,
     "familia": "CARNES FRIAS CHARCUTI",
     "unidad": "PZ",
-    "foto": "756",
+    "foto": "7503046084179.jpeg",
     "existencia": 756.0
   },
   {
@@ -1710,7 +1710,7 @@ const PRODUCTOS = [
     "precio": 1572.0,
     "familia": "CARNES FRIAS IMPORTADAS",
     "unidad": "K",
-    "foto": "1 CAJA",
+    "foto": "",
     "existencia": 0
   },
   {
@@ -1719,7 +1719,7 @@ const PRODUCTOS = [
     "precio": 550.0,
     "familia": "CARNES FRIAS IMPORTADAS",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "",
     "existencia": 36.0
   },
   {
@@ -1728,7 +1728,7 @@ const PRODUCTOS = [
     "precio": 290.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "7501134510933.jpg",
     "existencia": 10.0
   },
   {
@@ -1737,7 +1737,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "22",
+    "foto": "7501669892249.jpg",
     "existencia": 22.0
   },
   {
@@ -1746,7 +1746,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "350",
+    "foto": "7501669893178.jpg",
     "existencia": 350.0
   },
   {
@@ -1755,7 +1755,7 @@ const PRODUCTOS = [
     "precio": 320.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "128",
+    "foto": "7501134501195.jpg",
     "existencia": 128.0
   },
   {
@@ -1764,7 +1764,7 @@ const PRODUCTOS = [
     "precio": 185.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "225",
+    "foto": "7501134505469.jpg",
     "existencia": 225.0
   },
   {
@@ -1773,7 +1773,7 @@ const PRODUCTOS = [
     "precio": 380.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7501134801850.jpg",
     "existencia": 36.0
   },
   {
@@ -1782,7 +1782,7 @@ const PRODUCTOS = [
     "precio": 135.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "56",
+    "foto": "7501134510920.jpg",
     "existencia": 528.0
   },
   {
@@ -1791,7 +1791,7 @@ const PRODUCTOS = [
     "precio": 132.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "65",
+    "foto": "7501134510609.jpg",
     "existencia": 238.0
   },
   {
@@ -1800,7 +1800,7 @@ const PRODUCTOS = [
     "precio": 670.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "K",
-    "foto": "235",
+    "foto": "03345.jpg",
     "existencia": 235.0
   },
   {
@@ -1809,7 +1809,7 @@ const PRODUCTOS = [
     "precio": 289.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "15",
+    "foto": "7501134502031.jpg",
     "existencia": 3915.0
   },
   {
@@ -1818,7 +1818,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "144",
+    "foto": "7501134502543.jpg",
     "existencia": 1066.0
   },
   {
@@ -1827,7 +1827,7 @@ const PRODUCTOS = [
     "precio": 142.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "7501134510715.jpg",
     "existencia": 1377.0
   },
   {
@@ -1836,7 +1836,7 @@ const PRODUCTOS = [
     "precio": 220.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "78",
+    "foto": "026638269909.JPG",
     "existencia": 78.0
   },
   {
@@ -1845,7 +1845,7 @@ const PRODUCTOS = [
     "precio": 820.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "026638251102.jpg",
     "existencia": 24.0
   },
   {
@@ -1854,7 +1854,7 @@ const PRODUCTOS = [
     "precio": 73.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "030900007045.jpg",
     "existencia": 72.0
   },
   {
@@ -1863,7 +1863,7 @@ const PRODUCTOS = [
     "precio": 142.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "288",
+    "foto": "7501134503984.jpg",
     "existencia": 288.0
   },
   {
@@ -1872,7 +1872,7 @@ const PRODUCTOS = [
     "precio": 225.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "815",
+    "foto": "7501134503953.jpg",
     "existencia": 815.0
   },
   {
@@ -1881,7 +1881,7 @@ const PRODUCTOS = [
     "precio": 125.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "25",
+    "foto": "7501134510432.jpg",
     "existencia": 25.0
   },
   {
@@ -1890,7 +1890,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "QUESOS Y LACTEO NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7503046084506.jpg",
     "existencia": 24.0
   },
   {
@@ -1899,7 +1899,7 @@ const PRODUCTOS = [
     "precio": 484.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "K",
-    "foto": "182",
+    "foto": "90754.jpg",
     "existencia": 182.0
   },
   {
@@ -1908,7 +1908,7 @@ const PRODUCTOS = [
     "precio": 498.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "40",
+    "foto": "011274000337.jpg",
     "existencia": 40.0
   },
   {
@@ -1917,7 +1917,7 @@ const PRODUCTOS = [
     "precio": 155.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "011274000276.jpg",
     "existencia": 24.0
   },
   {
@@ -1926,7 +1926,7 @@ const PRODUCTOS = [
     "precio": 335.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "84",
+    "foto": "651219209304.jpg",
     "existencia": 84.0
   },
   {
@@ -1935,7 +1935,7 @@ const PRODUCTOS = [
     "precio": 400.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "40",
+    "foto": "029882899205.jpg",
     "existencia": 40.0
   },
   {
@@ -1944,7 +1944,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "70",
+    "foto": "651219205535.jpg",
     "existencia": 180.0
   },
   {
@@ -1953,7 +1953,7 @@ const PRODUCTOS = [
     "precio": 170.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "014353000624.jpg",
     "existencia": 12.0
   },
   {
@@ -1962,7 +1962,7 @@ const PRODUCTOS = [
     "precio": 170.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "014353000518.jpg",
     "existencia": 12.0
   },
   {
@@ -1971,7 +1971,7 @@ const PRODUCTOS = [
     "precio": 170.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "014353000013.jpg",
     "existencia": 12.0
   },
   {
@@ -1980,7 +1980,7 @@ const PRODUCTOS = [
     "precio": 271.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "651219102018.jpg",
     "existencia": 12.0
   },
   {
@@ -1989,7 +1989,7 @@ const PRODUCTOS = [
     "precio": 24.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "480",
+    "foto": "",
     "existencia": 480.0
   },
   {
@@ -1998,7 +1998,7 @@ const PRODUCTOS = [
     "precio": 56.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "105",
+    "foto": "",
     "existencia": 105.0
   },
   {
@@ -2007,7 +2007,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "QUESO IMPORTADO",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "029882899021.jpg",
     "existencia": 48.0
   },
   {
@@ -2016,7 +2016,7 @@ const PRODUCTOS = [
     "precio": 38.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "19",
+    "foto": "014353100041.jpg",
     "existencia": 19.0
   },
   {
@@ -2025,7 +2025,7 @@ const PRODUCTOS = [
     "precio": 30.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "890360003038.jpg",
     "existencia": 12.0
   },
   {
@@ -2034,7 +2034,7 @@ const PRODUCTOS = [
     "precio": 24.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "47",
+    "foto": "014353102809.jpg",
     "existencia": 47.0
   },
   {
@@ -2043,7 +2043,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "16",
+    "foto": "850775007434.jpg",
     "existencia": 16.0
   },
   {
@@ -2052,7 +2052,7 @@ const PRODUCTOS = [
     "precio": 270.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "20",
+    "foto": "850775007410.jpg",
     "existencia": 20.0
   },
   {
@@ -2061,7 +2061,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "54",
+    "foto": "014353110026.jpg",
     "existencia": 54.0
   },
   {
@@ -2070,7 +2070,7 @@ const PRODUCTOS = [
     "precio": 40.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "014353102410.jpg",
     "existencia": 72.0
   },
   {
@@ -2079,7 +2079,7 @@ const PRODUCTOS = [
     "precio": 39.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "014353100089.jpg",
     "existencia": 72.0
   },
   {
@@ -2088,7 +2088,7 @@ const PRODUCTOS = [
     "precio": 35.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "108",
+    "foto": "890360004455.jpeg",
     "existencia": 108.0
   },
   {
@@ -2097,7 +2097,7 @@ const PRODUCTOS = [
     "precio": 47.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "890360004431.jpg",
     "existencia": 72.0
   },
   {
@@ -2106,7 +2106,7 @@ const PRODUCTOS = [
     "precio": 44.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "890360004073.jpg",
     "existencia": 36.0
   },
   {
@@ -2115,7 +2115,7 @@ const PRODUCTOS = [
     "precio": 80.0,
     "familia": "REFRIGERADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "216",
+    "foto": "041740000042.JPG",
     "existencia": 216.0
   },
   {
@@ -2124,7 +2124,7 @@ const PRODUCTOS = [
     "precio": 185.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "120",
+    "foto": "7500465324893.jpg",
     "existencia": 384.0
   },
   {
@@ -2133,7 +2133,7 @@ const PRODUCTOS = [
     "precio": 145.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "144",
+    "foto": "049800195363.png",
     "existencia": 144.0
   },
   {
@@ -2142,7 +2142,7 @@ const PRODUCTOS = [
     "precio": 249.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "67620696.jpg",
     "existencia": 60.0
   },
   {
@@ -2151,7 +2151,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "074702002228.JPG",
     "existencia": 36.0
   },
   {
@@ -2160,7 +2160,7 @@ const PRODUCTOS = [
     "precio": 68.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "50",
+    "foto": "7501047902706.JPG",
     "existencia": 50.0
   },
   {
@@ -2169,7 +2169,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "7501047909675.jpg",
     "existencia": 10.0
   },
   {
@@ -2178,7 +2178,7 @@ const PRODUCTOS = [
     "precio": 269.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "299",
+    "foto": "7501134505575.jpg",
     "existencia": 299.0
   },
   {
@@ -2187,7 +2187,7 @@ const PRODUCTOS = [
     "precio": 417.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "K",
-    "foto": "10.3",
+    "foto": "30777.jpg",
     "existencia": 10.3
   },
   {
@@ -2196,7 +2196,7 @@ const PRODUCTOS = [
     "precio": 290.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "7501134500686.jpg",
     "existencia": 6.0
   },
   {
@@ -2205,7 +2205,7 @@ const PRODUCTOS = [
     "precio": 360.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "49",
+    "foto": "7501134502789.jpg",
     "existencia": 49.0
   },
   {
@@ -2214,7 +2214,7 @@ const PRODUCTOS = [
     "precio": 370.0,
     "familia": "CONGELADO NACIONAL",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "032973100005.jpeg",
     "existencia": 48.0
   },
   {
@@ -2223,7 +2223,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "204",
+    "foto": "7501134500648.JPG",
     "existencia": 204.0
   },
   {
@@ -2232,7 +2232,7 @@ const PRODUCTOS = [
     "precio": 420.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "134",
+    "foto": "",
     "existencia": 134.0
   },
   {
@@ -2241,7 +2241,7 @@ const PRODUCTOS = [
     "precio": 420.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "108",
+    "foto": "7501726670711.jpg",
     "existencia": 108.0
   },
   {
@@ -2250,7 +2250,7 @@ const PRODUCTOS = [
     "precio": 420.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "45",
+    "foto": "7501726090694.JPG",
     "existencia": 45.0
   },
   {
@@ -2259,7 +2259,7 @@ const PRODUCTOS = [
     "precio": 310.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "54",
+    "foto": "7501134500693.JPG",
     "existencia": 54.0
   },
   {
@@ -2268,7 +2268,7 @@ const PRODUCTOS = [
     "precio": 360.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "56",
+    "foto": "7501134512542.jpg",
     "existencia": 56.0
   },
   {
@@ -2277,7 +2277,7 @@ const PRODUCTOS = [
     "precio": 320.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "65",
+    "foto": "7501134500747.jpg",
     "existencia": 65.0
   },
   {
@@ -2286,7 +2286,7 @@ const PRODUCTOS = [
     "precio": 460.0,
     "familia": "CONGELADO KIPE",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7501134500754.jpg",
     "existencia": 36.0
   },
   {
@@ -2295,7 +2295,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "100",
+    "foto": "",
     "existencia": 100.0
   },
   {
@@ -2304,7 +2304,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "96",
+    "foto": "",
     "existencia": 96.0
   },
   {
@@ -2313,7 +2313,7 @@ const PRODUCTOS = [
     "precio": 250.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "101",
+    "foto": "",
     "existencia": 101.0
   },
   {
@@ -2322,7 +2322,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "53",
+    "foto": "",
     "existencia": 53.0
   },
   {
@@ -2331,7 +2331,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "23",
+    "foto": "",
     "existencia": 23.0
   },
   {
@@ -2340,7 +2340,7 @@ const PRODUCTOS = [
     "precio": 185.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "45",
+    "foto": "7501134510760.jpg",
     "existencia": 45.0
   },
   {
@@ -2349,7 +2349,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "81",
+    "foto": "00589.jpg",
     "existencia": 81.0
   },
   {
@@ -2358,7 +2358,7 @@ const PRODUCTOS = [
     "precio": 330.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "62",
+    "foto": "7501134500723.jpg",
     "existencia": 62.0
   },
   {
@@ -2367,7 +2367,7 @@ const PRODUCTOS = [
     "precio": 360.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -2376,7 +2376,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "135",
+    "foto": "",
     "existencia": 135.0
   },
   {
@@ -2385,7 +2385,7 @@ const PRODUCTOS = [
     "precio": 150.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "55",
+    "foto": "7501134510227.jpg",
     "existencia": 55.0
   },
   {
@@ -2394,7 +2394,7 @@ const PRODUCTOS = [
     "precio": 230.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "28",
+    "foto": "7501134500778.JPG",
     "existencia": 28.0
   },
   {
@@ -2403,7 +2403,7 @@ const PRODUCTOS = [
     "precio": 240.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "94",
+    "foto": "7501134510746.jpg",
     "existencia": 94.0
   },
   {
@@ -2412,7 +2412,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "23",
+    "foto": "7501134510210.jpg",
     "existencia": 23.0
   },
   {
@@ -2421,7 +2421,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "9",
+    "foto": "7501134500563.jpg",
     "existencia": 9.0
   },
   {
@@ -2430,7 +2430,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "41",
+    "foto": "7501134500570.JPG",
     "existencia": 41.0
   },
   {
@@ -2439,7 +2439,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "53",
+    "foto": "7501134500631.jpg",
     "existencia": 53.0
   },
   {
@@ -2448,7 +2448,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "42",
+    "foto": "7501134500624.JPG",
     "existencia": 42.0
   },
   {
@@ -2457,7 +2457,7 @@ const PRODUCTOS = [
     "precio": 80.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "K",
-    "foto": "96",
+    "foto": "",
     "existencia": 96.0
   },
   {
@@ -2466,7 +2466,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "CONGELADO COMIDA PREPARADA",
     "unidad": "PZ",
-    "foto": "101",
+    "foto": "",
     "existencia": 101.0
   },
   {
@@ -2475,7 +2475,7 @@ const PRODUCTOS = [
     "precio": 235.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "K",
-    "foto": "200",
+    "foto": "5500010007610.jpg",
     "existencia": 151.69000000000003
   },
   {
@@ -2484,7 +2484,7 @@ const PRODUCTOS = [
     "precio": 115.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "520",
+    "foto": "794711005392.jpg",
     "existencia": 1520.0
   },
   {
@@ -2493,7 +2493,7 @@ const PRODUCTOS = [
     "precio": 200.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "605453520961.jpg",
     "existencia": 96.0
   },
   {
@@ -2502,7 +2502,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "213.93000000000004",
+    "foto": "",
     "existencia": 213.93000000000004
   },
   {
@@ -2511,7 +2511,7 @@ const PRODUCTOS = [
     "precio": 121.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "820",
+    "foto": "794711005408.jpg",
     "existencia": 820.0
   },
   {
@@ -2520,7 +2520,7 @@ const PRODUCTOS = [
     "precio": 2200.0,
     "familia": "CONGELADO IMPORTADO",
     "unidad": "PZ",
-    "foto": "30",
+    "foto": "",
     "existencia": 30.0
   },
   {
@@ -2529,7 +2529,7 @@ const PRODUCTOS = [
     "precio": 59.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "56",
+    "foto": "608875008222.jpg",
     "existencia": 56.0
   },
   {
@@ -2538,7 +2538,7 @@ const PRODUCTOS = [
     "precio": 120.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "7501134501980.jpg",
     "existencia": 497.0
   },
   {
@@ -2547,7 +2547,7 @@ const PRODUCTOS = [
     "precio": 120.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "7501134505100.jpg",
     "existencia": 95.0
   },
   {
@@ -2556,7 +2556,7 @@ const PRODUCTOS = [
     "precio": 35.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "7503040679456.jpg",
     "existencia": 96.0
   },
   {
@@ -2565,7 +2565,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZA",
-    "foto": "50",
+    "foto": "74353873.jpg",
     "existencia": 50.0
   },
   {
@@ -2574,7 +2574,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "20",
+    "foto": "7503010501466.jpg",
     "existencia": 20.0
   },
   {
@@ -2583,7 +2583,7 @@ const PRODUCTOS = [
     "precio": 17.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "405",
+    "foto": "7501161502028.jpg",
     "existencia": 6344.0
   },
   {
@@ -2592,7 +2592,7 @@ const PRODUCTOS = [
     "precio": 38.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "156",
+    "foto": "7501516411128.jpg",
     "existencia": 2544.0
   },
   {
@@ -2601,7 +2601,7 @@ const PRODUCTOS = [
     "precio": 165.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "8",
+    "foto": "794711002155.jpg",
     "existencia": 8.0
   },
   {
@@ -2610,7 +2610,7 @@ const PRODUCTOS = [
     "precio": 280.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7503028931026.jpg",
     "existencia": 36.0
   },
   {
@@ -2619,7 +2619,7 @@ const PRODUCTOS = [
     "precio": 199.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "7503028931132.jpg",
     "existencia": 24.0
   },
   {
@@ -2628,7 +2628,7 @@ const PRODUCTOS = [
     "precio": 170.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "22",
+    "foto": "7500463027628.jpg",
     "existencia": 22.0
   },
   {
@@ -2637,7 +2637,7 @@ const PRODUCTOS = [
     "precio": 38.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "2280",
+    "foto": "7501516411180.jpg",
     "existencia": 2280.0
   },
   {
@@ -2646,7 +2646,7 @@ const PRODUCTOS = [
     "precio": 38.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "75",
+    "foto": "7501516411135.jpg",
     "existencia": 75.0
   },
   {
@@ -2655,7 +2655,7 @@ const PRODUCTOS = [
     "precio": 170.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "7503008629004.jpg",
     "existencia": 60.0
   },
   {
@@ -2664,7 +2664,7 @@ const PRODUCTOS = [
     "precio": 112.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "7501134501027.jpg",
     "existencia": 36.0
   },
   {
@@ -2673,7 +2673,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "190",
+    "foto": "7500462135751.jpg",
     "existencia": 190.0
   },
   {
@@ -2682,7 +2682,7 @@ const PRODUCTOS = [
     "precio": 72.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "7501134502567.jpg",
     "existencia": 72.0
   },
   {
@@ -2691,7 +2691,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "ABARROTES NACIONAL",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "7290002153016.jpg",
     "existencia": 11.0
   },
   {
@@ -2700,7 +2700,7 @@ const PRODUCTOS = [
     "precio": 161.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "15",
+    "foto": "730127101105.jpg",
     "existencia": 15.0
   },
   {
@@ -2709,7 +2709,7 @@ const PRODUCTOS = [
     "precio": 200.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "160",
+    "foto": "7290003882922.jpg",
     "existencia": 264.0
   },
   {
@@ -2718,7 +2718,7 @@ const PRODUCTOS = [
     "precio": 129.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "204",
+    "foto": "794711002025.jpg",
     "existencia": 204.0
   },
   {
@@ -2727,7 +2727,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "168",
+    "foto": "730127100009.jpg",
     "existencia": 168.0
   },
   {
@@ -2736,7 +2736,7 @@ const PRODUCTOS = [
     "precio": 75.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "450",
+    "foto": "072700000116.jpg",
     "existencia": 96.0
   },
   {
@@ -2745,7 +2745,7 @@ const PRODUCTOS = [
     "precio": 75.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "870",
+    "foto": "072700000079.jpg",
     "existencia": 720.0
   },
   {
@@ -2754,7 +2754,7 @@ const PRODUCTOS = [
     "precio": 88.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "260",
+    "foto": "040822043304.jpg",
     "existencia": 276.0
   },
   {
@@ -2763,7 +2763,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "070227500638.jpg",
     "existencia": 36.0
   },
   {
@@ -2772,7 +2772,7 @@ const PRODUCTOS = [
     "precio": 49.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "408",
+    "foto": "735375601254.jpg",
     "existencia": 408.0
   },
   {
@@ -2781,7 +2781,7 @@ const PRODUCTOS = [
     "precio": 49.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "735375602251.jpg",
     "existencia": 60.0
   },
   {
@@ -2790,7 +2790,7 @@ const PRODUCTOS = [
     "precio": 113.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "710069804005.jpg",
     "existencia": 12.0
   },
   {
@@ -2799,7 +2799,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "077544001039.jpg",
     "existencia": 24.0
   },
   {
@@ -2808,7 +2808,7 @@ const PRODUCTOS = [
     "precio": 260.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "025675125827.jpg",
     "existencia": 72.0
   },
   {
@@ -2817,7 +2817,7 @@ const PRODUCTOS = [
     "precio": 491.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "28",
+    "foto": "",
     "existencia": 28.0
   },
   {
@@ -2826,7 +2826,7 @@ const PRODUCTOS = [
     "precio": 66.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "027000419205.jpg",
     "existencia": 24.0
   },
   {
@@ -2835,7 +2835,7 @@ const PRODUCTOS = [
     "precio": 66.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "84",
+    "foto": "027000419199.jpg",
     "existencia": 24.0
   },
   {
@@ -2844,7 +2844,7 @@ const PRODUCTOS = [
     "precio": 66.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "384",
+    "foto": "027000419212.jpg",
     "existencia": 576.0
   },
   {
@@ -2853,7 +2853,7 @@ const PRODUCTOS = [
     "precio": 64.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "192",
+    "foto": "027000419229.jpg",
     "existencia": 240.0
   },
   {
@@ -2862,7 +2862,7 @@ const PRODUCTOS = [
     "precio": 154.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "50",
+    "foto": "013113347351.jpg",
     "existencia": 73.0
   },
   {
@@ -2871,7 +2871,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "32",
+    "foto": "",
     "existencia": 32.0
   },
   {
@@ -2880,7 +2880,7 @@ const PRODUCTOS = [
     "precio": 350.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "4",
+    "foto": "",
     "existencia": 4.0
   },
   {
@@ -2889,7 +2889,7 @@ const PRODUCTOS = [
     "precio": 2400.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "",
     "existencia": 11.0
   },
   {
@@ -2898,7 +2898,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "",
     "existencia": 12.0
   },
   {
@@ -2907,7 +2907,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "",
     "existencia": 12.0
   },
   {
@@ -2916,7 +2916,7 @@ const PRODUCTOS = [
     "precio": 172.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "025675010062.jpg",
     "existencia": 24.0
   },
   {
@@ -2925,7 +2925,7 @@ const PRODUCTOS = [
     "precio": 250.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "192",
+    "foto": "025675125889.jpg",
     "existencia": 192.0
   },
   {
@@ -2934,7 +2934,7 @@ const PRODUCTOS = [
     "precio": 41.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675301269.jpg",
     "existencia": 72.0
   },
   {
@@ -2943,7 +2943,7 @@ const PRODUCTOS = [
     "precio": 174.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "810291001002.jpg",
     "existencia": 11.0
   },
   {
@@ -2952,7 +2952,7 @@ const PRODUCTOS = [
     "precio": 65.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "120",
+    "foto": "00987339.jpg",
     "existencia": 120.0
   },
   {
@@ -2961,7 +2961,7 @@ const PRODUCTOS = [
     "precio": 58.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "960",
+    "foto": "013495113735.jpg",
     "existencia": 960.0
   },
   {
@@ -2970,7 +2970,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -2979,7 +2979,7 @@ const PRODUCTOS = [
     "precio": 122.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -2988,7 +2988,7 @@ const PRODUCTOS = [
     "precio": 16.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "079200631635.jpg",
     "existencia": 24.0
   },
   {
@@ -2997,7 +2997,7 @@ const PRODUCTOS = [
     "precio": 155.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "077485003840.jpg",
     "existencia": 48.0
   },
   {
@@ -3006,7 +3006,7 @@ const PRODUCTOS = [
     "precio": 144.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "80",
+    "foto": "",
     "existencia": 80.0
   },
   {
@@ -3015,7 +3015,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "077485000382.jpg",
     "existencia": 48.0
   },
   {
@@ -3024,7 +3024,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "80",
+    "foto": "",
     "existencia": 80.0
   },
   {
@@ -3033,7 +3033,7 @@ const PRODUCTOS = [
     "precio": 155.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "",
     "existencia": 48.0
   },
   {
@@ -3042,7 +3042,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "64",
+    "foto": "013495113506.jpg",
     "existencia": 64.0
   },
   {
@@ -3051,7 +3051,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "16",
+    "foto": "077485000313.jpg",
     "existencia": 16.0
   },
   {
@@ -3060,7 +3060,7 @@ const PRODUCTOS = [
     "precio": 126.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "",
     "existencia": 60.0
   },
   {
@@ -3069,7 +3069,7 @@ const PRODUCTOS = [
     "precio": 126.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "",
     "existencia": 60.0
   },
   {
@@ -3078,7 +3078,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675301177.jpg",
     "existencia": 72.0
   },
   {
@@ -3087,7 +3087,7 @@ const PRODUCTOS = [
     "precio": 87.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "",
     "existencia": 12.0
   },
   {
@@ -3096,7 +3096,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "025675122819.jpg",
     "existencia": 60.0
   },
   {
@@ -3105,7 +3105,7 @@ const PRODUCTOS = [
     "precio": 119.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "025675122932.jpg",
     "existencia": 60.0
   },
   {
@@ -3114,7 +3114,7 @@ const PRODUCTOS = [
     "precio": 119.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675123151.jpg",
     "existencia": 72.0
   },
   {
@@ -3123,7 +3123,7 @@ const PRODUCTOS = [
     "precio": 119.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "025675123045.jpg",
     "existencia": 60.0
   },
   {
@@ -3132,7 +3132,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675301122.jpg",
     "existencia": 72.0
   },
   {
@@ -3141,7 +3141,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675301153.jpg",
     "existencia": 72.0
   },
   {
@@ -3150,7 +3150,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "025675301207.jpg",
     "existencia": 96.0
   },
   {
@@ -3159,7 +3159,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "384",
+    "foto": "",
     "existencia": 384.0
   },
   {
@@ -3168,7 +3168,7 @@ const PRODUCTOS = [
     "precio": 41.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "025675300231.jpg",
     "existencia": 48.0
   },
   {
@@ -3177,7 +3177,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "025675301108.jpg",
     "existencia": 48.0
   },
   {
@@ -3186,7 +3186,7 @@ const PRODUCTOS = [
     "precio": 9.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "025675301863.jpg",
     "existencia": 96.0
   },
   {
@@ -3195,7 +3195,7 @@ const PRODUCTOS = [
     "precio": 9.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "025675301924.jpg",
     "existencia": 96.0
   },
   {
@@ -3204,7 +3204,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "240",
+    "foto": "",
     "existencia": 240.0
   },
   {
@@ -3213,7 +3213,7 @@ const PRODUCTOS = [
     "precio": 15.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "120",
+    "foto": "070970475498.jpg",
     "existencia": 120.0
   },
   {
@@ -3222,7 +3222,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -3231,7 +3231,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -3240,7 +3240,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -3249,7 +3249,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "96",
+    "foto": "",
     "existencia": 96.0
   },
   {
@@ -3258,7 +3258,7 @@ const PRODUCTOS = [
     "precio": 195.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "025675010840.jpg",
     "existencia": 12.0
   },
   {
@@ -3267,7 +3267,7 @@ const PRODUCTOS = [
     "precio": 44.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "025675300088.jpg",
     "existencia": 72.0
   },
   {
@@ -3276,7 +3276,7 @@ const PRODUCTOS = [
     "precio": 150.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "8",
+    "foto": "075655006264.jpg",
     "existencia": 8.0
   },
   {
@@ -3285,7 +3285,7 @@ const PRODUCTOS = [
     "precio": 200.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "070227610047.jpg",
     "existencia": 11.0
   },
   {
@@ -3294,7 +3294,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "3",
+    "foto": "025675880504.jpg",
     "existencia": 3.0
   },
   {
@@ -3303,7 +3303,7 @@ const PRODUCTOS = [
     "precio": 150.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "3",
+    "foto": "7290108509700.jpg",
     "existencia": 3.0
   },
   {
@@ -3312,7 +3312,7 @@ const PRODUCTOS = [
     "precio": 175.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "39",
+    "foto": "049200045503.jpg",
     "existencia": 39.0
   },
   {
@@ -3321,7 +3321,7 @@ const PRODUCTOS = [
     "precio": 6000.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "",
     "existencia": 10.0
   },
   {
@@ -3330,7 +3330,7 @@ const PRODUCTOS = [
     "precio": 6657.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "13",
+    "foto": "",
     "existencia": 13.0
   },
   {
@@ -3339,7 +3339,7 @@ const PRODUCTOS = [
     "precio": 154.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "9",
+    "foto": "013113347344.jpg",
     "existencia": 9.0
   },
   {
@@ -3348,7 +3348,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "84",
+    "foto": "857531000067.jpg",
     "existencia": 84.0
   },
   {
@@ -3357,7 +3357,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "857531000050.jpg",
     "existencia": 48.0
   },
   {
@@ -3366,7 +3366,7 @@ const PRODUCTOS = [
     "precio": 168.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "90",
+    "foto": "096086000348.jpg",
     "existencia": 90.0
   },
   {
@@ -3375,7 +3375,7 @@ const PRODUCTOS = [
     "precio": 24.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "073490123849.jpg",
     "existencia": 24.0
   },
   {
@@ -3384,7 +3384,7 @@ const PRODUCTOS = [
     "precio": 220.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "16",
+    "foto": "",
     "existencia": 16.0
   },
   {
@@ -3393,7 +3393,7 @@ const PRODUCTOS = [
     "precio": 390.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "077245108310.jpg",
     "existencia": 60.0
   },
   {
@@ -3402,7 +3402,7 @@ const PRODUCTOS = [
     "precio": 0.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "",
     "existencia": 24.0
   },
   {
@@ -3411,7 +3411,7 @@ const PRODUCTOS = [
     "precio": 99.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "50",
+    "foto": "077245107931.jpg",
     "existencia": 50.0
   },
   {
@@ -3420,7 +3420,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "",
     "existencia": 12.0
   },
   {
@@ -3429,7 +3429,7 @@ const PRODUCTOS = [
     "precio": 264.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "",
     "existencia": 11.0
   },
   {
@@ -3438,7 +3438,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "9",
+    "foto": "",
     "existencia": 9.0
   },
   {
@@ -3447,7 +3447,7 @@ const PRODUCTOS = [
     "precio": 88.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "710069139107.jpg",
     "existencia": 24.0
   },
   {
@@ -3456,7 +3456,7 @@ const PRODUCTOS = [
     "precio": 90.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "",
     "existencia": 72.0
   },
   {
@@ -3465,7 +3465,7 @@ const PRODUCTOS = [
     "precio": 139.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "710069012752.jpg",
     "existencia": 60.0
   },
   {
@@ -3474,7 +3474,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "073490129261.jpg",
     "existencia": 48.0
   },
   {
@@ -3483,7 +3483,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "073490000065.jpg",
     "existencia": 72.0
   },
   {
@@ -3492,7 +3492,7 @@ const PRODUCTOS = [
     "precio": 72.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "073490124426.jpg",
     "existencia": 48.0
   },
   {
@@ -3501,7 +3501,7 @@ const PRODUCTOS = [
     "precio": 160.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "3",
+    "foto": "840762005161.jpg",
     "existencia": 3.0
   },
   {
@@ -3510,7 +3510,7 @@ const PRODUCTOS = [
     "precio": 125.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "54",
+    "foto": "017252501513.jpg",
     "existencia": 54.0
   },
   {
@@ -3519,7 +3519,7 @@ const PRODUCTOS = [
     "precio": 220.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "45",
+    "foto": "710069144019.jpg",
     "existencia": 45.0
   },
   {
@@ -3528,7 +3528,7 @@ const PRODUCTOS = [
     "precio": 112.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "840762007509.jpg",
     "existencia": 12.0
   },
   {
@@ -3537,7 +3537,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "43",
+    "foto": "710069114128.jpg",
     "existencia": 43.0
   },
   {
@@ -3546,7 +3546,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "710069125704.jpg",
     "existencia": 6.0
   },
   {
@@ -3555,7 +3555,7 @@ const PRODUCTOS = [
     "precio": 285.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "035057690034.jpg",
     "existencia": 5.0
   },
   {
@@ -3564,7 +3564,7 @@ const PRODUCTOS = [
     "precio": 166.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "077028270807.jpg",
     "existencia": 10.0
   },
   {
@@ -3573,7 +3573,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "21",
+    "foto": "710069134300.jpg",
     "existencia": 21.0
   },
   {
@@ -3582,7 +3582,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "40",
+    "foto": "710069303454.jpg",
     "existencia": 40.0
   },
   {
@@ -3591,7 +3591,7 @@ const PRODUCTOS = [
     "precio": 37.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "840762013210.jpg",
     "existencia": 10.0
   },
   {
@@ -3600,7 +3600,7 @@ const PRODUCTOS = [
     "precio": 67.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "46",
+    "foto": "710069123403.jpg",
     "existencia": 46.0
   },
   {
@@ -3609,7 +3609,7 @@ const PRODUCTOS = [
     "precio": 115.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "13",
+    "foto": "710069114258.jpg",
     "existencia": 13.0
   },
   {
@@ -3618,7 +3618,7 @@ const PRODUCTOS = [
     "precio": 120.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "710069074156.jpg",
     "existencia": 5.0
   },
   {
@@ -3627,7 +3627,7 @@ const PRODUCTOS = [
     "precio": 125.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "17",
+    "foto": "017252500004.jpg",
     "existencia": 17.0
   },
   {
@@ -3636,7 +3636,7 @@ const PRODUCTOS = [
     "precio": 125.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "30",
+    "foto": "017252152746.jpg",
     "existencia": 30.0
   },
   {
@@ -3645,7 +3645,7 @@ const PRODUCTOS = [
     "precio": 89.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "22",
+    "foto": "840762015634.jpg",
     "existencia": 22.0
   },
   {
@@ -3654,7 +3654,7 @@ const PRODUCTOS = [
     "precio": 250.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "3",
+    "foto": "710069806092.jpg",
     "existencia": 3.0
   },
   {
@@ -3663,7 +3663,7 @@ const PRODUCTOS = [
     "precio": 118.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "7",
+    "foto": "073490153006.jpg",
     "existencia": 7.0
   },
   {
@@ -3672,7 +3672,7 @@ const PRODUCTOS = [
     "precio": 235.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "710069117303.jpg",
     "existencia": 0
   },
   {
@@ -3681,7 +3681,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "815871017626.jpg",
     "existencia": 5.0
   },
   {
@@ -3690,7 +3690,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "840762016655.jpg",
     "existencia": 6.0
   },
   {
@@ -3699,7 +3699,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "710069404137.jpg",
     "existencia": 11.0
   },
   {
@@ -3708,7 +3708,7 @@ const PRODUCTOS = [
     "precio": 115.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "3",
+    "foto": "710069114272.jpg",
     "existencia": 3.0
   },
   {
@@ -3717,7 +3717,7 @@ const PRODUCTOS = [
     "precio": 40.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "216",
+    "foto": "710069128101.jpg",
     "existencia": 216.0
   },
   {
@@ -3726,7 +3726,7 @@ const PRODUCTOS = [
     "precio": 68.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "30",
+    "foto": "710069207059.jpg",
     "existencia": 30.0
   },
   {
@@ -3735,7 +3735,7 @@ const PRODUCTOS = [
     "precio": 123.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "264",
+    "foto": "072700350037.jpg",
     "existencia": 264.0
   },
   {
@@ -3744,7 +3744,7 @@ const PRODUCTOS = [
     "precio": 69.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "072700000680.jpg",
     "existencia": 6.0
   },
   {
@@ -3753,7 +3753,7 @@ const PRODUCTOS = [
     "precio": 181.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "072700008563.jpg",
     "existencia": 5.0
   },
   {
@@ -3762,7 +3762,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "240",
+    "foto": "097643071443.jpg",
     "existencia": 240.0
   },
   {
@@ -3771,7 +3771,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "336",
+    "foto": "7610041011878.jpg",
     "existencia": 336.0
   },
   {
@@ -3780,7 +3780,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "240",
+    "foto": "7610041011885.jpeg",
     "existencia": 240.0
   },
   {
@@ -3789,7 +3789,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "336",
+    "foto": "097643011548.jpg",
     "existencia": 336.0
   },
   {
@@ -3798,7 +3798,7 @@ const PRODUCTOS = [
     "precio": 50.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "336",
+    "foto": "7610041011861.jpg",
     "existencia": 336.0
   },
   {
@@ -3807,7 +3807,7 @@ const PRODUCTOS = [
     "precio": 59.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "",
     "existencia": 36.0
   },
   {
@@ -3816,7 +3816,7 @@ const PRODUCTOS = [
     "precio": 54.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "912",
+    "foto": "046676132522.jpg",
     "existencia": 912.0
   },
   {
@@ -3825,7 +3825,7 @@ const PRODUCTOS = [
     "precio": 84.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "90",
+    "foto": "046676182121.jpg",
     "existencia": 90.0
   },
   {
@@ -3834,7 +3834,7 @@ const PRODUCTOS = [
     "precio": 489.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "52",
+    "foto": "634707045295.jpg",
     "existencia": 52.0
   },
   {
@@ -3843,7 +3843,7 @@ const PRODUCTOS = [
     "precio": 220.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "8",
+    "foto": "090202156001.jpg",
     "existencia": 8.0
   },
   {
@@ -3852,7 +3852,7 @@ const PRODUCTOS = [
     "precio": 159.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "94",
+    "foto": "043427008136.jpg",
     "existencia": 94.0
   },
   {
@@ -3861,7 +3861,7 @@ const PRODUCTOS = [
     "precio": 159.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "32",
+    "foto": "043427008167.jpg",
     "existencia": 32.0
   },
   {
@@ -3870,7 +3870,7 @@ const PRODUCTOS = [
     "precio": 150.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "19",
+    "foto": "043427022248.jpg",
     "existencia": 19.0
   },
   {
@@ -3879,7 +3879,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "4",
+    "foto": "043427160230.jpg",
     "existencia": 4.0
   },
   {
@@ -3888,7 +3888,7 @@ const PRODUCTOS = [
     "precio": 258.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "92",
+    "foto": "043427888561.jpg",
     "existencia": 92.0
   },
   {
@@ -3897,7 +3897,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "60",
+    "foto": "043427005708.jpg",
     "existencia": 60.0
   },
   {
@@ -3906,7 +3906,7 @@ const PRODUCTOS = [
     "precio": 130.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "23",
+    "foto": "043427202862.jpg",
     "existencia": 23.0
   },
   {
@@ -3915,7 +3915,7 @@ const PRODUCTOS = [
     "precio": 63.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "86",
+    "foto": "043427200745.jpg",
     "existencia": 86.0
   },
   {
@@ -3924,7 +3924,7 @@ const PRODUCTOS = [
     "precio": 151.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "26",
+    "foto": "043427022484.jpg",
     "existencia": 26.0
   },
   {
@@ -3933,7 +3933,7 @@ const PRODUCTOS = [
     "precio": 68.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "1",
+    "foto": "",
     "existencia": 1.0
   },
   {
@@ -3942,7 +3942,7 @@ const PRODUCTOS = [
     "precio": 78.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "120",
+    "foto": "043427201315.jpg",
     "existencia": 120.0
   },
   {
@@ -3951,7 +3951,7 @@ const PRODUCTOS = [
     "precio": 156.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "5",
+    "foto": "043427222853.jpg",
     "existencia": 5.0
   },
   {
@@ -3960,7 +3960,7 @@ const PRODUCTOS = [
     "precio": 168.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "043427666053.jpg",
     "existencia": 11.0
   },
   {
@@ -3969,7 +3969,7 @@ const PRODUCTOS = [
     "precio": 239.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "4",
+    "foto": "043427199346.jpg",
     "existencia": 4.0
   },
   {
@@ -3978,7 +3978,7 @@ const PRODUCTOS = [
     "precio": 200.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "11",
+    "foto": "043427005135.jpg",
     "existencia": 11.0
   },
   {
@@ -3987,7 +3987,7 @@ const PRODUCTOS = [
     "precio": 70.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "17",
+    "foto": "043427000642.jpg",
     "existencia": 17.0
   },
   {
@@ -3996,7 +3996,7 @@ const PRODUCTOS = [
     "precio": 226.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "31",
+    "foto": "043427004138.jpg",
     "existencia": 31.0
   },
   {
@@ -4005,7 +4005,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "8",
+    "foto": "",
     "existencia": 8.0
   },
   {
@@ -4014,7 +4014,7 @@ const PRODUCTOS = [
     "precio": 180.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "240",
+    "foto": "",
     "existencia": 240.0
   },
   {
@@ -4023,7 +4023,7 @@ const PRODUCTOS = [
     "precio": 720.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "14 CAJAS",
+    "foto": "",
     "existencia": 0
   },
   {
@@ -4032,7 +4032,7 @@ const PRODUCTOS = [
     "precio": 85.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "612",
+    "foto": "7501134510098.jpg",
     "existencia": 5064.0
   },
   {
@@ -4041,7 +4041,7 @@ const PRODUCTOS = [
     "precio": 89.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "84",
+    "foto": "07349043.jpg",
     "existencia": 2196.0
   },
   {
@@ -4050,7 +4050,7 @@ const PRODUCTOS = [
     "precio": 141.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "073490124907.jpg",
     "existencia": 6.0
   },
   {
@@ -4059,7 +4059,7 @@ const PRODUCTOS = [
     "precio": 177.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "90",
+    "foto": "073490128271.jpg",
     "existencia": 90.0
   },
   {
@@ -4068,7 +4068,7 @@ const PRODUCTOS = [
     "precio": 190.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "29",
+    "foto": "073490130410.jpg",
     "existencia": 168.0
   },
   {
@@ -4077,7 +4077,7 @@ const PRODUCTOS = [
     "precio": 39.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "290",
+    "foto": "073490132865.jpg",
     "existencia": 290.0
   },
   {
@@ -4086,7 +4086,7 @@ const PRODUCTOS = [
     "precio": 110.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "34",
+    "foto": "073490123559.jpeg",
     "existencia": 34.0
   },
   {
@@ -4095,7 +4095,7 @@ const PRODUCTOS = [
     "precio": 185.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "320",
+    "foto": "073314648817.jpg",
     "existencia": 1232.0
   },
   {
@@ -4104,7 +4104,7 @@ const PRODUCTOS = [
     "precio": 45.0,
     "familia": "JUGO IMPORTADO",
     "unidad": "PZ",
-    "foto": "72",
+    "foto": "073490132902.jpg",
     "existencia": 72.0
   },
   {
@@ -4113,7 +4113,7 @@ const PRODUCTOS = [
     "precio": 235.0,
     "familia": "VINO NACIONAL",
     "unidad": "PZ",
-    "foto": "168",
+    "foto": "085976033931.JPG",
     "existencia": 168.0
   },
   {
@@ -4122,7 +4122,7 @@ const PRODUCTOS = [
     "precio": 183.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "144",
+    "foto": "081452433103.jpg",
     "existencia": 144.0
   },
   {
@@ -4131,7 +4131,7 @@ const PRODUCTOS = [
     "precio": 587.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "56",
+    "foto": "087752007921.jpg",
     "existencia": 56.0
   },
   {
@@ -4140,7 +4140,7 @@ const PRODUCTOS = [
     "precio": 500.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "087752007907.jpg",
     "existencia": 6.0
   },
   {
@@ -4149,7 +4149,7 @@ const PRODUCTOS = [
     "precio": 300.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "23",
+    "foto": "087752019627.jpg",
     "existencia": 23.0
   },
   {
@@ -4158,7 +4158,7 @@ const PRODUCTOS = [
     "precio": 450.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "132",
+    "foto": "0023632082855.jpg",
     "existencia": 132.0
   },
   {
@@ -4167,7 +4167,7 @@ const PRODUCTOS = [
     "precio": 476.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "24",
+    "foto": "087752021897.jpeg",
     "existencia": 36.0
   },
   {
@@ -4176,7 +4176,7 @@ const PRODUCTOS = [
     "precio": 356.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "10",
+    "foto": "087752028728.jpg",
     "existencia": 10.0
   },
   {
@@ -4185,7 +4185,7 @@ const PRODUCTOS = [
     "precio": 356.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "6",
+    "foto": "087752026939.jpg",
     "existencia": 6.0
   },
   {
@@ -4194,7 +4194,7 @@ const PRODUCTOS = [
     "precio": 354.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "34",
+    "foto": "087752034514.jpg",
     "existencia": 34.0
   },
   {
@@ -4203,7 +4203,7 @@ const PRODUCTOS = [
     "precio": 245.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "48",
+    "foto": "087752006481.jpg",
     "existencia": 48.0
   },
   {
@@ -4212,7 +4212,7 @@ const PRODUCTOS = [
     "precio": 800.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "216",
+    "foto": "015643515446.jpg",
     "existencia": 216.0
   },
   {
@@ -4221,7 +4221,7 @@ const PRODUCTOS = [
     "precio": 353.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "36",
+    "foto": "087752017036.jpg",
     "existencia": 36.0
   },
   {
@@ -4230,7 +4230,7 @@ const PRODUCTOS = [
     "precio": 140.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "087752006894.JPG",
     "existencia": 12.0
   },
   {
@@ -4239,7 +4239,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "76",
+    "foto": "087752036549.jpg",
     "existencia": 76.0
   },
   {
@@ -4248,7 +4248,7 @@ const PRODUCTOS = [
     "precio": 114.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "12",
+    "foto": "087752001295.jpg",
     "existencia": 12.0
   },
   {
@@ -4257,7 +4257,7 @@ const PRODUCTOS = [
     "precio": 100.0,
     "familia": "VINO IMPORTADO",
     "unidad": "PZ",
-    "foto": "140",
+    "foto": "087752028711.jpg",
     "existencia": 140.0
   },
   {
