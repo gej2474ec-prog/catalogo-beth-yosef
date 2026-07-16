@@ -4,6 +4,348 @@
 
 const PRODUCTOS = [
   {
+    "codigo": "7501134510933",
+    "descripcion": "KURSON QUESO OAXACA MARINADO 1 KG",
+    "precio": 290.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510933.jpg",
+    "existencia": 10.0
+  },
+  {
+    "codigo": "7501669892249",
+    "descripcion": "KURSON QUESO DE CABRA C/CHIPOTLE 200 GRS",
+    "precio": 190.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501669892249.jpg",
+    "existencia": 22.0
+  },
+  {
+    "codigo": "7501669893178",
+    "descripcion": "KURSON QUESO DE CABRA NATURAL KOSHER 200 GRS",
+    "precio": 190.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501669893178.jpg",
+    "existencia": 350.0
+  },
+  {
+    "codigo": "7501134501195",
+    "descripcion": "KURSON QUESO FETA 500 GRS",
+    "precio": 320.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501195.jpg",
+    "existencia": 128.0
+  },
+  {
+    "codigo": "7501134505469",
+    "descripcion": "KURSON QUESO FETA KOSHER 250 GR",
+    "precio": 185.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505469.jpg",
+    "existencia": 225.0
+  },
+  {
+    "codigo": "7501134801850",
+    "descripcion": "KURSON QUESO PROVOLONE AHUMADO KOSHER 600 GR",
+    "precio": 380.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134801850.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7501134510920",
+    "descripcion": "KURSON QUESO OAXACA KOSHER 500 GR",
+    "precio": 135.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510920.jpg",
+    "existencia": 56.0
+  },
+  {
+    "codigo": "7501134510609",
+    "descripcion": "KURSON QUESO PANELA KOSHER 500 GRS",
+    "precio": 132.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510609.jpg",
+    "existencia": 65.0
+  },
+  {
+    "codigo": "03345",
+    "descripcion": "COVADONGA QUESO PARMESANO KG",
+    "precio": 670.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "KG",
+    "foto": "03345.jpg",
+    "existencia": 235.0
+  },
+  {
+    "codigo": "7501134502031",
+    "descripcion": "KURSON QUESO OAXACA KOSHER 1 KG",
+    "precio": 289.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502031.jpg",
+    "existencia": 15.0
+  },
+  {
+    "codigo": "7501134502543",
+    "descripcion": "KURSON QUESO MANCHEGO KOSHER 1 kg.",
+    "precio": 280.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502543.jpg",
+    "existencia": 144.0
+  },
+  {
+    "codigo": "7501134510715",
+    "descripcion": "KURSON QUESO MANCHEGO KOSHER 500 GR",
+    "precio": 142.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510715.jpg",
+    "existencia": 96.0
+  },
+  {
+    "codigo": "026638269909",
+    "descripcion": "HAOLAM PARMESAN GRATED CHEESE",
+    "precio": 220.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "026638269909.JPG",
+    "existencia": 78.0
+  },
+  {
+    "codigo": "026638251102",
+    "descripcion": "HAOLAM QUESO AMERICANO BLANCO 108 1.36 KG",
+    "precio": 820.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "026638251102.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "030900007045",
+    "descripcion": "PAULY QUESO CREMA 227 GRS",
+    "precio": 73.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "030900007045.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "90754",
+    "descripcion": "YUMMY QUESO FETA KG",
+    "precio": 484.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "KG",
+    "foto": "90754.jpg",
+    "existencia": 182.0
+  },
+  {
+    "codigo": "011274000337",
+    "descripcion": "J & J CREAM CHEESE 3 LB",
+    "precio": 498.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "011274000337.jpg",
+    "existencia": 40.0
+  },
+  {
+    "codigo": "011274000276",
+    "descripcion": "J & J CREAM CHEESE WHIPPED 227 GRS",
+    "precio": 155.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "011274000276.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "651219209304",
+    "descripcion": "NATURAL & KOSHER SLICED VARIETY PACK CHEESE",
+    "precio": 335.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219209304.jpg",
+    "existencia": 84.0
+  },
+  {
+    "codigo": "029882899205",
+    "descripcion": "YUMMY SHREDDED LOW MOISTURE PART SKIM MOZZARELLA",
+    "precio": 400.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "029882899205.jpg",
+    "existencia": 40.0
+  },
+  {
+    "codigo": "651219205535",
+    "descripcion": "NATURAL & KOSHER QUESO MOZZARELLA RALLADO 907 GRS",
+    "precio": 350.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219205535.jpg",
+    "existencia": 70.0
+  },
+  {
+    "codigo": "014353000624",
+    "descripcion": "MEHADRIM COTTAGE CHEESE NON FAT FIT FREE 16 OZ",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000624.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "014353000518",
+    "descripcion": "MEHADRIM COTTAGE CHEESE LOW FAT 453 GRS",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000518.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "014353000013",
+    "descripcion": "MEHADRIM COTTAGE CHEESE 454 GRS",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000013.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "651219102018",
+    "descripcion": "NATURAL & KOSHER MOZZARELLA CHEESE STICKS 255 GRS",
+    "precio": 271.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219102018.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "5500010007610",
+    "descripcion": "YUMMY PIZZA CHEESE KOSHER LB",
+    "precio": 235.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "KG",
+    "foto": "5500010007610.jpg",
+    "existencia": 200.0
+  },
+  {
+    "codigo": "608875008222",
+    "descripcion": "HEINZ MAYONESA 390 GRS",
+    "precio": 59.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "608875008222.jpg",
+    "existencia": 56.0
+  },
+  {
+    "codigo": "7501134501980",
+    "descripcion": "KURSON MOLE KOSHER 600 GR",
+    "precio": 120.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501980.jpg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "7501134505100",
+    "descripcion": "KURSON SALSA DE TAMARINDO 740 GR",
+    "precio": 120.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505100.jpg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "7503040679456",
+    "descripcion": "MARINA AZUL ATUN EN HOJUELAS EN AGUA 120 GR",
+    "precio": 35.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503040679456.jpg",
+    "existencia": 96.0
+  },
+  {
+    "codigo": "74353873",
+    "descripcion": "TEIBE CONSOME GOURMET DE POLLO SIN GLUTAMATO 500 GRS",
+    "precio": 90.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZA",
+    "foto": "74353873.jpg",
+    "existencia": 50.0
+  },
+  {
+    "codigo": "7503010501466",
+    "descripcion": "TEIBE CONSOME 1 KG",
+    "precio": 180.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503010501466.jpg",
+    "existencia": 20.0
+  },
+  {
+    "codigo": "7501161502028",
+    "descripcion": "LEON LECHE SABOR CHOCOLATE 236 ML",
+    "precio": 17.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501161502028.jpg",
+    "existencia": 405.0
+  },
+  {
+    "codigo": "7501516411128",
+    "descripcion": "ARACELI LECHE LIGHT 1 LT",
+    "precio": 38.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501516411128.jpg",
+    "existencia": 156.0
+  },
+  {
+    "codigo": "794711002155",
+    "descripcion": "GALIL GRILLED EGGPLANT 655 GRS",
+    "precio": 165.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "794711002155.jpg",
+    "existencia": 8.0
+  },
+  {
+    "codigo": "7503028931026",
+    "descripcion": "AGRABA FOODS HOJA DE PARRA EN SALMUERA 500 GR",
+    "precio": 280.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503028931026.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7503028931132",
+    "descripcion": "AGRABA HOJA DE PARRA EN SALMUERA 500 GRS",
+    "precio": 199.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503028931132.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "7500463027628",
+    "descripcion": "VEGGIE MIX CONSOME PARVE 750 GRS",
+    "precio": 170.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7500463027628.jpg",
+    "existencia": 22.0
+  },
+  {
     "codigo": "730127101105",
     "descripcion": "YAVNE OLIVES MIXED 19 OZ",
     "precio": 161.0,
@@ -173,114 +515,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "013113347351.jpg",
     "existencia": 50.0
-  },
-  {
-    "codigo": "608875008222",
-    "descripcion": "HEINZ MAYONESA 390 GRS",
-    "precio": 59.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "608875008222.jpg",
-    "existencia": 56.0
-  },
-  {
-    "codigo": "7501134501980",
-    "descripcion": "KURSON MOLE KOSHER 600 GR",
-    "precio": 120.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501980.jpg",
-    "existencia": 48.0
-  },
-  {
-    "codigo": "7501134505100",
-    "descripcion": "KURSON SALSA DE TAMARINDO 740 GR",
-    "precio": 120.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505100.jpg",
-    "existencia": 48.0
-  },
-  {
-    "codigo": "7503040679456",
-    "descripcion": "MARINA AZUL ATUN EN HOJUELAS EN AGUA 120 GR",
-    "precio": 35.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503040679456.jpg",
-    "existencia": 96.0
-  },
-  {
-    "codigo": "74353873",
-    "descripcion": "TEIBE CONSOME GOURMET DE POLLO SIN GLUTAMATO 500 GRS",
-    "precio": 90.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZA",
-    "foto": "74353873.jpg",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "7503010501466",
-    "descripcion": "TEIBE CONSOME 1 KG",
-    "precio": 180.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503010501466.jpg",
-    "existencia": 20.0
-  },
-  {
-    "codigo": "7501161502028",
-    "descripcion": "LEON LECHE SABOR CHOCOLATE 236 ML",
-    "precio": 17.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501161502028.jpg",
-    "existencia": 405.0
-  },
-  {
-    "codigo": "7501516411128",
-    "descripcion": "ARACELI LECHE LIGHT 1 LT",
-    "precio": 38.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501516411128.jpg",
-    "existencia": 156.0
-  },
-  {
-    "codigo": "794711002155",
-    "descripcion": "GALIL GRILLED EGGPLANT 655 GRS",
-    "precio": 165.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "794711002155.jpg",
-    "existencia": 8.0
-  },
-  {
-    "codigo": "7503028931026",
-    "descripcion": "AGRABA FOODS HOJA DE PARRA EN SALMUERA 500 GR",
-    "precio": 280.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503028931026.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7503028931132",
-    "descripcion": "AGRABA HOJA DE PARRA EN SALMUERA 500 GRS",
-    "precio": 199.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503028931132.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "7500463027628",
-    "descripcion": "VEGGIE MIX CONSOME PARVE 750 GRS",
-    "precio": 170.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7500463027628.jpg",
-    "existencia": 22.0
   },
   {
     "codigo": "7503046084698",
@@ -641,240 +875,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "073314648817.jpg",
     "existencia": 320.0
-  },
-  {
-    "codigo": "90754",
-    "descripcion": "YUMMY QUESO FETA KG",
-    "precio": 484.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "KG",
-    "foto": "90754.jpg",
-    "existencia": 182.0
-  },
-  {
-    "codigo": "011274000337",
-    "descripcion": "J & J CREAM CHEESE 3 LB",
-    "precio": 498.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "011274000337.jpg",
-    "existencia": 40.0
-  },
-  {
-    "codigo": "011274000276",
-    "descripcion": "J & J CREAM CHEESE WHIPPED 227 GRS",
-    "precio": 155.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "011274000276.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "651219209304",
-    "descripcion": "NATURAL & KOSHER SLICED VARIETY PACK CHEESE",
-    "precio": 335.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219209304.jpg",
-    "existencia": 84.0
-  },
-  {
-    "codigo": "029882899205",
-    "descripcion": "YUMMY SHREDDED LOW MOISTURE PART SKIM MOZZARELLA",
-    "precio": 400.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "029882899205.jpg",
-    "existencia": 40.0
-  },
-  {
-    "codigo": "651219205535",
-    "descripcion": "NATURAL & KOSHER QUESO MOZZARELLA RALLADO 907 GRS",
-    "precio": 350.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219205535.jpg",
-    "existencia": 70.0
-  },
-  {
-    "codigo": "014353000624",
-    "descripcion": "MEHADRIM COTTAGE CHEESE NON FAT FIT FREE 16 OZ",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000624.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "014353000518",
-    "descripcion": "MEHADRIM COTTAGE CHEESE LOW FAT 453 GRS",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000518.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "014353000013",
-    "descripcion": "MEHADRIM COTTAGE CHEESE 454 GRS",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000013.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "651219102018",
-    "descripcion": "NATURAL & KOSHER MOZZARELLA CHEESE STICKS 255 GRS",
-    "precio": 271.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219102018.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "5500010007610",
-    "descripcion": "YUMMY PIZZA CHEESE KOSHER LB",
-    "precio": 235.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "KG",
-    "foto": "5500010007610.jpg",
-    "existencia": 200.0
-  },
-  {
-    "codigo": "7501134510933",
-    "descripcion": "KURSON QUESO OAXACA MARINADO 1 KG",
-    "precio": 290.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510933.jpg",
-    "existencia": 10.0
-  },
-  {
-    "codigo": "7501669892249",
-    "descripcion": "KURSON QUESO DE CABRA C/CHIPOTLE 200 GRS",
-    "precio": 190.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501669892249.jpg",
-    "existencia": 22.0
-  },
-  {
-    "codigo": "7501669893178",
-    "descripcion": "KURSON QUESO DE CABRA NATURAL KOSHER 200 GRS",
-    "precio": 190.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501669893178.jpg",
-    "existencia": 350.0
-  },
-  {
-    "codigo": "7501134501195",
-    "descripcion": "KURSON QUESO FETA 500 GRS",
-    "precio": 320.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501195.jpg",
-    "existencia": 128.0
-  },
-  {
-    "codigo": "7501134505469",
-    "descripcion": "KURSON QUESO FETA KOSHER 250 GR",
-    "precio": 185.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505469.jpg",
-    "existencia": 225.0
-  },
-  {
-    "codigo": "7501134801850",
-    "descripcion": "KURSON QUESO PROVOLONE AHUMADO KOSHER 600 GR",
-    "precio": 380.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134801850.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7501134510920",
-    "descripcion": "KURSON QUESO OAXACA KOSHER 500 GR",
-    "precio": 135.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510920.jpg",
-    "existencia": 56.0
-  },
-  {
-    "codigo": "7501134510609",
-    "descripcion": "KURSON QUESO PANELA KOSHER 500 GRS",
-    "precio": 132.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510609.jpg",
-    "existencia": 65.0
-  },
-  {
-    "codigo": "03345",
-    "descripcion": "COVADONGA QUESO PARMESANO KG",
-    "precio": 670.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "KG",
-    "foto": "03345.jpg",
-    "existencia": 235.0
-  },
-  {
-    "codigo": "7501134502031",
-    "descripcion": "KURSON QUESO OAXACA KOSHER 1 KG",
-    "precio": 289.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502031.jpg",
-    "existencia": 15.0
-  },
-  {
-    "codigo": "7501134502543",
-    "descripcion": "KURSON QUESO MANCHEGO KOSHER 1 kg.",
-    "precio": 280.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502543.jpg",
-    "existencia": 144.0
-  },
-  {
-    "codigo": "7501134510715",
-    "descripcion": "KURSON QUESO MANCHEGO KOSHER 500 GR",
-    "precio": 142.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510715.jpg",
-    "existencia": 96.0
-  },
-  {
-    "codigo": "026638269909",
-    "descripcion": "HAOLAM PARMESAN GRATED CHEESE",
-    "precio": 220.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "026638269909.JPG",
-    "existencia": 78.0
-  },
-  {
-    "codigo": "026638251102",
-    "descripcion": "HAOLAM QUESO AMERICANO BLANCO 108 1.36 KG",
-    "precio": 820.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "026638251102.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "030900007045",
-    "descripcion": "PAULY QUESO CREMA 227 GRS",
-    "precio": 73.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "030900007045.jpg",
-    "existencia": 72.0
   },
   {
     "codigo": "014353100041",
