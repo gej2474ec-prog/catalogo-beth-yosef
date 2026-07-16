@@ -1028,7 +1028,14 @@
       const q = cotizaBuscar.value.trim().toLowerCase();
       let res = [];
       if(q.length === 0){
-        res = BASE.slice(0, 24);
+        // Por defecto, primero los que dicen "res"
+        const esRes = /\bres\b/i;
+        for(let i = 0; i < BASE.length && res.length < 24; i++){
+          if(esRes.test(BASE[i].descripcion || '')) res.push(BASE[i]);
+        }
+        for(let i = 0; i < BASE.length && res.length < 24; i++){
+          if(!esRes.test(BASE[i].descripcion || '')) res.push(BASE[i]);
+        }
       }else{
         for(let i = 0; i < BASE.length && res.length < 40; i++){
           const p = BASE[i];
