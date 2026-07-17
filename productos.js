@@ -1584,7 +1584,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476402.jpg",
     "existencia": 72.0
   },
   {
@@ -1593,7 +1593,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476303.jpg",
     "existencia": 384.0
   },
   {
@@ -1602,7 +1602,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476358.jpg",
     "existencia": 240.0
   },
   {
@@ -1611,7 +1611,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476334.jpg",
     "existencia": 96.0
   },
   {
@@ -1620,7 +1620,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476341.jpg",
     "existencia": 72.0
   },
   {
@@ -1629,7 +1629,7 @@ const PRODUCTOS = [
     "precio": 13.0,
     "familia": "ABARROTES IMPORTADOS",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "070970476327.jpg",
     "existencia": 72.0
   },
   {
@@ -7930,4 +7930,4 @@ const DESCUENTOS = {
 };
 
 const RESTRINGIDOS = {"town2": ["CARNES FRIAS IMPORTADAS", "QUESO IMPORTADO", "REFRIGERADO IMPORTADO", "CONGELADO IMPORTADO", "ABARROTES IMPORTADOS", "JUGO IMPORTADO", "VINO IMPORTADO"], "490913": ["VINO IMPORTADO"]};
-const RESTRINGIDOS_PROD = {"109031": ["025675125827", "070970476402", "070970476303", "070970476358", "070970476334", "070970476341", "070970476327", "025675125889", "070227610047", "7610041011878", "7610041011861", "025675125889", "025675300088", "025675300231"]};
+const RESTRINGIDOS_PROD = {"109031": ["025675125827", "070970476402", "070970476303", "070970476358", "070970476334", "070970476341", "070970476327", "025675125889", "070227610047", "7610041011878", "7610041011861", "025675125889", "025675300088", "025675300231", "025675301177", "025675301108", "025675301153", "025675301207", "025675301269", "025675301122", "070970476402", "025675301863", "025675301924", "025675301108", "025675301207", "025675301269", "025675301122", "025675122819", "025675880504", "025675125827", "025675125889", "013495113735", "013495113506", "025675010840", "025675010062"]};
