@@ -4,139 +4,589 @@
 
 const PRODUCTOS = [
   {
-    "codigo": "852884001358",
-    "descripcion": "ZACHLAWI PLATINUM VODKA COLD BREW 750 ML",
-    "precio": 1055.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001358.jpeg",
-    "existencia": null
+    "codigo": "10004",
+    "descripcion": "TIRA TIPO ARGENTINA DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10004.jpg",
+    "existencia": 30.8
   },
   {
-    "codigo": "852884001419",
-    "descripcion": "ZACHLAWI PLATINUM RESERVE GOURMET FIG ARAK",
-    "precio": 840.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001419.jpeg",
-    "existencia": null
+    "codigo": "10103",
+    "descripcion": "SABANAS DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10103.jpg",
+    "existencia": 5.8
   },
   {
-    "codigo": "852884003567",
-    "descripcion": "ZACHLAWI PISTACHIO ARAK 750 ML",
-    "precio": 1129.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884003567.jpg",
-    "existencia": null
+    "codigo": "10033",
+    "descripcion": "RODILLA DE RES KOSHER KG",
+    "precio": 318.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10033.jpg",
+    "existencia": 54.0
   },
   {
-    "codigo": "852884001457",
-    "descripcion": "ZACHLAWI FIG ARAK 750 ML",
-    "precio": 840.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001457.jpg",
-    "existencia": null
+    "codigo": "10861",
+    "descripcion": "RIB EYE DE RES KOSHER NACIONAL kg.",
+    "precio": 644.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10861.jpeg",
+    "existencia": 51.0
   },
   {
-    "codigo": "852884001426",
-    "descripcion": "ZACHLAWI CLASSIC ARAK 750 ML",
-    "precio": 750.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001426.jpg",
-    "existencia": null
+    "codigo": "10052",
+    "descripcion": "PUNTAS DE RES KOSHER KG",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10052.jpg",
+    "existencia": 68.5
   },
   {
-    "codigo": "852884001433",
-    "descripcion": "ZACHLAWI CLASSIC ARAK 750 ML",
-    "precio": 900.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001433.jpg",
-    "existencia": 78.0
+    "codigo": "00050",
+    "descripcion": "PECHO DE RES CRUDO KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "00050.jpg",
+    "existencia": 717.4
   },
   {
-    "codigo": "751778906352",
-    "descripcion": "ZACHLAWI CHOCOLATE DREAM VODKA 750 ML",
-    "precio": 1292.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "751778906352.jpg",
-    "existencia": null
+    "codigo": "10048",
+    "descripcion": "PALETA DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10048.jpg",
+    "existencia": 115.1
   },
   {
-    "codigo": "852884003550",
-    "descripcion": "ZACHLAWI BLACK CHERRY ARAK 750 ML",
-    "precio": 1371.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884003550.jpg",
-    "existencia": 19.0
+    "codigo": "10046",
+    "descripcion": "MOLLEJA DE RES KOSHER KG",
+    "precio": 720.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10046.jpeg",
+    "existencia": 50.0
   },
   {
-    "codigo": "852884001082",
-    "descripcion": "ZACHLAWI BLACK ARAK 750 ML",
-    "precio": 1133.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "852884001082.jpg",
-    "existencia": null
+    "codigo": "10040",
+    "descripcion": "MOLIDA DE RES KOSHER kg.",
+    "precio": 513.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10040.jpg",
+    "existencia": 469.52
   },
   {
-    "codigo": "029882899021",
-    "descripcion": "YUMMY UNSALTED BUTTER 8 OZ",
-    "precio": 180.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "029882899021.jpg",
-    "existencia": 48.0
+    "codigo": "10043",
+    "descripcion": "MACIZA DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10043.jpg",
+    "existencia": 21.3
   },
   {
-    "codigo": "726665963169",
-    "descripcion": "YUMMY SNACKS CHEESE CURLS 2 OZ",
-    "precio": 56.0,
-    "familia": "QUESO IMPORTADO",
+    "codigo": "10035",
+    "descripcion": "KURSON LENGUA CRUDA DE RES NATURAL KOSHER KG",
+    "precio": 1365.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10035.jpg",
+    "existencia": 13.2
+  },
+  {
+    "codigo": "12593",
+    "descripcion": "HUESO TUETANO DE RES KOSHER KG",
+    "precio": 318.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "12593.jpg",
+    "existencia": 65.7
+  },
+  {
+    "codigo": "00029",
+    "descripcion": "GRASA DE RES KOSHER KG",
+    "precio": 158.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "00029.jpg",
+    "existencia": 1869.95
+  },
+  {
+    "codigo": "10028",
+    "descripcion": "FILETE DE RES KOSHER KG",
+    "precio": 1638.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10028.jpg",
+    "existencia": 259.64
+  },
+  {
+    "codigo": "10025",
+    "descripcion": "FALDA DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10025.jpg",
+    "existencia": 47.24
+  },
+  {
+    "codigo": "10022",
+    "descripcion": "DIEZMILLO DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10022.jpg",
+    "existencia": 36.7
+  },
+  {
+    "codigo": "10016",
+    "descripcion": "COSTILLA DE RES KOSHER CON HUESO KG",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10016.jpg",
+    "existencia": 8.0
+  },
+  {
+    "codigo": "10021",
+    "descripcion": "CHAMBARETE SIN HUESO DE RES KOSHER KG (MOZAT)",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10021.jpg",
+    "existencia": 74.02
+  },
+  {
+    "codigo": "10020",
+    "descripcion": "CHAMBARETE CON HUESO DE RES KOSHER KG (MOZAT)",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10020.jpg",
+    "existencia": 15.9
+  },
+  {
+    "codigo": "10014",
+    "descripcion": "BROCHETA PARA ALAMBRE  kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10014.jpg",
+    "existencia": 136.92
+  },
+  {
+    "codigo": "10009",
+    "descripcion": "BISTECK ,MILANESA DE RES KOSHER kg",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10009.jpg",
+    "existencia": 21.12
+  },
+  {
+    "codigo": "10002",
+    "descripcion": "ARRACHERA DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10002.jpg",
+    "existencia": 268.8
+  },
+  {
+    "codigo": "10007",
+    "descripcion": "AGUJAS SIN HUESO DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10007.jpg",
+    "existencia": 19.1
+  },
+  {
+    "codigo": "10008",
+    "descripcion": "AGUJAS CON HUESO DE RES KOSHER kg.",
+    "precio": 539.0,
+    "familia": "RES",
+    "unidad": "K",
+    "foto": "10008.jpg",
+    "existencia": 455.88
+  },
+  {
+    "codigo": "10085",
+    "descripcion": "PECHO DE TERNERA KOSHER kg.",
+    "precio": 1110.0,
+    "familia": "TERNERA",
+    "unidad": "K",
+    "foto": "10085.jpg",
+    "existencia": 17.5
+  },
+  {
+    "codigo": "10083",
+    "descripcion": "OSOBUCO DE TERNERA KOSHER kg.",
+    "precio": 1110.0,
+    "familia": "TERNERA",
+    "unidad": "K",
+    "foto": "10083.jpg",
+    "existencia": 166.6
+  },
+  {
+    "codigo": "10081",
+    "descripcion": "MANO DE TERNERA KOSHER kg.",
+    "precio": 1110.0,
+    "familia": "TERNERA",
+    "unidad": "K",
+    "foto": "10081.jpg",
+    "existencia": 181.0
+  },
+  {
+    "codigo": "10069",
+    "descripcion": "COSTILLA DE TERNERA KOSHER kg.",
+    "precio": 1110.0,
+    "familia": "TERNERA",
+    "unidad": "K",
+    "foto": "10069.jpg",
+    "existencia": 133.0
+  },
+  {
+    "codigo": "7503046084810",
+    "descripcion": "KURSON TOCINO DE RES KOSHER KG",
+    "precio": 650.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 8.0
+  },
+  {
+    "codigo": "7501134500495",
+    "descripcion": "KURSON SALCHICHA VIENA DE RES KOSHER 340 GRS",
+    "precio": 130.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500495.jpg",
+    "existencia": 1488.0
+  },
+  {
+    "codigo": "7501134501867",
+    "descripcion": "KURSON SALCHICHA VIENA DE PAVO KOSHER 390 GRS",
+    "precio": 86.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501867.jpg",
+    "existencia": 492.0
+  },
+  {
+    "codigo": "7501134500440",
+    "descripcion": "KURSON SALCHICHA POLACA DE RES KOSHER 907 GRS",
+    "precio": 305.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500440.jpg",
+    "existencia": 1056.0
+  },
+  {
+    "codigo": "7501134510944",
+    "descripcion": "KURSON SALCHICHA POLACA DE RES KOSHER 454 GRS",
+    "precio": 156.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510944.jpg",
+    "existencia": 372.0
+  },
+  {
+    "codigo": "7503046084537",
+    "descripcion": "KURSON SALCHICHA POLACA DE RES 700 GR 5 PZS",
+    "precio": 217.0,
+    "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
     "foto": "",
-    "existencia": 105.0
+    "existencia": 123.0
   },
   {
-    "codigo": "029882899205",
-    "descripcion": "YUMMY SHREDDED LOW MOISTURE PART SKIM MOZZARELLA",
-    "precio": 400.0,
-    "familia": "QUESO IMPORTADO",
+    "codigo": "7501134500907",
+    "descripcion": "KURSON SALCHICHA POLACA DE PAVO TWO PACK 1080 GRS",
+    "precio": 148.0,
+    "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "029882899205.jpg",
+    "foto": "",
+    "existencia": 1810.0
+  },
+  {
+    "codigo": "7501134505391",
+    "descripcion": "KURSON SALCHICHA POLACA DE PAVO KOSHER 540 GRS",
+    "precio": 96.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505391.jpg",
+    "existencia": 948.0
+  },
+  {
+    "codigo": "7501134501904",
+    "descripcion": "KURSON SALCHICHA DELI DE RES KOSHER 907 GRS",
+    "precio": 296.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 300.0
+  },
+  {
+    "codigo": "7501134500471",
+    "descripcion": "KURSON SALCHICHA COCKTAIL DE RES KOSHER 340 GRS",
+    "precio": 126.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500471.jpeg",
+    "existencia": 156.0
+  },
+  {
+    "codigo": "7501134505384",
+    "descripcion": "KURSON SALCHICHA COCKTAIL DE PAVO KOSHER 340 GRS",
+    "precio": 90.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505384.jpeg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "7501134500914",
+    "descripcion": "KURSON SALCHICHA ARABE DE RES KOSHER 500 GRS",
+    "precio": 278.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500914.jpg",
+    "existencia": 1058.0
+  },
+  {
+    "codigo": "7501134500600",
+    "descripcion": "KURSON SALAMI STICK DE RES KOSHER 30 GRS",
+    "precio": 36.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500600.jpg",
+    "existencia": 1199.0
+  },
+  {
+    "codigo": "7501134500464",
+    "descripcion": "KURSON SALAMI DE RES KOSHER 907 GRS",
+    "precio": 273.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500464.jpg",
+    "existencia": 450.0
+  },
+  {
+    "codigo": "7501134500433",
+    "descripcion": "KURSON SALAMI DE RES KOSHER 340 GRS",
+    "precio": 116.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500433.jpg",
+    "existencia": 876.0
+  },
+  {
+    "codigo": "7503046084841",
+    "descripcion": "KURSON SALAMI DE RES KG",
+    "precio": 550.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 9.7
+  },
+  {
+    "codigo": "900056",
+    "descripcion": "KURSON ROAST BEEF DE RES KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "900056.jpg",
+    "existencia": 25.8
+  },
+  {
+    "codigo": "7501134500679",
+    "descripcion": "KURSON ROAST BEEF DE RES KOSHER 250 GRS",
+    "precio": 164.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500679.jpg",
+    "existencia": 198.0
+  },
+  {
+    "codigo": "7501134505629",
+    "descripcion": "KURSON RECORTE DE CARNES FRIAS KOSHER 250 GRS",
+    "precio": 59.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505629.jpg",
     "existencia": 40.0
   },
   {
-    "codigo": "90754",
-    "descripcion": "YUMMY QUESO FETA KG",
-    "precio": 484.0,
-    "familia": "QUESO IMPORTADO",
+    "codigo": "30877",
+    "descripcion": "KURSON PECHUGON DE PAVO KOSHER CRUDO KG",
+    "precio": 450.0,
+    "familia": "CARNES FRIAS NACIONAL",
     "unidad": "K",
-    "foto": "90754.jpg",
-    "existencia": 182.0
+    "foto": "30877.jpeg",
+    "existencia": 20.9
   },
   {
-    "codigo": "5500010007610",
-    "descripcion": "YUMMY PIZZA CHEESE KOSHER LB",
-    "precio": 235.0,
-    "familia": "CONGELADO IMPORTADO",
-    "unidad": "K",
-    "foto": "5500010007610.jpg",
-    "existencia": 151.69
-  },
-  {
-    "codigo": "726665963183",
-    "descripcion": "YUMMY CHEESE CURLS .75 OZ",
-    "precio": 24.0,
-    "familia": "QUESO IMPORTADO",
+    "codigo": "7503046084100",
+    "descripcion": "KURSON PECHUGA DE PAVO REBANADA KOSHER 250 GRS",
+    "precio": 169.0,
+    "familia": "CARNES FRIAS NACIONAL",
     "unidad": "PZ",
-    "foto": "",
+    "foto": "7503046084100.jpg",
+    "existencia": 264.0
+  },
+  {
+    "codigo": "00118",
+    "descripcion": "KURSON PECHUGA DE PAVO CLASICA KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "00118.jpg",
+    "existencia": 166.4
+  },
+  {
+    "codigo": "7501134500617",
+    "descripcion": "KURSON PECHUGA DE PAVO AHUMADA KOSHER REBANADA 500 GRS",
+    "precio": 372.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500617.jpg",
+    "existencia": 660.0
+  },
+  {
+    "codigo": "11156",
+    "descripcion": "KURSON PECHUGA DE PAVO AHUMADA KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "11156.jpg",
+    "existencia": 48.6
+  },
+  {
+    "codigo": "7501134500365",
+    "descripcion": "KURSON PASTRAMI DE RES KOSHER REBANADO 227 GRS",
+    "precio": 164.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500365.jpg",
     "existencia": 480.0
+  },
+  {
+    "codigo": "900119",
+    "descripcion": "KURSON PASTRAMI DE RES KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "900119.jpg",
+    "existencia": 73.4
+  },
+  {
+    "codigo": "7503046084803",
+    "descripcion": "KURSON PASTRAMI DE RES KOSHER KG",
+    "precio": 650.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 7.5
+  },
+  {
+    "codigo": "00115",
+    "descripcion": "KURSON PASTEL DE PAVO CON PIMIENTO KOSHER KG",
+    "precio": 431.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "00115.jpg",
+    "existencia": 9.2
+  },
+  {
+    "codigo": "00114",
+    "descripcion": "KURSON PASTEL DE PAVO CON ACEITUNA KOSHER KG",
+    "precio": 431.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "00114.jpg",
+    "existencia": 9.2
+  },
+  {
+    "codigo": "900044",
+    "descripcion": "KURSON LOMO CANADIENSE KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "900044.jpg",
+    "existencia": 108.0
+  },
+  {
+    "codigo": "7503046084117",
+    "descripcion": "KURSON JAMON REBANADO KOSHER 250 GRS",
+    "precio": 169.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503046084117.jpg",
+    "existencia": 348.0
+  },
+  {
+    "codigo": "7501134500372",
+    "descripcion": "KURSON CORNED BEEF DE RES KOSHER REBANADO 227 GRS",
+    "precio": 164.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500372.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "900109",
+    "descripcion": "KURSON CORNED BEEF DE RES KOSHER KG",
+    "precio": 653.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "900109.jpg",
+    "existencia": 74.7
+  },
+  {
+    "codigo": "7501134501003",
+    "descripcion": "KURSON BOLOGNIA DE RES KOSHER 907 GRS",
+    "precio": 313.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501003.jpg",
+    "existencia": 120.0
+  },
+  {
+    "codigo": "7501134500105",
+    "descripcion": "KURSON BOLOGNIA DE RES KOSHER 340 GRS",
+    "precio": 85.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500105.jpeg",
+    "existencia": 288.0
+  },
+  {
+    "codigo": "00895",
+    "descripcion": "ROAST BEEF SUBSIDIO KG",
+    "precio": 340.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 477.0
+  },
+  {
+    "codigo": "00897",
+    "descripcion": "PECHUGA AHUMADA DE REBANAR SUBSIDIO KG",
+    "precio": 350.0,
+    "familia": "CARNES FRIAS NACIONAL",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 534.5
   },
   {
     "codigo": "078812007258",
@@ -155,42 +605,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "730127101105.jpg",
     "existencia": 15.0
-  },
-  {
-    "codigo": "851561007270",
-    "descripcion": "YATIR CREEK RED 750 ML",
-    "precio": 1000.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "851561007270.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "736040003472",
-    "descripcion": "YARDEN ROSE 750 ML",
-    "precio": 780.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "736040003472.jpg",
-    "existencia": 13.0
-  },
-  {
-    "codigo": "736040011804",
-    "descripcion": "YARDEN MERLOT 750 ML",
-    "precio": 1000.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "736040011804.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "736040011798",
-    "descripcion": "YARDEN CARBERNET SAUVIGNON 750 ML",
-    "precio": 1824.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "736040011798.jpg",
-    "existencia": null
   },
   {
     "codigo": "8901537076679",
@@ -220,69 +634,6 @@ const PRODUCTOS = [
     "existencia": 3.0
   },
   {
-    "codigo": "087752013816",
-    "descripcion": "WEINSTOCK MOSCATO WHITE WINE 750 ML",
-    "precio": 284.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752013816.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752015155",
-    "descripcion": "WEINSTOCK CELLAR SELECT CHARDONAY 750 ML",
-    "precio": 644.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752015155.jpg",
-    "existencia": 18.0
-  },
-  {
-    "codigo": "087752015148",
-    "descripcion": "WEINSTOCK CELLAR SELECT 750 ML",
-    "precio": 583.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752015148.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752015346",
-    "descripcion": "WEINSTOCK CABERNET SAUVINGON 1.5 LT",
-    "precio": 452.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752015346.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752015001",
-    "descripcion": "WEINSTOCK CABERNET SAUVIGNON CALIFORNIA 750 ML",
-    "precio": 320.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752015001.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "9310489200091",
-    "descripcion": "VINO TIERRA SALVAJE CHARDONNAY 750 ML",
-    "precio": 320.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "9310489200091.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7500463027628",
-    "descripcion": "VEGGIE MIX CONSOME PARVE 750 GRS",
-    "precio": 170.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7500463027628.jpg",
-    "existencia": 22.0
-  },
-  {
     "codigo": "634707045295",
     "descripcion": "UPSTREAM CHUNK LIGHT TUNA IN WATER 66.5 OZ",
     "precio": 489.0,
@@ -290,33 +641,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "634707045295.jpg",
     "existencia": 52.0
-  },
-  {
-    "codigo": "087752012796",
-    "descripcion": "TZUBA METZUDA RESERVE 750 ML",
-    "precio": 989.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752012796.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752012741",
-    "descripcion": "TZUBA METZUDA 750 ML",
-    "precio": 946.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752012741.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "877520127582",
-    "descripcion": "TZUBA CABERNET SAUVINGNON 750 ML",
-    "precio": 849.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "877520127582.jpg",
-    "existencia": null
   },
   {
     "codigo": "032797500227",
@@ -355,24 +679,6 @@ const PRODUCTOS = [
     "existencia": 408.0
   },
   {
-    "codigo": "850775007410",
-    "descripcion": "TIRAT ZVI TURKEY BREAST MEXICAN 120Z",
-    "precio": 270.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "850775007410.jpg",
-    "existencia": 20.0
-  },
-  {
-    "codigo": "10004",
-    "descripcion": "TIRA TIPO ARGENTINA DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10004.jpg",
-    "existencia": 30.8
-  },
-  {
     "codigo": "840985118501",
     "descripcion": "THE ICE OF PARTY, COOLOO FROZEN COCKTAIL POPS",
     "precio": 491.0,
@@ -382,168 +688,6 @@ const PRODUCTOS = [
     "existencia": 28.0
   },
   {
-    "codigo": "015643554605",
-    "descripcion": "THE BUTCHERS DAUGTHER SAUVIGNON BLANC 750 ML",
-    "precio": 322.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643554605.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "015643554599",
-    "descripcion": "THE BUTCHERS DAUGHTER ROSE 750 ML",
-    "precio": 397.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643554599.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "015643513169",
-    "descripcion": "THE BUTCHERS DAUGHTER CHARDONAY 750 ML",
-    "precio": 402.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643513169.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752019627",
-    "descripcion": "TEPERBERG VISION WHITE SEMI DRY 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019627.jpg",
-    "existencia": 23.0
-  },
-  {
-    "codigo": "087752021279",
-    "descripcion": "TEPERBERG VISION SHIRAZ 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752021279.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752019603",
-    "descripcion": "TEPERBERG VISION MERLOT 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019603.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752023327",
-    "descripcion": "TEPERBERG VISION MALBEC 750 ML",
-    "precio": 332.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752023327.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752023310",
-    "descripcion": "TEPERBERG VISION DRY WHITE WINE 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752023310.jpg",
-    "existencia": 21.0
-  },
-  {
-    "codigo": "087752019610",
-    "descripcion": "TEPERBERG VISION CABERNET SAUVIGNON 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019610.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752038666",
-    "descripcion": "TEPERBERG INSPIRE ART SERIES DABOUKI 750 ML",
-    "precio": 673.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752038666.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752019658",
-    "descripcion": "TEPERBERG IMPRESSION ROJO M 750 ML",
-    "precio": 500.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019658.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752019665",
-    "descripcion": "TEPERBERG IMPRESSION ROJO C 750 ML",
-    "precio": 500.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019665.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752019696",
-    "descripcion": "TEPERBERG ESSENCE ROJO C 750 ML",
-    "precio": 1066.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019696.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752021545",
-    "descripcion": "TEPERBERG ESSENCE MERLOT 750  ML",
-    "precio": 1455.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752021545.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752024713",
-    "descripcion": "TEPERBERG CABERNET SAUVIGNON PETITE SIRAH",
-    "precio": 280.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752024713.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "74353873",
-    "descripcion": "TEIBE CONSOME GOURMET DE POLLO SIN GLUTAMATO 500 GRS",
-    "precio": 90.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZA",
-    "foto": "74353873.jpg",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "7503010501466",
-    "descripcion": "TEIBE CONSOME 1 KG",
-    "precio": 180.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503010501466.jpg",
-    "existencia": 20.0
-  },
-  {
-    "codigo": "087752006566",
-    "descripcion": "TEAL LAKE SHIRAZ 750 ML",
-    "precio": 276.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752006566.jpeg",
-    "existencia": null
-  },
-  {
     "codigo": "810291001002",
     "descripcion": "TATE´S BAKE SHO COOKIES CHOCOLATE CHIP 7 OZ",
     "precio": 174.0,
@@ -551,15 +695,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "810291001002.jpg",
     "existencia": 11.0
-  },
-  {
-    "codigo": "087752021644",
-    "descripcion": "TABOR ADAMA BARBERA ROSE 750 ML",
-    "precio": 538.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752021644.jpg",
-    "existencia": null
   },
   {
     "codigo": "070227610047",
@@ -643,87 +778,6 @@ const PRODUCTOS = [
     "existencia": 48.0
   },
   {
-    "codigo": "023632082435",
-    "descripcion": "SIVIANO MERLOT",
-    "precio": 325.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "023632082435.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "023632082459",
-    "descripcion": "SIVIANO CHARDONAY",
-    "precio": 325.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "023632082459.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752011805",
-    "descripcion": "SHILOH CABERNET SAUVIGNON SHOR SHILOH 750 ML",
-    "precio": 990.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752011805.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752012932",
-    "descripcion": "SHILOH BARBERA SHOR 750 ML",
-    "precio": 700.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752012932.jpg",
-    "existencia": 6.0
-  },
-  {
-    "codigo": "087752016282",
-    "descripcion": "SHILO LEGEND II 2010 750 ML",
-    "precio": 689.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752016282.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752014462",
-    "descripcion": "SHILO LEGEND 2009",
-    "precio": 827.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752014462.jpg",
-    "existencia": 6.0
-  },
-  {
-    "codigo": "087752028391",
-    "descripcion": "SFORNO RED BLEN GRAN RESERVA 750 ML",
-    "precio": 484.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752028391.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752028377",
-    "descripcion": "SFORNO CABERNET SAUVIGNON RESERVA 750 ML",
-    "precio": 271.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752028377.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752028339",
-    "descripcion": "SFORNO CABERNET SAUVIGNON 750 ML",
-    "precio": 301.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752028339.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "040822043304",
     "descripcion": "SEA CASTLE FLAT ANCHOVIES IN OIL 2 OZ",
     "precio": 88.0,
@@ -733,24 +787,6 @@ const PRODUCTOS = [
     "existencia": 276.0
   },
   {
-    "codigo": "087752017234",
-    "descripcion": "SCHMERLINGS COFFEE LIQUEUR 750 ML",
-    "precio": 716.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017234.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752017227",
-    "descripcion": "SCHMERLINGS CHOCOLATE LIQUEUR 750 ML",
-    "precio": 716.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017227.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "097643071443",
     "descripcion": "SCHEMERLINGS MINOR",
     "precio": 50.0,
@@ -758,42 +794,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "097643071443.jpg",
     "existencia": 240.0
-  },
-  {
-    "codigo": "087752021897",
-    "descripcion": "SAINTE BEATRICE ROSA 750 ML",
-    "precio": 476.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752021897.jpeg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "085662003125",
-    "descripcion": "SABRA CHOCOLATE ORANGE LUQUEUR 750 ML",
-    "precio": 863.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "085662003125.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "10103",
-    "descripcion": "SABANAS DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10103.jpg",
-    "existencia": 5.8
-  },
-  {
-    "codigo": "087752005972",
-    "descripcion": "ROYALE  CABERNET SAUVIGNON 187 ML",
-    "precio": 120.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752005972.JPG",
-    "existencia": null
   },
   {
     "codigo": "7610041011878",
@@ -823,132 +823,6 @@ const PRODUCTOS = [
     "existencia": 336.0
   },
   {
-    "codigo": "10033",
-    "descripcion": "RODILLA DE RES KOSHER KG",
-    "precio": 318.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10033.jpg",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "00895",
-    "descripcion": "ROAST BEEF SUBSIDIO KG",
-    "precio": 340.0,
-    "familia": "CARNES FRIAS NACIONALE",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 477.0
-  },
-  {
-    "codigo": "049800195363",
-    "descripcion": "RICHS WHIP TOPPING SIN AZUCAR 907 GRS",
-    "precio": 145.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "049800195363.png",
-    "existencia": 144.0
-  },
-  {
-    "codigo": "10861",
-    "descripcion": "RIB EYE DE RES KOSHER NACIONAL kg.",
-    "precio": 644.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10861.jpeg",
-    "existencia": 51.0
-  },
-  {
-    "codigo": "087752020043",
-    "descripcion": "RASHI RASHI CONCORD LIGHT RED 750 ML",
-    "precio": 121.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752020043.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752020050",
-    "descripcion": "RASHI CONCORD LIGHT WHITE 750 ML",
-    "precio": 121.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752020050.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752020029",
-    "descripcion": "RASHI CONCORD LIGHT PINK 750 ML",
-    "precio": 113.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752020029.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752025413",
-    "descripcion": "RAMON CARDOVA RIOJA RESERVA OLD VINES 750 ML",
-    "precio": 520.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752025413.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752015575",
-    "descripcion": "RAMON CARDOVA RIOJA GARNACHA 750 ML",
-    "precio": 418.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752015575.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752007907",
-    "descripcion": "RAMON CARDOVA RIOJA 750 ML",
-    "precio": 500.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752007907.jpg",
-    "existencia": 6.0
-  },
-  {
-    "codigo": "087752007921",
-    "descripcion": "RAMON CARDOVA CRIANZA 750 ML",
-    "precio": 587.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752007921.jpg",
-    "existencia": 56.0
-  },
-  {
-    "codigo": "844510022103",
-    "descripcion": "RAMBAM MOSCATO 750 ML",
-    "precio": 389.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510022103.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510021120",
-    "descripcion": "RAMBAM JOVEN WHITE 750 ML",
-    "precio": 260.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510021120.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "10052",
-    "descripcion": "PUNTAS DE RES KOSHER KG",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10052.jpg",
-    "existencia": 68.5
-  },
-  {
     "codigo": "633016081246",
     "descripcion": "PSVR WORCHSHIRE SAUCE 4/1 GALLON",
     "precio": 350.0,
@@ -976,33 +850,6 @@ const PRODUCTOS = [
     "existencia": 11.0
   },
   {
-    "codigo": "087752019207",
-    "descripcion": "PSAGOT SINAI RED MEVUSAHL 750 ML",
-    "precio": 620.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752019207.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752011225",
-    "descripcion": "PSAGOT EDOM 750 ML",
-    "precio": 1250.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752011225.jpg",
-    "existencia": 19.0
-  },
-  {
-    "codigo": "087752011218",
-    "descripcion": "PSAGOT CABERNET SAUVIGNON 750 ML",
-    "precio": 998.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752011218.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "856424000108",
     "descripcion": "Pressels Pretzel Chips Original",
     "precio": 126.0,
@@ -1019,51 +866,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "",
     "existencia": 60.0
-  },
-  {
-    "codigo": "60714",
-    "descripcion": "POLLO ENTERO ORGANICO KOSHER KG",
-    "precio": 260.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "60714.jpg",
-    "existencia": 195.0
-  },
-  {
-    "codigo": "60715",
-    "descripcion": "PIERNA DE POLLO ORGANICO KOSHER KG",
-    "precio": 190.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 99.0
-  },
-  {
-    "codigo": "20715",
-    "descripcion": "PIERNA DE POLLO KG",
-    "precio": 95.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20715.jpg",
-    "existencia": 833.6
-  },
-  {
-    "codigo": "60710",
-    "descripcion": "PIERNA CON MUSLO DE POLLO ORGANICO KOSHER KG",
-    "precio": 190.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "60710.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "20710",
-    "descripcion": "PIERNA CON MUSLO DE POLLO KOSHER kg.",
-    "precio": 95.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20710.jpg",
-    "existencia": 889.68
   },
   {
     "codigo": "025675123151",
@@ -1091,78 +893,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "025675122932.jpg",
     "existencia": 60.0
-  },
-  {
-    "codigo": "087752009840",
-    "descripcion": "PETIT CASTEL 750 ML",
-    "precio": 2076.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752009840.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752016138",
-    "descripcion": "PERAJ PETITA CAPCANES ROSAT",
-    "precio": 393.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752016138.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "20711",
-    "descripcion": "PECHUGA ENTERA DE POLLO C/HUESO",
-    "precio": 270.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20711.jpg",
-    "existencia": 1286.32
-  },
-  {
-    "codigo": "20722",
-    "descripcion": "PECHUGA DE POLLO SIN HUESO KOSHER KG",
-    "precio": 350.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20722.jpg",
-    "existencia": 222.88
-  },
-  {
-    "codigo": "00897",
-    "descripcion": "PECHUGA AHUMADA DE REBANAR SUBSIDIO KG",
-    "precio": 350.0,
-    "familia": "CARNES FRIAS NACIONALE",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 534.5
-  },
-  {
-    "codigo": "10085",
-    "descripcion": "PECHO DE TERNERA KOSHER kg.",
-    "precio": 1110.0,
-    "familia": "TERNERA",
-    "unidad": "K",
-    "foto": "10085.jpg",
-    "existencia": 17.5
-  },
-  {
-    "codigo": "00050",
-    "descripcion": "PECHO DE RES CRUDO KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "00050.jpg",
-    "existencia": 717.4
-  },
-  {
-    "codigo": "030900007045",
-    "descripcion": "PAULY QUESO CREMA 227 GRS",
-    "precio": 73.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "030900007045.jpg",
-    "existencia": 72.0
   },
   {
     "codigo": "025675301863",
@@ -1327,33 +1057,6 @@ const PRODUCTOS = [
     "existencia": 24.0
   },
   {
-    "codigo": "10730",
-    "descripcion": "PARGUIYOT KG",
-    "precio": 210.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 84.5
-  },
-  {
-    "codigo": "10048",
-    "descripcion": "PALETA DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10048.jpg",
-    "existencia": 115.1
-  },
-  {
-    "codigo": "10083",
-    "descripcion": "OSOBUCO DE TERNERA KOSHER kg.",
-    "precio": 1110.0,
-    "familia": "TERNERA",
-    "unidad": "K",
-    "foto": "10083.jpg",
-    "existencia": 166.6
-  },
-  {
     "codigo": "077544001039",
     "descripcion": "OSEM BAMBA PEANUT SNACK 28 GR",
     "precio": 45.0,
@@ -1363,195 +1066,6 @@ const PRODUCTOS = [
     "existencia": 24.0
   },
   {
-    "codigo": "087752016428",
-    "descripcion": "OR HAGANUZ AMUKA SEMI SWEET 750 ML",
-    "precio": 573.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752016428.jpg",
-    "existencia": 35.0
-  },
-  {
-    "codigo": "899361002316",
-    "descripcion": "ODW YERS CREEK SAUVIGNON BLANC 750 ML",
-    "precio": 516.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "899361002316.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "9421902131073",
-    "descripcion": "ODW YERS CREEK PINOT NOIR 750 ML",
-    "precio": 820.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "9421902131073.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "9421010231610",
-    "descripcion": "ODW YERS CREEK CHARDONAY 750 ML",
-    "precio": 515.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "9421010231610.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "890360003038",
-    "descripcion": "NORMAN'S TASTE PEACH APRICOT 5 OZ",
-    "precio": 30.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "890360003038.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "890360004455",
-    "descripcion": "NORMAN'S SQZ MILK YOGURT STRAWBERRY 99 GRS",
-    "precio": 35.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "890360004455.jpeg",
-    "existencia": 108.0
-  },
-  {
-    "codigo": "890360004073",
-    "descripcion": "NORMAN'S GREEK I.Q. VIRTUOSO VANILLA 3.3 OZ",
-    "precio": 44.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "890360004073.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "890360004431",
-    "descripcion": "NORMAN'S CHOCOLATE LEBEN 3.5 OZ",
-    "precio": 47.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "890360004431.jpg",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "073314648817",
-    "descripcion": "NATURES OWN JUGO DE UVA 1.89 LT",
-    "precio": 185.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073314648817.jpg",
-    "existencia": 1232.0
-  },
-  {
-    "codigo": "651219209304",
-    "descripcion": "NATURAL & KOSHER SLICED VARIETY PACK CHEESE",
-    "precio": 335.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219209304.jpg",
-    "existencia": 84.0
-  },
-  {
-    "codigo": "651219205535",
-    "descripcion": "NATURAL & KOSHER QUESO MOZZARELLA RALLADO 907 GRS",
-    "precio": 350.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219205535.jpg",
-    "existencia": 180.0
-  },
-  {
-    "codigo": "651219102018",
-    "descripcion": "NATURAL & KOSHER MOZZARELLA CHEESE STICKS 255 GRS",
-    "precio": 271.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "651219102018.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "60720",
-    "descripcion": "MUSLO DE POLLO ORGANICO KOSHER KG",
-    "precio": 190.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 197.4
-  },
-  {
-    "codigo": "20720",
-    "descripcion": "MUSLO DE POLLO KOSHER KG",
-    "precio": 95.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20720.jpg",
-    "existencia": 2228.72
-  },
-  {
-    "codigo": "087752013625",
-    "descripcion": "MORAD WINERY POMEGRANATE 750 ML",
-    "precio": 577.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752013625.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752013632",
-    "descripcion": "MORAD WINERY PASSION FRUIT 750 ML",
-    "precio": 618.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752013632.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752016749",
-    "descripcion": "MORAD WINERY LYCHEE WINE 750 ML",
-    "precio": 800.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752016749.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752022009",
-    "descripcion": "MORAD WILD BERRIES WINE 750 ML",
-    "precio": 618.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752022009.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "20104",
-    "descripcion": "MOLLEJA POLLO KOSHER kg.",
-    "precio": 60.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20104.jpg",
-    "existencia": 11.4
-  },
-  {
-    "codigo": "10046",
-    "descripcion": "MOLLEJA DE RES KOSHER KG",
-    "precio": 720.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10046.jpeg",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "10040",
-    "descripcion": "MOLIDA DE RES KOSHER kg.",
-    "precio": 513.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10040.jpg",
-    "existencia": 469.52
-  },
-  {
     "codigo": "852955007678",
     "descripcion": "MINA CHILI OLIVE SNACK 2.11 OZ",
     "precio": 87.0,
@@ -1559,24 +1073,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "",
     "existencia": 12.0
-  },
-  {
-    "codigo": "62611",
-    "descripcion": "MILANESA PECHUGA DE POLLO ORGANICO KOSHER KG",
-    "precio": 700.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 72.7
-  },
-  {
-    "codigo": "60810",
-    "descripcion": "MILANESA DE MUSLO DE POLLO ORGANICO KOSHER KG",
-    "precio": 420.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "60810.jpg",
-    "existencia": 70.8
   },
   {
     "codigo": "070970476402",
@@ -1642,96 +1138,6 @@ const PRODUCTOS = [
     "existencia": 120.0
   },
   {
-    "codigo": "60555",
-    "descripcion": "MENUDENCIA DE POLLO ORGANICO KOSHER KG (HUACAL Y RABADILLA)",
-    "precio": 120.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 39.5
-  },
-  {
-    "codigo": "791163371662",
-    "descripcion": "MELODIE DU CHATEAU ROSE",
-    "precio": 250.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "791163371662.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "0791163371679",
-    "descripcion": "MELODIE DU CAHTEAU RED",
-    "precio": 238.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "791163371679.jpg",
-    "existencia": 2.0
-  },
-  {
-    "codigo": "014353102410",
-    "descripcion": "MEHADRIM YO SMART STRAWBERRY 100 GRS",
-    "precio": 40.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353102410.jpg",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "014353110026",
-    "descripcion": "MEHADRIM WHIPPED BUTTER 227 GRS",
-    "precio": 160.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353110026.jpg",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "014353100089",
-    "descripcion": "MEHADRIM LEBEN POUCH CHOCOLATE 3.5 OZ",
-    "precio": 39.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353100089.jpg",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "014353100041",
-    "descripcion": "MEHADRIM LEBEN CHOCOLATE 142 G",
-    "precio": 38.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353100041.jpg",
-    "existencia": 19.0
-  },
-  {
-    "codigo": "014353000624",
-    "descripcion": "MEHADRIM COTTAGE CHEESE NON FAT FIT FREE 16 OZ",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000624.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "014353000518",
-    "descripcion": "MEHADRIM COTTAGE CHEESE LOW FAT 453 GRS",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000518.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "014353000013",
-    "descripcion": "MEHADRIM COTTAGE CHEESE 454 GRS",
-    "precio": 170.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353000013.jpg",
-    "existencia": 12.0
-  },
-  {
     "codigo": "090202156001",
     "descripcion": "MEAH SHEARIM SHMURA MATZO MEAL 16 OZ",
     "precio": 220.0,
@@ -1739,51 +1145,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "090202156001.jpg",
     "existencia": 8.0
-  },
-  {
-    "codigo": "67620696",
-    "descripcion": "MCCAIN PAPA ESPIRAL CONDIMENTADA PZ",
-    "precio": 249.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "67620696.jpg",
-    "existencia": 60.0
-  },
-  {
-    "codigo": "5236810",
-    "descripcion": "MATAR CB 70 ML",
-    "precio": 2105.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "5236810.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752024577",
-    "descripcion": "MATAR CABERNET SAUVIGNON 750 ML",
-    "precio": 1512.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752024577.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7503040679456",
-    "descripcion": "MARINA AZUL ATUN EN HOJUELAS EN AGUA 120 GR",
-    "precio": 35.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503040679456.jpg",
-    "existencia": 96.0
-  },
-  {
-    "codigo": "10081",
-    "descripcion": "MANO DE TERNERA KOSHER kg.",
-    "precio": 1110.0,
-    "familia": "TERNERA",
-    "unidad": "K",
-    "foto": "10081.jpg",
-    "existencia": 181.0
   },
   {
     "codigo": "072700008563",
@@ -1822,15 +1183,6 @@ const PRODUCTOS = [
     "existencia": 720.0
   },
   {
-    "codigo": "085976033931",
-    "descripcion": "MANISCHEWITZ CONCORD GRAPE 750 ML",
-    "precio": 235.0,
-    "familia": "VINO NACIONAL",
-    "unidad": "PZ",
-    "foto": "085976033931.JPG",
-    "existencia": 168.0
-  },
-  {
     "codigo": "072700000680",
     "descripcion": "MANISCHEWITZ CHICKEN ROASTERS ORIGINAL 3 OZ",
     "precio": 69.0,
@@ -1838,24 +1190,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "072700000680.jpg",
     "existencia": 6.0
-  },
-  {
-    "codigo": "015643515446",
-    "descripcion": "MADEMOISELLE ROSE 750 ML",
-    "precio": 800.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643515446.jpg",
-    "existencia": 216.0
-  },
-  {
-    "codigo": "10043",
-    "descripcion": "MACIZA DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10043.jpg",
-    "existencia": 21.3
   },
   {
     "codigo": "043427004138",
@@ -2011,69 +1345,6 @@ const PRODUCTOS = [
     "existencia": 120.0
   },
   {
-    "codigo": "7501161502028",
-    "descripcion": "LEON LECHE SABOR CHOCOLATE 236 ML",
-    "precio": 17.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501161502028.jpg",
-    "existencia": 6344.0
-  },
-  {
-    "codigo": "844510015280",
-    "descripcion": "LAVIE PRALINE LIQUEUR 750 ML",
-    "precio": 717.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015280.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510015044",
-    "descripcion": "LAVIE MINT CHOCOLATE LIQUEUR 750 ML",
-    "precio": 632.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015044.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510015082",
-    "descripcion": "LAVIE DULCE DE LECHE LIQUEUR 750 ML",
-    "precio": 716.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015082.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510015099",
-    "descripcion": "LAVIE DULCE DE LECHE 200 ML",
-    "precio": 367.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015099.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510015211",
-    "descripcion": "LAVIE COFFEE & CREAM 200 ML",
-    "precio": 272.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015211.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "844510015020",
-    "descripcion": "LAVIE CHOCOLATE PISTACHIO LIQUEUR 750 ML",
-    "precio": 855.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510015020.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "079200631635",
     "descripcion": "LAFFY TAFFY ROPE STRAWBERRY 22.9 GRS",
     "precio": 16.0,
@@ -2083,852 +1354,6 @@ const PRODUCTOS = [
     "existencia": 24.0
   },
   {
-    "codigo": "7501047902706",
-    "descripcion": "LA HUERTA CHICHARO CONGELADO 500 GRS",
-    "precio": 68.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501047902706.JPG",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "7501047909675",
-    "descripcion": "LA HUERTA CHICHARO CONGELADO 2 KG",
-    "precio": 245.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501047909675.jpg",
-    "existencia": 10.0
-  },
-  {
-    "codigo": "015643513107",
-    "descripcion": "LA FILLE DU BOUCHER MUSCAT PREMIUM SPARKLING 750 ML",
-    "precio": 572.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643513107.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "015643513121",
-    "descripcion": "LA FILLE DU BOUCHER CABERNET SAUVIGNON 750 ML",
-    "precio": 397.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643513121.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7290014151093",
-    "descripcion": "LA CITADELLE DE DIAMANT MARIUS CAB SAUVIGNON",
-    "precio": 702.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "7290014151093.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7290014151369",
-    "descripcion": "LA CITADELLE DE DIAMANT MADEMOISELLE SAUVIGNON BLANC 750 ML",
-    "precio": 800.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "7290014151369.jpg",
-    "existencia": 57.0
-  },
-  {
-    "codigo": "015643527616",
-    "descripcion": "LA CITADELLE DE DIAMANT FANNY 750 ML",
-    "precio": 804.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643527616.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "015643517365",
-    "descripcion": "LA CITADELLE CAESAR CABERNET SAUVIGNON",
-    "precio": 1124.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "015643517365.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7503046084810",
-    "descripcion": "KURSON TOCINO DE RES KOSHER KG",
-    "precio": 650.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 8.0
-  },
-  {
-    "codigo": "7501134500624",
-    "descripcion": "KURSON TAMALES VERDES 5 PZ",
-    "precio": 140.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500624.JPG",
-    "existencia": 42.0
-  },
-  {
-    "codigo": "7501134500631",
-    "descripcion": "KURSON TAMALES DE RAJAS 5 PZ",
-    "precio": 140.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500631.jpg",
-    "existencia": 53.0
-  },
-  {
-    "codigo": "7501134500570",
-    "descripcion": "KURSON TAMALES DE MOLE 5 PZ",
-    "precio": 90.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500570.JPG",
-    "existencia": 41.0
-  },
-  {
-    "codigo": "7501134500563",
-    "descripcion": "KURSON TAMALES DE DULCE 5 PZ",
-    "precio": 90.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500563.jpg",
-    "existencia": 9.0
-  },
-  {
-    "codigo": "7501134510210",
-    "descripcion": "KURSON TAMALES DE ALMENDRA 5 PZ",
-    "precio": 90.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134510210.jpg",
-    "existencia": 23.0
-  },
-  {
-    "codigo": "7501134510746",
-    "descripcion": "KURSON SAMBUSAK QUESO JALAV ISRAEL KOSHER 10 PZ",
-    "precio": 240.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134510746.jpg",
-    "existencia": 94.0
-  },
-  {
-    "codigo": "7501134500778",
-    "descripcion": "KURSON SAMBUSAK DE CARNE PZ",
-    "precio": 230.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500778.JPG",
-    "existencia": 28.0
-  },
-  {
-    "codigo": "7501134501027",
-    "descripcion": "KURSON SALSA TERIYAKI",
-    "precio": 112.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501027.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7501134505100",
-    "descripcion": "KURSON SALSA DE TAMARINDO 740 GR",
-    "precio": 120.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505100.jpg",
-    "existencia": 95.0
-  },
-  {
-    "codigo": "7501134500495",
-    "descripcion": "KURSON SALCHICHA VIENA DE RES KOSHER 340 GRS",
-    "precio": 130.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500495.jpg",
-    "existencia": 1488.0
-  },
-  {
-    "codigo": "7501134501867",
-    "descripcion": "KURSON SALCHICHA VIENA DE PAVO KOSHER 390 GRS",
-    "precio": 86.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501867.jpg",
-    "existencia": 492.0
-  },
-  {
-    "codigo": "7501134500440",
-    "descripcion": "KURSON SALCHICHA POLACA DE RES KOSHER 907 GRS",
-    "precio": 305.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500440.jpg",
-    "existencia": 1056.0
-  },
-  {
-    "codigo": "7501134510944",
-    "descripcion": "KURSON SALCHICHA POLACA DE RES KOSHER 454 GRS",
-    "precio": 156.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510944.jpg",
-    "existencia": 372.0
-  },
-  {
-    "codigo": "7503046084537",
-    "descripcion": "KURSON SALCHICHA POLACA DE RES 700 GR 5 PZS",
-    "precio": 217.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 123.0
-  },
-  {
-    "codigo": "7501134500907",
-    "descripcion": "KURSON SALCHICHA POLACA DE PAVO TWO PACK 1080 GRS",
-    "precio": 148.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 1810.0
-  },
-  {
-    "codigo": "7501134505391",
-    "descripcion": "KURSON SALCHICHA POLACA DE PAVO KOSHER 540 GRS",
-    "precio": 96.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505391.jpg",
-    "existencia": 948.0
-  },
-  {
-    "codigo": "7501134501904",
-    "descripcion": "KURSON SALCHICHA DELI DE RES KOSHER 907 GRS",
-    "precio": 296.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 300.0
-  },
-  {
-    "codigo": "7501134500471",
-    "descripcion": "KURSON SALCHICHA COCKTAIL DE RES KOSHER 340 GRS",
-    "precio": 126.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500471.jpeg",
-    "existencia": 156.0
-  },
-  {
-    "codigo": "7501134505384",
-    "descripcion": "KURSON SALCHICHA COCKTAIL DE PAVO KOSHER 340 GRS",
-    "precio": 90.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505384.jpeg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "7501134500914",
-    "descripcion": "KURSON SALCHICHA ARABE DE RES KOSHER 500 GRS",
-    "precio": 278.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500914.jpg",
-    "existencia": 1058.0
-  },
-  {
-    "codigo": "7501134500600",
-    "descripcion": "KURSON SALAMI STICK DE RES KOSHER 30 GRS",
-    "precio": 36.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500600.jpg",
-    "existencia": 1199.0
-  },
-  {
-    "codigo": "7501134500464",
-    "descripcion": "KURSON SALAMI DE RES KOSHER 907 GRS",
-    "precio": 273.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500464.jpg",
-    "existencia": 450.0
-  },
-  {
-    "codigo": "7501134500433",
-    "descripcion": "KURSON SALAMI DE RES KOSHER 340 GRS",
-    "precio": 116.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500433.jpg",
-    "existencia": 876.0
-  },
-  {
-    "codigo": "7503046084841",
-    "descripcion": "KURSON SALAMI DE RES KG",
-    "precio": 550.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 9.7
-  },
-  {
-    "codigo": "7500462135751",
-    "descripcion": "KURSON SAL DE GRANO 500 GRS",
-    "precio": 50.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7500462135751.jpg",
-    "existencia": 190.0
-  },
-  {
-    "codigo": "900056",
-    "descripcion": "KURSON ROAST BEEF DE RES KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "900056.jpg",
-    "existencia": 25.8
-  },
-  {
-    "codigo": "7501134500679",
-    "descripcion": "KURSON ROAST BEEF DE RES KOSHER 250 GRS",
-    "precio": 164.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500679.jpg",
-    "existencia": 198.0
-  },
-  {
-    "codigo": "7501134505629",
-    "descripcion": "KURSON RECORTE DE CARNES FRIAS KOSHER 250 GRS",
-    "precio": 59.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505629.jpg",
-    "existencia": 40.0
-  },
-  {
-    "codigo": "7501134801850",
-    "descripcion": "KURSON QUESO PROVOLONE AHUMADO KOSHER 600 GR",
-    "precio": 380.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134801850.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7501134510609",
-    "descripcion": "KURSON QUESO PANELA KOSHER 500 GRS",
-    "precio": 132.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510609.jpg",
-    "existencia": 238.0
-  },
-  {
-    "codigo": "7501134510933",
-    "descripcion": "KURSON QUESO OAXACA MARINADO 1 KG",
-    "precio": 290.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510933.jpg",
-    "existencia": 10.0
-  },
-  {
-    "codigo": "7501134510920",
-    "descripcion": "KURSON QUESO OAXACA KOSHER 500 GR",
-    "precio": 135.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510920.jpg",
-    "existencia": 528.0
-  },
-  {
-    "codigo": "7501134502031",
-    "descripcion": "KURSON QUESO OAXACA KOSHER 1 KG",
-    "precio": 289.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502031.jpg",
-    "existencia": 3915.0
-  },
-  {
-    "codigo": "7503046084506",
-    "descripcion": "KURSON QUESO MANCHEGO REBANADO 400 GR",
-    "precio": 130.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503046084506.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "7501134510715",
-    "descripcion": "KURSON QUESO MANCHEGO KOSHER 500 GR",
-    "precio": 142.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510715.jpg",
-    "existencia": 1377.0
-  },
-  {
-    "codigo": "7501134502543",
-    "descripcion": "KURSON QUESO MANCHEGO KOSHER 1 kg.",
-    "precio": 280.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502543.jpg",
-    "existencia": 1066.0
-  },
-  {
-    "codigo": "7501134505469",
-    "descripcion": "KURSON QUESO FETA KOSHER 250 GR",
-    "precio": 185.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505469.jpg",
-    "existencia": 225.0
-  },
-  {
-    "codigo": "7501134501195",
-    "descripcion": "KURSON QUESO FETA 500 GRS",
-    "precio": 320.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501195.jpg",
-    "existencia": 128.0
-  },
-  {
-    "codigo": "7501669893178",
-    "descripcion": "KURSON QUESO DE CABRA NATURAL KOSHER 200 GRS",
-    "precio": 190.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501669893178.jpg",
-    "existencia": 350.0
-  },
-  {
-    "codigo": "7501669892249",
-    "descripcion": "KURSON QUESO DE CABRA C/CHIPOTLE 200 GRS",
-    "precio": 190.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501669892249.jpg",
-    "existencia": 22.0
-  },
-  {
-    "codigo": "7501134510227",
-    "descripcion": "KURSON PIZZETAS 10 PZ",
-    "precio": 150.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134510227.jpg",
-    "existencia": 55.0
-  },
-  {
-    "codigo": "30997",
-    "descripcion": "KURSON PIERNAS CRUDAS DE PAVO KOSHER KG",
-    "precio": 397.0,
-    "familia": "PAVO",
-    "unidad": "K",
-    "foto": "30997.jpg",
-    "existencia": 31.4
-  },
-  {
-    "codigo": "30777",
-    "descripcion": "KURSON PIERNAS AHUMADAS DE PAVO KOSHER KG",
-    "precio": 417.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "K",
-    "foto": "30777.jpg",
-    "existencia": 10.3
-  },
-  {
-    "codigo": "30877",
-    "descripcion": "KURSON PECHUGON DE PAVO KOSHER CRUDO KG",
-    "precio": 450.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "30877.jpeg",
-    "existencia": 20.9
-  },
-  {
-    "codigo": "7503046084100",
-    "descripcion": "KURSON PECHUGA DE PAVO REBANADA KOSHER 250 GRS",
-    "precio": 169.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503046084100.jpg",
-    "existencia": 264.0
-  },
-  {
-    "codigo": "00118",
-    "descripcion": "KURSON PECHUGA DE PAVO CLASICA KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "00118.jpg",
-    "existencia": 166.4
-  },
-  {
-    "codigo": "7501134500617",
-    "descripcion": "KURSON PECHUGA DE PAVO AHUMADA KOSHER REBANADA 500 GRS",
-    "precio": 372.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500617.jpg",
-    "existencia": 660.0
-  },
-  {
-    "codigo": "11156",
-    "descripcion": "KURSON PECHUGA DE PAVO AHUMADA KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "11156.jpg",
-    "existencia": 48.6
-  },
-  {
-    "codigo": "30224",
-    "descripcion": "KURSON PAVO CRUDO ENTERO KOSHER KG",
-    "precio": 350.0,
-    "familia": "PAVO",
-    "unidad": "K",
-    "foto": "30224.jpg",
-    "existencia": 19.3
-  },
-  {
-    "codigo": "7501134500365",
-    "descripcion": "KURSON PASTRAMI DE RES KOSHER REBANADO 227 GRS",
-    "precio": 164.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500365.jpg",
-    "existencia": 480.0
-  },
-  {
-    "codigo": "900119",
-    "descripcion": "KURSON PASTRAMI DE RES KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "900119.jpg",
-    "existencia": 73.4
-  },
-  {
-    "codigo": "7503046084803",
-    "descripcion": "KURSON PASTRAMI DE RES KOSHER KG",
-    "precio": 650.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 7.5
-  },
-  {
-    "codigo": "00115",
-    "descripcion": "KURSON PASTEL DE PAVO CON PIMIENTO KOSHER KG",
-    "precio": 431.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "00115.jpg",
-    "existencia": 9.2
-  },
-  {
-    "codigo": "00114",
-    "descripcion": "KURSON PASTEL DE PAVO CON ACEITUNA KOSHER KG",
-    "precio": 431.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "00114.jpg",
-    "existencia": 9.2
-  },
-  {
-    "codigo": "7503046084346",
-    "descripcion": "KURSON PANCETA DE RES REBANADA 100 GR",
-    "precio": 245.0,
-    "familia": "CARNES FRIAS CHARCUTI",
-    "unidad": "PZ",
-    "foto": "7503046084346.jpg",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "7501134501980",
-    "descripcion": "KURSON MOLE KOSHER 600 GR",
-    "precio": 120.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501980.jpg",
-    "existencia": 497.0
-  },
-  {
-    "codigo": "111204",
-    "descripcion": "KURSON MAUDE DE CARNE",
-    "precio": 280.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 135.0
-  },
-  {
-    "codigo": "900044",
-    "descripcion": "KURSON LOMO CANADIENSE KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "900044.jpg",
-    "existencia": 108.0
-  },
-  {
-    "codigo": "10035",
-    "descripcion": "KURSON LENGUA CRUDA DE RES NATURAL KOSHER KG",
-    "precio": 1365.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10035.jpg",
-    "existencia": 13.2
-  },
-  {
-    "codigo": "50121906",
-    "descripcion": "KURSON LAHMAYIN MINI 12 PIEZAS",
-    "precio": 360.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "7501134502789",
-    "descripcion": "KURSON LAHMAYIN 10 PIEZAS",
-    "precio": 360.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502789.jpg",
-    "existencia": 49.0
-  },
-  {
-    "codigo": "7501134500754",
-    "descripcion": "KURSON KIPE ROLLOS DE CARNE 2 PZ",
-    "precio": 460.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501134500754.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7501134500747",
-    "descripcion": "KURSON KIPE ROLLITOS 20 PZS",
-    "precio": 320.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501134500747.jpg",
-    "existencia": 65.0
-  },
-  {
-    "codigo": "7501134512542",
-    "descripcion": "KURSON KIPE HAMDA 25 PZ",
-    "precio": 360.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501134512542.jpg",
-    "existencia": 56.0
-  },
-  {
-    "codigo": "7501134500693",
-    "descripcion": "KURSON KIPE COMIDA CARNE 12 PZS",
-    "precio": 310.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501134500693.JPG",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "7501726090694",
-    "descripcion": "KURSON KIPE CHAROLA TRIGO",
-    "precio": 420.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501726090694.JPG",
-    "existencia": 45.0
-  },
-  {
-    "codigo": "7501726670711",
-    "descripcion": "KURSON KIPE CHAROLA CARNE PZ",
-    "precio": 420.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501726670711.jpg",
-    "existencia": 108.0
-  },
-  {
-    "codigo": "75011345859",
-    "descripcion": "KURSON KIPE BOLA 6 PZ",
-    "precio": 420.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 134.0
-  },
-  {
-    "codigo": "7501134500648",
-    "descripcion": "KURSON KIPE BASHA CARNE 20 PZ",
-    "precio": 350.0,
-    "familia": "CONGELADO KIPE",
-    "unidad": "PZ",
-    "foto": "7501134500648.JPG",
-    "existencia": 204.0
-  },
-  {
-    "codigo": "7503046084117",
-    "descripcion": "KURSON JAMON REBANADO KOSHER 250 GRS",
-    "precio": 169.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503046084117.jpg",
-    "existencia": 348.0
-  },
-  {
-    "codigo": "7501134500723",
-    "descripcion": "KURSON HOJA DE PARRA RELLENA 18 PZS",
-    "precio": 330.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134500723.jpg",
-    "existencia": 62.0
-  },
-  {
-    "codigo": "7501134505575",
-    "descripcion": "KURSON HAMBURGUESA DE RES KOSHER PAQ C/6 PZAS 465 GRS",
-    "precio": 269.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134505575.jpg",
-    "existencia": 299.0
-  },
-  {
-    "codigo": "00589",
-    "descripcion": "KURSON FALAFEL KOSHER PZ",
-    "precio": 140.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "00589.jpg",
-    "existencia": 81.0
-  },
-  {
-    "codigo": "7501134510760",
-    "descripcion": "KURSON EMPANADAS DE CARNE",
-    "precio": 185.0,
-    "familia": "CONGELADO COMIDA PREPARADA",
-    "unidad": "PZ",
-    "foto": "7501134510760.jpg",
-    "existencia": 45.0
-  },
-  {
-    "codigo": "7501134500372",
-    "descripcion": "KURSON CORNED BEEF DE RES KOSHER REBANADO 227 GRS",
-    "precio": 164.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500372.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "900109",
-    "descripcion": "KURSON CORNED BEEF DE RES KOSHER KG",
-    "precio": 653.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "K",
-    "foto": "900109.jpg",
-    "existencia": 74.7
-  },
-  {
-    "codigo": "7503046084353",
-    "descripcion": "KURSON COPA DE RES REBANADA 100 GR",
-    "precio": 245.0,
-    "familia": "CARNES FRIAS CHARCUTI",
-    "unidad": "PZ",
-    "foto": "7503046084353.jpg",
-    "existencia": 18.0
-  },
-  {
-    "codigo": "7501134502567",
-    "descripcion": "KURSON CONSOME SABOR A POLLO PARVE 454 GR",
-    "precio": 72.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134502567.jpg",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "7503046084698",
-    "descripcion": "KURSON CHARCUTI JERKY 70 GRS",
-    "precio": 245.0,
-    "familia": "CARNES FRIAS CHARCUTI",
-    "unidad": "PZ",
-    "foto": "7503046084698.jpg",
-    "existencia": 36.0
-  },
-  {
-    "codigo": "7503046084179",
-    "descripcion": "KURSON CHARCUTI CHORIZO ESPAÑOL 100 GR",
-    "precio": 215.0,
-    "familia": "CARNES FRIAS CHARCUTI",
-    "unidad": "PZ",
-    "foto": "7503046084179.jpeg",
-    "existencia": 756.0
-  },
-  {
-    "codigo": "7501134500686",
-    "descripcion": "KURSON CALABAZA RELLENA 5 PZ",
-    "precio": 290.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500686.jpg",
-    "existencia": 6.0
-  },
-  {
-    "codigo": "7501134501003",
-    "descripcion": "KURSON BOLOGNIA DE RES KOSHER 907 GRS",
-    "precio": 313.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134501003.jpg",
-    "existencia": 120.0
-  },
-  {
-    "codigo": "7501134500105",
-    "descripcion": "KURSON BOLOGNIA DE RES KOSHER 340 GRS",
-    "precio": 85.0,
-    "familia": "CARNES FRIAS NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134500105.jpeg",
-    "existencia": 288.0
-  },
-  {
-    "codigo": "7501134503946",
-    "descripcion": "KURSON ARAK 750 ML",
-    "precio": 70.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "7501134503946.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "876641900166",
-    "descripcion": "KRAEMER WHITE SPARKLING WINE SEMI DRY 750 ML",
-    "precio": 300.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "876641900166.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "035057690034",
     "descripcion": "KOSHURE HOT CHOCOLATE CAN 23 OZ",
     "precio": 285.0,
@@ -2936,15 +1361,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "035057690034.jpg",
     "existencia": 5.0
-  },
-  {
-    "codigo": "081452443102",
-    "descripcion": "KING DAVID CONCORD 750 ML",
-    "precio": 192.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "081452443102.jpg",
-    "existencia": null
   },
   {
     "codigo": "00987339",
@@ -2965,33 +1381,6 @@ const PRODUCTOS = [
     "existencia": 336.0
   },
   {
-    "codigo": "040885186130",
-    "descripcion": "KESSER LIGTH RED N/M FARBREGEN 750 ML",
-    "precio": 113.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "040885186130.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "040885186048",
-    "descripcion": "KESSER HARMONY N/MEVUSHAL 750 ML",
-    "precio": 114.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "040885186048.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "040885186208",
-    "descripcion": "KESSER FARBRENGEN DANCING LIGHT CONCORD 750 ML",
-    "precio": 113.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "040885186208.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "073490129261",
     "descripcion": "KEDEM WHITE WINE VINAGER 375 ML",
     "precio": 110.0,
@@ -2999,15 +1388,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "073490129261.jpg",
     "existencia": 48.0
-  },
-  {
-    "codigo": "087752017401",
-    "descripcion": "KEDEM VODKA 750 ML",
-    "precio": 400.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017401.jpg",
-    "existencia": 111.0
   },
   {
     "codigo": "073490123849",
@@ -3035,321 +1415,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "073490124426.jpg",
     "existencia": 48.0
-  },
-  {
-    "codigo": "087752009185",
-    "descripcion": "KEDEM MATUK KAL 4.5%",
-    "precio": 162.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752009185.JPG",
-    "existencia": null
-  },
-  {
-    "codigo": "087752009291",
-    "descripcion": "KEDEM MATUK KAL 4.5 % 1.5 LT",
-    "precio": 316.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752009291.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752001363",
-    "descripcion": "KEDEM MALAGA WINE 750 ML",
-    "precio": 140.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752001363.JPG",
-    "existencia": 47.0
-  },
-  {
-    "codigo": "087752005699",
-    "descripcion": "KEDEM KEDEM MATUK ROUGE SOFT 750 ML",
-    "precio": 150.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752005699.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752001301",
-    "descripcion": "KEDEM KEDEM CREAM PINK CONCORD 750 ML",
-    "precio": 121.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752001301.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752003800",
-    "descripcion": "KEDEM KEDEM CREAM NIAGARA 750 ML",
-    "precio": 121.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752003800.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "7501134510098",
-    "descripcion": "KEDEM JUGO DE UVA 650 ML (KURSON LABEL)",
-    "precio": 85.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "7501134510098.jpg",
-    "existencia": 5064.0
-  },
-  {
-    "codigo": "073490124907",
-    "descripcion": "KEDEM GRAPE JUICE CONCORD PLASTIC BOTTLE 32 OZ 946 ML",
-    "precio": 141.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490124907.jpg",
-    "existencia": 6.0
-  },
-  {
-    "codigo": "073490132902",
-    "descripcion": "KEDEM GRAPE JUICE CONCORD LIGHT 80Z",
-    "precio": 45.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490132902.jpg",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "073490132865",
-    "descripcion": "KEDEM GRAPE JUICE 8 OZ (PLASTIC BOTTLE)",
-    "precio": 39.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490132865.jpg",
-    "existencia": 290.0
-  },
-  {
-    "codigo": "073490128271",
-    "descripcion": "KEDEM GRAPE JUICE 64 OZ",
-    "precio": 177.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490128271.jpg",
-    "existencia": 90.0
-  },
-  {
-    "codigo": "087752002490",
-    "descripcion": "KEDEM CREAM RED CONCORD 750 ML",
-    "precio": 140.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752002490.JPG",
-    "existencia": null
-  },
-  {
-    "codigo": "087752006894",
-    "descripcion": "KEDEM CONCORD KAL 750 ML",
-    "precio": 140.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752006894.JPG",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "087752006900",
-    "descripcion": "KEDEM CONCORD KAL 1.5 LT",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752006900.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "073490130410",
-    "descripcion": "KEDEM CONCORD GRAPE JUICE LITE 64 OZ",
-    "precio": 190.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490130410.jpg",
-    "existencia": 168.0
-  },
-  {
-    "codigo": "07349043",
-    "descripcion": "KEDEM CONCORD GRAPE JUICE 650 ML",
-    "precio": 89.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "07349043.jpg",
-    "existencia": 2196.0
-  },
-  {
-    "codigo": "087752001295",
-    "descripcion": "KEDEM CONCORD GRAPE 750 ML",
-    "precio": 114.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752001295.jpg",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "087752002001",
-    "descripcion": "KEDEM CONCORD GRAPE 187 ML",
-    "precio": 74.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752002001.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752001738",
-    "descripcion": "KEDEM CONCORD GRAPE 1.5 LTS",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752001738.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752001509",
-    "descripcion": "KEDEM CHAMPAGNE WHITE N.Y.S. 750 ML",
-    "precio": 290.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752001509.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752005897",
-    "descripcion": "KEDEM BLUSH CONCORD 750 ML",
-    "precio": 140.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752005897.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752005903",
-    "descripcion": "KEDEM BLUSH CONCORD 1.5 LTS",
-    "precio": 239.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752005903.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "073490123559",
-    "descripcion": "KEDEM APPLE JUICE ALL NATURAL 64 OZ",
-    "precio": 110.0,
-    "familia": "JUGO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "073490123559.jpeg",
-    "existencia": 34.0
-  },
-  {
-    "codigo": "7500465324893",
-    "descripcion": "KANI SURIMI IMITACION CANGREJO 454 GR",
-    "precio": 185.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7500465324893.jpg",
-    "existencia": 384.0
-  },
-  {
-    "codigo": "7290004658809",
-    "descripcion": "KADMON SWEET WINE",
-    "precio": 362.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "7290004658809.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752014905",
-    "descripcion": "JUST TULIP CABERNET SAUVIGNON 750 ML",
-    "precio": 648.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752014905.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752006481",
-    "descripcion": "JOYVIN WHITE RASHI 750 ML",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752006481.jpg",
-    "existencia": 48.0
-  },
-  {
-    "codigo": "087752006474",
-    "descripcion": "JOYVIN VINO RED",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752006474.jpeg",
-    "existencia": 37.0
-  },
-  {
-    "codigo": "087752035740",
-    "descripcion": "JOYVIN MOSCATO MANGO 750 ML",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752035740.jpeg",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "087752035757",
-    "descripcion": "JOYVIN DURAZNO 750",
-    "precio": 245.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752035757.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752012994",
-    "descripcion": "JEUNESSE CHARDONAY 750 ML",
-    "precio": 283.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752012994.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "5205",
-    "descripcion": "JERUSALEM VINO 750 ML",
-    "precio": 257.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "5205.JPG",
-    "existencia": null
-  },
-  {
-    "codigo": "1952",
-    "descripcion": "JERUSALEM VINO 200 ML",
-    "precio": 98.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "1952.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "011274000276",
-    "descripcion": "J & J CREAM CHEESE WHIPPED 227 GRS",
-    "precio": 155.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "011274000276.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "011274000337",
-    "descripcion": "J & J CREAM CHEESE 3 LB",
-    "precio": 498.0,
-    "familia": "QUESO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "011274000337.jpg",
-    "existencia": 40.0
   },
   {
     "codigo": "027000419229",
@@ -3388,15 +1453,6 @@ const PRODUCTOS = [
     "existencia": 24.0
   },
   {
-    "codigo": "12593",
-    "descripcion": "HUESO TUETANO DE RES KOSHER KG",
-    "precio": 318.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "12593.jpg",
-    "existencia": 65.7
-  },
-  {
     "codigo": "075655006264",
     "descripcion": "HOLIDAY MILK CHOCOLATE LOLLIPOPS 3 OZ",
     "precio": 150.0,
@@ -3404,114 +1460,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "075655006264.jpg",
     "existencia": 8.0
-  },
-  {
-    "codigo": "20107",
-    "descripcion": "HIGADO DE POLLO KOSHER KG",
-    "precio": 60.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20107.jpg",
-    "existencia": 25.66
-  },
-  {
-    "codigo": "844510013309",
-    "descripcion": "HH JESURALEM HILLS RESERVE RED 750 ML",
-    "precio": 779.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "844510013309.jpeg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752009826",
-    "descripcion": "HERZOG NAPA VALLEY CABERNET 750 ML",
-    "precio": 1000.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752009826.jpeg",
-    "existencia": 34.0
-  },
-  {
-    "codigo": "087752023457",
-    "descripcion": "HERZOG LINEAGE CHARDONYAY HERZOG 750 ML",
-    "precio": 425.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752023457.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752023440",
-    "descripcion": "HERZOG LINEAGE CABERNET SAUVIGNON 750 ML",
-    "precio": 505.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752023440.jpg",
-    "existencia": 13.0
-  },
-  {
-    "codigo": "087752036211",
-    "descripcion": "HERZOG LINEAGE CABERNET SAUVIGNON 375 ML",
-    "precio": 347.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752036211.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "090120",
-    "descripcion": "HELADOS KLEINS SABORES 1 CAJA CON 4 PIEZAS DE 1 GALON",
-    "precio": 2200.0,
-    "familia": "CONGELADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 30.0
-  },
-  {
-    "codigo": "608875008222",
-    "descripcion": "HEINZ MAYONESA 390 GRS",
-    "precio": 59.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "608875008222.jpg",
-    "existencia": 56.0
-  },
-  {
-    "codigo": "087752017722",
-    "descripcion": "HAVENS NOUGAT 750 ML",
-    "precio": 632.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017722.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752017746",
-    "descripcion": "HAVENS DARK CHOCOLATE 750 ML",
-    "precio": 632.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017746.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752018231",
-    "descripcion": "HAVENS CLASSIC CHOCOLATE 750 ML",
-    "precio": 697.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752018231.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752017739",
-    "descripcion": "HAVENS CARAMEL TOFFEE 750 ML",
-    "precio": 632.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752017739.jpg",
-    "existencia": null
   },
   {
     "codigo": "013113347351",
@@ -3532,42 +1480,6 @@ const PRODUCTOS = [
     "existencia": 9.0
   },
   {
-    "codigo": "026638251102",
-    "descripcion": "HAOLAM QUESO AMERICANO BLANCO 108 1.36 KG",
-    "precio": 820.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "026638251102.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "026638269909",
-    "descripcion": "HAOLAM PARMESAN GRATED CHEESE",
-    "precio": 220.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "026638269909.JPG",
-    "existencia": 78.0
-  },
-  {
-    "codigo": "7290002153016",
-    "descripcion": "HALPERIN HARINA DE MATZA SHEMURA 500 GR",
-    "precio": 300.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7290002153016.jpg",
-    "existencia": 11.0
-  },
-  {
-    "codigo": "090282555893",
-    "descripcion": "HAGAFEN CELLARS FAMILY VINEYARD WHITE BLEND 750 ML",
-    "precio": 2700.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "090282555893.jpg",
-    "existencia": null
-  },
-  {
     "codigo": "077028270807",
     "descripcion": "HADDAR NON DAIRLY CREAMER 10 OZ",
     "precio": 166.0,
@@ -3584,69 +1496,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "",
     "existencia": 16.0
-  },
-  {
-    "codigo": "087752023365",
-    "descripcion": "GUSH ETZION BLESSED VALLEY RED 750 ML.",
-    "precio": 1900.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752023365.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "00029",
-    "descripcion": "GRASA DE RES KOSHER KG",
-    "precio": 158.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "00029.jpg",
-    "existencia": 1869.95
-  },
-  {
-    "codigo": "087752010419",
-    "descripcion": "GOOSE BAY SAUVIGNON BLANC 750 ML",
-    "precio": 905.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752010419.jpg",
-    "existencia": 7.0
-  },
-  {
-    "codigo": "087752014967",
-    "descripcion": "GOOSE BAY PINOT GRIGIO 750 ML",
-    "precio": 741.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752014967.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "087752010372",
-    "descripcion": "GOOSE BAY P N",
-    "precio": 530.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752010372.jpg",
-    "existencia": 8.0
-  },
-  {
-    "codigo": "087752011614",
-    "descripcion": "GOOSE BAY CHAR 750 ML",
-    "precio": 530.0,
-    "familia": "VINO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "087752011614.jpg",
-    "existencia": null
-  },
-  {
-    "codigo": "041740000042",
-    "descripcion": "GOLDS PREPARED HORSERADISH AND BEETS 6 OZ",
-    "precio": 80.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "041740000042.JPG",
-    "existencia": 216.0
   },
   {
     "codigo": "840762013210",
@@ -3692,15 +1541,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "840762005161.jpg",
     "existencia": 3.0
-  },
-  {
-    "codigo": "014353102809",
-    "descripcion": "GIVAT YOGOLITE KIDS VAINILLA 113 GRS",
-    "precio": 24.0,
-    "familia": "REFRIGERADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "014353102809.jpg",
-    "existencia": 47.0
   },
   {
     "codigo": "710069125704",
@@ -3874,6 +1714,285 @@ const PRODUCTOS = [
     "existencia": 204.0
   },
   {
+    "codigo": "7290112331946",
+    "descripcion": "Elite-Cho- Reva L'esheva Wafer Rolls Tortit (5.6oz)",
+    "precio": 264.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 11.0
+  },
+  {
+    "codigo": "077245107931",
+    "descripcion": "ELITE TURKISH COFFEE WHIT CARDAMON 100 GRS",
+    "precio": 99.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "077245107931.jpg",
+    "existencia": 50.0
+  },
+  {
+    "codigo": "077245108310",
+    "descripcion": "ELITE PESEK ZMAN MINI BAGS 400 GR",
+    "precio": 390.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "077245108310.jpg",
+    "existencia": 60.0
+  },
+  {
+    "codigo": "815871012829",
+    "descripcion": "ELITE GUM S/F SPEARMINT CUBES 2OZ",
+    "precio": 100.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "815871017626",
+    "descripcion": "ELITE CHOCOLIT DRINK MIX 17.6 OZ",
+    "precio": 300.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "815871017626.jpg",
+    "existencia": 5.0
+  },
+  {
+    "codigo": "049200045503",
+    "descripcion": "DOMINO SUGAR 4 LB",
+    "precio": 175.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "049200045503.jpg",
+    "existencia": 39.0
+  },
+  {
+    "codigo": "046676182121",
+    "descripcion": "DAGIM SOLID WHITE TUNA IN WATER 6 OZ",
+    "precio": 84.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "046676182121.jpg",
+    "existencia": 90.0
+  },
+  {
+    "codigo": "046676132522",
+    "descripcion": "DAGIM CHUNK LIGHT TUNA IN WATER 6 OZ",
+    "precio": 54.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "046676132522.jpg",
+    "existencia": 912.0
+  },
+  {
+    "codigo": "730127100009",
+    "descripcion": "CUCUMBER IN BRINE 7-9 19 OZ",
+    "precio": 110.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "730127100009.jpg",
+    "existencia": 168.0
+  },
+  {
+    "codigo": "077485003857",
+    "descripcion": "CRISP RICE TREAT MINTY COATED",
+    "precio": 144.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 80.0
+  },
+  {
+    "codigo": "2377039801",
+    "descripcion": "CHERRY FILLING 40 LB",
+    "precio": 6000.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 10.0
+  },
+  {
+    "codigo": "017252152746",
+    "descripcion": "BOSCO SYRUP VANILLA 22 OZ",
+    "precio": 125.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "017252152746.jpg",
+    "existencia": 30.0
+  },
+  {
+    "codigo": "017252501513",
+    "descripcion": "BOSCO SYRUP STRAWBERRY 22 OZ",
+    "precio": 125.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "017252501513.jpg",
+    "existencia": 54.0
+  },
+  {
+    "codigo": "017252500004",
+    "descripcion": "BOSCO SYRUP CHOCOLATE  22 OZ",
+    "precio": 125.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "017252500004.jpg",
+    "existencia": 17.0
+  },
+  {
+    "codigo": "073490153006",
+    "descripcion": "BLANCHARD & BLANCHARD HONEY MUSTARD 9 OZ",
+    "precio": 118.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "073490153006.jpg",
+    "existencia": 7.0
+  },
+  {
+    "codigo": "096086000348",
+    "descripcion": "AVIV MATZO CHOCOLATE FLAVORED COATED 200 GRS",
+    "precio": 168.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "096086000348.jpg",
+    "existencia": 90.0
+  },
+  {
+    "codigo": "8850389104637",
+    "descripcion": "ALOE VERA PEACH 24X330ml",
+    "precio": 90.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "857531000050",
+    "descripcion": "ACHVA HALVA VANILLA SESAME 454 GRS",
+    "precio": 140.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "857531000050.jpg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "857531000067",
+    "descripcion": "ACHVA HALVA MARBLE SESAME 454 GRS",
+    "precio": 160.0,
+    "familia": "ABARROTES IMPORTADOS",
+    "unidad": "PZ",
+    "foto": "857531000067.jpg",
+    "existencia": 84.0
+  },
+  {
+    "codigo": "7500463027628",
+    "descripcion": "VEGGIE MIX CONSOME PARVE 750 GRS",
+    "precio": 170.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7500463027628.jpg",
+    "existencia": 22.0
+  },
+  {
+    "codigo": "74353873",
+    "descripcion": "TEIBE CONSOME GOURMET DE POLLO SIN GLUTAMATO 500 GRS",
+    "precio": 90.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZA",
+    "foto": "74353873.jpg",
+    "existencia": 50.0
+  },
+  {
+    "codigo": "7503010501466",
+    "descripcion": "TEIBE CONSOME 1 KG",
+    "precio": 180.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503010501466.jpg",
+    "existencia": 20.0
+  },
+  {
+    "codigo": "7503040679456",
+    "descripcion": "MARINA AZUL ATUN EN HOJUELAS EN AGUA 120 GR",
+    "precio": 35.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503040679456.jpg",
+    "existencia": 96.0
+  },
+  {
+    "codigo": "7501161502028",
+    "descripcion": "LEON LECHE SABOR CHOCOLATE 236 ML",
+    "precio": 17.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501161502028.jpg",
+    "existencia": 6344.0
+  },
+  {
+    "codigo": "7501134501027",
+    "descripcion": "KURSON SALSA TERIYAKI",
+    "precio": 112.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501027.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7501134505100",
+    "descripcion": "KURSON SALSA DE TAMARINDO 740 GR",
+    "precio": 120.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505100.jpg",
+    "existencia": 95.0
+  },
+  {
+    "codigo": "7500462135751",
+    "descripcion": "KURSON SAL DE GRANO 500 GRS",
+    "precio": 50.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7500462135751.jpg",
+    "existencia": 190.0
+  },
+  {
+    "codigo": "7501134501980",
+    "descripcion": "KURSON MOLE KOSHER 600 GR",
+    "precio": 120.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501980.jpg",
+    "existencia": 497.0
+  },
+  {
+    "codigo": "7501134502567",
+    "descripcion": "KURSON CONSOME SABOR A POLLO PARVE 454 GR",
+    "precio": 72.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502567.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "608875008222",
+    "descripcion": "HEINZ MAYONESA 390 GRS",
+    "precio": 59.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "608875008222.jpg",
+    "existencia": 56.0
+  },
+  {
+    "codigo": "7290002153016",
+    "descripcion": "HALPERIN HARINA DE MATZA SHEMURA 500 GR",
+    "precio": 300.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7290002153016.jpg",
+    "existencia": 11.0
+  },
+  {
     "codigo": "794711002155",
     "descripcion": "GALIL GRILLED EGGPLANT 655 GRS",
     "precio": 165.0,
@@ -3881,6 +2000,249 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "794711002155.jpg",
     "existencia": 8.0
+  },
+  {
+    "codigo": "7503008629004",
+    "descripcion": "CHARTUM HOJA DE PARRA",
+    "precio": 170.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503008629004.jpg",
+    "existencia": 60.0
+  },
+  {
+    "codigo": "7501516411128",
+    "descripcion": "ARACELI LECHE LIGHT 1 LT",
+    "precio": 38.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501516411128.jpg",
+    "existencia": 2544.0
+  },
+  {
+    "codigo": "7501516411180",
+    "descripcion": "ARACELI LECHE ENTERA 1 LT",
+    "precio": 38.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501516411180.jpg",
+    "existencia": 2280.0
+  },
+  {
+    "codigo": "7501516411135",
+    "descripcion": "ARACELI LECHE DESLACTOSADA 1 LT",
+    "precio": 38.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501516411135.jpg",
+    "existencia": 75.0
+  },
+  {
+    "codigo": "7503028931132",
+    "descripcion": "AGRABA HOJA DE PARRA EN SALMUERA 500 GRS",
+    "precio": 199.0,
+    "familia": "ABARROTES NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503028931132.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "40091",
+    "descripcion": "COSTILLA DE CARNERO KOSHER kg.",
+    "precio": 1400.0,
+    "familia": "CARNERO",
+    "unidad": "K",
+    "foto": "40091.jpg",
+    "existencia": 478.0
+  },
+  {
+    "codigo": "7503046084346",
+    "descripcion": "KURSON PANCETA DE RES REBANADA 100 GR",
+    "precio": 245.0,
+    "familia": "CARNES FRIAS CHARCUTI",
+    "unidad": "PZ",
+    "foto": "7503046084346.jpg",
+    "existencia": 54.0
+  },
+  {
+    "codigo": "7503046084353",
+    "descripcion": "KURSON COPA DE RES REBANADA 100 GR",
+    "precio": 245.0,
+    "familia": "CARNES FRIAS CHARCUTI",
+    "unidad": "PZ",
+    "foto": "7503046084353.jpg",
+    "existencia": 18.0
+  },
+  {
+    "codigo": "7503046084698",
+    "descripcion": "KURSON CHARCUTI JERKY 70 GRS",
+    "precio": 245.0,
+    "familia": "CARNES FRIAS CHARCUTI",
+    "unidad": "PZ",
+    "foto": "7503046084698.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7503046084179",
+    "descripcion": "KURSON CHARCUTI CHORIZO ESPAÑOL 100 GR",
+    "precio": 215.0,
+    "familia": "CARNES FRIAS CHARCUTI",
+    "unidad": "PZ",
+    "foto": "7503046084179.jpeg",
+    "existencia": 756.0
+  },
+  {
+    "codigo": "051328708437",
+    "descripcion": "BET YOSEF BEEF FRANKS SBD 340 GRS",
+    "precio": 550.0,
+    "familia": "CARNES FRIAS IMPORTADAS",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "865",
+    "descripcion": "AGRI PASTRAMI BRISKET",
+    "precio": 1572.0,
+    "familia": "CARNES FRIAS IMPORTADAS",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 0
+  },
+  {
+    "codigo": "7501134500624",
+    "descripcion": "KURSON TAMALES VERDES 5 PZ",
+    "precio": 140.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500624.JPG",
+    "existencia": 42.0
+  },
+  {
+    "codigo": "7501134500631",
+    "descripcion": "KURSON TAMALES DE RAJAS 5 PZ",
+    "precio": 140.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500631.jpg",
+    "existencia": 53.0
+  },
+  {
+    "codigo": "7501134500570",
+    "descripcion": "KURSON TAMALES DE MOLE 5 PZ",
+    "precio": 90.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500570.JPG",
+    "existencia": 41.0
+  },
+  {
+    "codigo": "7501134500563",
+    "descripcion": "KURSON TAMALES DE DULCE 5 PZ",
+    "precio": 90.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500563.jpg",
+    "existencia": 9.0
+  },
+  {
+    "codigo": "7501134510210",
+    "descripcion": "KURSON TAMALES DE ALMENDRA 5 PZ",
+    "precio": 90.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134510210.jpg",
+    "existencia": 23.0
+  },
+  {
+    "codigo": "7501134510746",
+    "descripcion": "KURSON SAMBUSAK QUESO JALAV ISRAEL KOSHER 10 PZ",
+    "precio": 240.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134510746.jpg",
+    "existencia": 94.0
+  },
+  {
+    "codigo": "7501134500778",
+    "descripcion": "KURSON SAMBUSAK DE CARNE PZ",
+    "precio": 230.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500778.JPG",
+    "existencia": 28.0
+  },
+  {
+    "codigo": "7501134510227",
+    "descripcion": "KURSON PIZZETAS 10 PZ",
+    "precio": 150.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134510227.jpg",
+    "existencia": 55.0
+  },
+  {
+    "codigo": "111204",
+    "descripcion": "KURSON MAUDE DE CARNE",
+    "precio": 280.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 135.0
+  },
+  {
+    "codigo": "50121906",
+    "descripcion": "KURSON LAHMAYIN MINI 12 PIEZAS",
+    "precio": 360.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "7501134500723",
+    "descripcion": "KURSON HOJA DE PARRA RELLENA 18 PZS",
+    "precio": 330.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134500723.jpg",
+    "existencia": 62.0
+  },
+  {
+    "codigo": "00589",
+    "descripcion": "KURSON FALAFEL KOSHER PZ",
+    "precio": 140.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "00589.jpg",
+    "existencia": 81.0
+  },
+  {
+    "codigo": "7501134510760",
+    "descripcion": "KURSON EMPANADAS DE CARNE",
+    "precio": 185.0,
+    "familia": "CONGELADO COMIDA PREPARADA",
+    "unidad": "PZ",
+    "foto": "7501134510760.jpg",
+    "existencia": 45.0
+  },
+  {
+    "codigo": "5500010007610",
+    "descripcion": "YUMMY PIZZA CHEESE KOSHER LB",
+    "precio": 235.0,
+    "familia": "CONGELADO IMPORTADO",
+    "unidad": "K",
+    "foto": "5500010007610.jpg",
+    "existencia": 151.69
+  },
+  {
+    "codigo": "090120",
+    "descripcion": "HELADOS KLEINS SABORES 1 CAJA CON 4 PIEZAS DE 1 GALON",
+    "precio": 2200.0,
+    "familia": "CONGELADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 30.0
   },
   {
     "codigo": "794711005408",
@@ -3899,6 +2261,2085 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "794711005392.jpg",
     "existencia": 1520.0
+  },
+  {
+    "codigo": "605453520961",
+    "descripcion": "DYNA-SEA IMITACION CAMARON 300 GRS",
+    "precio": 200.0,
+    "familia": "CONGELADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "605453520961.jpg",
+    "existencia": 96.0
+  },
+  {
+    "codigo": "7501134500754",
+    "descripcion": "KURSON KIPE ROLLOS DE CARNE 2 PZ",
+    "precio": 460.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501134500754.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7501134500747",
+    "descripcion": "KURSON KIPE ROLLITOS 20 PZS",
+    "precio": 320.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501134500747.jpg",
+    "existencia": 65.0
+  },
+  {
+    "codigo": "7501134512542",
+    "descripcion": "KURSON KIPE HAMDA 25 PZ",
+    "precio": 360.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501134512542.jpg",
+    "existencia": 56.0
+  },
+  {
+    "codigo": "7501134500693",
+    "descripcion": "KURSON KIPE COMIDA CARNE 12 PZS",
+    "precio": 310.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501134500693.JPG",
+    "existencia": 54.0
+  },
+  {
+    "codigo": "7501726090694",
+    "descripcion": "KURSON KIPE CHAROLA TRIGO",
+    "precio": 420.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501726090694.JPG",
+    "existencia": 45.0
+  },
+  {
+    "codigo": "7501726670711",
+    "descripcion": "KURSON KIPE CHAROLA CARNE PZ",
+    "precio": 420.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501726670711.jpg",
+    "existencia": 108.0
+  },
+  {
+    "codigo": "75011345859",
+    "descripcion": "KURSON KIPE BOLA 6 PZ",
+    "precio": 420.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 134.0
+  },
+  {
+    "codigo": "7501134500648",
+    "descripcion": "KURSON KIPE BASHA CARNE 20 PZ",
+    "precio": 350.0,
+    "familia": "CONGELADO KIPE",
+    "unidad": "PZ",
+    "foto": "7501134500648.JPG",
+    "existencia": 204.0
+  },
+  {
+    "codigo": "049800195363",
+    "descripcion": "RICHS WHIP TOPPING SIN AZUCAR 907 GRS",
+    "precio": 145.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "049800195363.png",
+    "existencia": 144.0
+  },
+  {
+    "codigo": "67620696",
+    "descripcion": "MCCAIN PAPA ESPIRAL CONDIMENTADA PZ",
+    "precio": 249.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "67620696.jpg",
+    "existencia": 60.0
+  },
+  {
+    "codigo": "7501047902706",
+    "descripcion": "LA HUERTA CHICHARO CONGELADO 500 GRS",
+    "precio": 68.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501047902706.JPG",
+    "existencia": 50.0
+  },
+  {
+    "codigo": "7501047909675",
+    "descripcion": "LA HUERTA CHICHARO CONGELADO 2 KG",
+    "precio": 245.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501047909675.jpg",
+    "existencia": 10.0
+  },
+  {
+    "codigo": "30777",
+    "descripcion": "KURSON PIERNAS AHUMADAS DE PAVO KOSHER KG",
+    "precio": 417.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "K",
+    "foto": "30777.jpg",
+    "existencia": 10.3
+  },
+  {
+    "codigo": "7501134502789",
+    "descripcion": "KURSON LAHMAYIN 10 PIEZAS",
+    "precio": 360.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502789.jpg",
+    "existencia": 49.0
+  },
+  {
+    "codigo": "7501134505575",
+    "descripcion": "KURSON HAMBURGUESA DE RES KOSHER PAQ C/6 PZAS 465 GRS",
+    "precio": 269.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505575.jpg",
+    "existencia": 299.0
+  },
+  {
+    "codigo": "7501134500686",
+    "descripcion": "KURSON CALABAZA RELLENA 5 PZ",
+    "precio": 290.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134500686.jpg",
+    "existencia": 6.0
+  },
+  {
+    "codigo": "7500465324893",
+    "descripcion": "KANI SURIMI IMITACION CANGREJO 454 GR",
+    "precio": 185.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7500465324893.jpg",
+    "existencia": 384.0
+  },
+  {
+    "codigo": "074702002228",
+    "descripcion": "APOLLO FILLO",
+    "precio": 160.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "074702002228.JPG",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "032973100005",
+    "descripcion": "A&B FAMOUS GEFILTE FISH 565 GRS",
+    "precio": 370.0,
+    "familia": "CONGELADO NACIONAL",
+    "unidad": "PZ",
+    "foto": "032973100005.jpeg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "073314648817",
+    "descripcion": "NATURES OWN JUGO DE UVA 1.89 LT",
+    "precio": 185.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073314648817.jpg",
+    "existencia": 1232.0
+  },
+  {
+    "codigo": "7501134510098",
+    "descripcion": "KEDEM JUGO DE UVA 650 ML (KURSON LABEL)",
+    "precio": 85.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "7501134510098.jpg",
+    "existencia": 5064.0
+  },
+  {
+    "codigo": "073490124907",
+    "descripcion": "KEDEM GRAPE JUICE CONCORD PLASTIC BOTTLE 32 OZ 946 ML",
+    "precio": 141.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490124907.jpg",
+    "existencia": 6.0
+  },
+  {
+    "codigo": "073490132902",
+    "descripcion": "KEDEM GRAPE JUICE CONCORD LIGHT 80Z",
+    "precio": 45.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490132902.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "073490132865",
+    "descripcion": "KEDEM GRAPE JUICE 8 OZ (PLASTIC BOTTLE)",
+    "precio": 39.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490132865.jpg",
+    "existencia": 290.0
+  },
+  {
+    "codigo": "073490128271",
+    "descripcion": "KEDEM GRAPE JUICE 64 OZ",
+    "precio": 177.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490128271.jpg",
+    "existencia": 90.0
+  },
+  {
+    "codigo": "073490130410",
+    "descripcion": "KEDEM CONCORD GRAPE JUICE LITE 64 OZ",
+    "precio": 190.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490130410.jpg",
+    "existencia": 168.0
+  },
+  {
+    "codigo": "07349043",
+    "descripcion": "KEDEM CONCORD GRAPE JUICE 650 ML",
+    "precio": 89.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "07349043.jpg",
+    "existencia": 2196.0
+  },
+  {
+    "codigo": "073490123559",
+    "descripcion": "KEDEM APPLE JUICE ALL NATURAL 64 OZ",
+    "precio": 110.0,
+    "familia": "JUGO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "073490123559.jpeg",
+    "existencia": 34.0
+  },
+  {
+    "codigo": "30997",
+    "descripcion": "KURSON PIERNAS CRUDAS DE PAVO KOSHER KG",
+    "precio": 397.0,
+    "familia": "PAVO",
+    "unidad": "K",
+    "foto": "30997.jpg",
+    "existencia": 31.4
+  },
+  {
+    "codigo": "30224",
+    "descripcion": "KURSON PAVO CRUDO ENTERO KOSHER KG",
+    "precio": 350.0,
+    "familia": "PAVO",
+    "unidad": "K",
+    "foto": "30224.jpg",
+    "existencia": 19.3
+  },
+  {
+    "codigo": "60714",
+    "descripcion": "POLLO ENTERO ORGANICO KOSHER KG",
+    "precio": 260.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "60714.jpg",
+    "existencia": 195.0
+  },
+  {
+    "codigo": "60715",
+    "descripcion": "PIERNA DE POLLO ORGANICO KOSHER KG",
+    "precio": 190.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 99.0
+  },
+  {
+    "codigo": "20715",
+    "descripcion": "PIERNA DE POLLO KG",
+    "precio": 95.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20715.jpg",
+    "existencia": 833.6
+  },
+  {
+    "codigo": "60710",
+    "descripcion": "PIERNA CON MUSLO DE POLLO ORGANICO KOSHER KG",
+    "precio": 190.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "60710.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "20710",
+    "descripcion": "PIERNA CON MUSLO DE POLLO KOSHER kg.",
+    "precio": 95.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20710.jpg",
+    "existencia": 889.68
+  },
+  {
+    "codigo": "20711",
+    "descripcion": "PECHUGA ENTERA DE POLLO C/HUESO",
+    "precio": 270.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20711.jpg",
+    "existencia": 1286.32
+  },
+  {
+    "codigo": "20722",
+    "descripcion": "PECHUGA DE POLLO SIN HUESO KOSHER KG",
+    "precio": 350.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20722.jpg",
+    "existencia": 222.88
+  },
+  {
+    "codigo": "10730",
+    "descripcion": "PARGUIYOT KG",
+    "precio": 210.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 84.5
+  },
+  {
+    "codigo": "60720",
+    "descripcion": "MUSLO DE POLLO ORGANICO KOSHER KG",
+    "precio": 190.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 197.4
+  },
+  {
+    "codigo": "20720",
+    "descripcion": "MUSLO DE POLLO KOSHER KG",
+    "precio": 95.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20720.jpg",
+    "existencia": 2228.72
+  },
+  {
+    "codigo": "20104",
+    "descripcion": "MOLLEJA POLLO KOSHER kg.",
+    "precio": 60.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20104.jpg",
+    "existencia": 11.4
+  },
+  {
+    "codigo": "62611",
+    "descripcion": "MILANESA PECHUGA DE POLLO ORGANICO KOSHER KG",
+    "precio": 700.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 72.7
+  },
+  {
+    "codigo": "60810",
+    "descripcion": "MILANESA DE MUSLO DE POLLO ORGANICO KOSHER KG",
+    "precio": 420.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "60810.jpg",
+    "existencia": 70.8
+  },
+  {
+    "codigo": "60555",
+    "descripcion": "MENUDENCIA DE POLLO ORGANICO KOSHER KG (HUACAL Y RABADILLA)",
+    "precio": 120.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 39.5
+  },
+  {
+    "codigo": "20107",
+    "descripcion": "HIGADO DE POLLO KOSHER KG",
+    "precio": 60.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20107.jpg",
+    "existencia": 25.66
+  },
+  {
+    "codigo": "60707",
+    "descripcion": "FAJITAS DE POLLO ORGANICO KG",
+    "precio": 420.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 7.5
+  },
+  {
+    "codigo": "20556",
+    "descripcion": "CORAZONES DE POLLO KOSHER KG",
+    "precio": 60.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20556.jpg",
+    "existencia": 10.6
+  },
+  {
+    "codigo": "61003",
+    "descripcion": "ALITAS DE POLLO ORGANICO KOSHER KG",
+    "precio": 140.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "",
+    "existencia": 51.5
+  },
+  {
+    "codigo": "20003",
+    "descripcion": "ALITAS DE POLLO KOSHER KG",
+    "precio": 70.0,
+    "familia": "POLLO",
+    "unidad": "K",
+    "foto": "20003.jpg",
+    "existencia": 1383.16
+  },
+  {
+    "codigo": "029882899021",
+    "descripcion": "YUMMY UNSALTED BUTTER 8 OZ",
+    "precio": 180.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "029882899021.jpg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "726665963169",
+    "descripcion": "YUMMY SNACKS CHEESE CURLS 2 OZ",
+    "precio": 56.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 105.0
+  },
+  {
+    "codigo": "029882899205",
+    "descripcion": "YUMMY SHREDDED LOW MOISTURE PART SKIM MOZZARELLA",
+    "precio": 400.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "029882899205.jpg",
+    "existencia": 40.0
+  },
+  {
+    "codigo": "90754",
+    "descripcion": "YUMMY QUESO FETA KG",
+    "precio": 484.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "K",
+    "foto": "90754.jpg",
+    "existencia": 182.0
+  },
+  {
+    "codigo": "726665963183",
+    "descripcion": "YUMMY CHEESE CURLS .75 OZ",
+    "precio": 24.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "",
+    "existencia": 480.0
+  },
+  {
+    "codigo": "651219209304",
+    "descripcion": "NATURAL & KOSHER SLICED VARIETY PACK CHEESE",
+    "precio": 335.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219209304.jpg",
+    "existencia": 84.0
+  },
+  {
+    "codigo": "651219205535",
+    "descripcion": "NATURAL & KOSHER QUESO MOZZARELLA RALLADO 907 GRS",
+    "precio": 350.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219205535.jpg",
+    "existencia": 180.0
+  },
+  {
+    "codigo": "651219102018",
+    "descripcion": "NATURAL & KOSHER MOZZARELLA CHEESE STICKS 255 GRS",
+    "precio": 271.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "651219102018.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "014353000624",
+    "descripcion": "MEHADRIM COTTAGE CHEESE NON FAT FIT FREE 16 OZ",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000624.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "014353000518",
+    "descripcion": "MEHADRIM COTTAGE CHEESE LOW FAT 453 GRS",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000518.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "014353000013",
+    "descripcion": "MEHADRIM COTTAGE CHEESE 454 GRS",
+    "precio": 170.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353000013.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "011274000276",
+    "descripcion": "J & J CREAM CHEESE WHIPPED 227 GRS",
+    "precio": 155.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "011274000276.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "011274000337",
+    "descripcion": "J & J CREAM CHEESE 3 LB",
+    "precio": 498.0,
+    "familia": "QUESO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "011274000337.jpg",
+    "existencia": 40.0
+  },
+  {
+    "codigo": "030900007045",
+    "descripcion": "PAULY QUESO CREMA 227 GRS",
+    "precio": 73.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "030900007045.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "7501134801850",
+    "descripcion": "KURSON QUESO PROVOLONE AHUMADO KOSHER 600 GR",
+    "precio": 380.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134801850.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "7501134510609",
+    "descripcion": "KURSON QUESO PANELA KOSHER 500 GRS",
+    "precio": 132.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510609.jpg",
+    "existencia": 238.0
+  },
+  {
+    "codigo": "7501134510933",
+    "descripcion": "KURSON QUESO OAXACA MARINADO 1 KG",
+    "precio": 290.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510933.jpg",
+    "existencia": 10.0
+  },
+  {
+    "codigo": "7501134510920",
+    "descripcion": "KURSON QUESO OAXACA KOSHER 500 GR",
+    "precio": 135.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510920.jpg",
+    "existencia": 528.0
+  },
+  {
+    "codigo": "7501134502031",
+    "descripcion": "KURSON QUESO OAXACA KOSHER 1 KG",
+    "precio": 289.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502031.jpg",
+    "existencia": 3915.0
+  },
+  {
+    "codigo": "7503046084506",
+    "descripcion": "KURSON QUESO MANCHEGO REBANADO 400 GR",
+    "precio": 130.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7503046084506.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "7501134510715",
+    "descripcion": "KURSON QUESO MANCHEGO KOSHER 500 GR",
+    "precio": 142.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510715.jpg",
+    "existencia": 1377.0
+  },
+  {
+    "codigo": "7501134502543",
+    "descripcion": "KURSON QUESO MANCHEGO KOSHER 1 kg.",
+    "precio": 280.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134502543.jpg",
+    "existencia": 1066.0
+  },
+  {
+    "codigo": "7501134505469",
+    "descripcion": "KURSON QUESO FETA KOSHER 250 GR",
+    "precio": 185.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134505469.jpg",
+    "existencia": 225.0
+  },
+  {
+    "codigo": "7501134501195",
+    "descripcion": "KURSON QUESO FETA 500 GRS",
+    "precio": 320.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134501195.jpg",
+    "existencia": 128.0
+  },
+  {
+    "codigo": "7501669893178",
+    "descripcion": "KURSON QUESO DE CABRA NATURAL KOSHER 200 GRS",
+    "precio": 190.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501669893178.jpg",
+    "existencia": 350.0
+  },
+  {
+    "codigo": "7501669892249",
+    "descripcion": "KURSON QUESO DE CABRA C/CHIPOTLE 200 GRS",
+    "precio": 190.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501669892249.jpg",
+    "existencia": 22.0
+  },
+  {
+    "codigo": "026638251102",
+    "descripcion": "HAOLAM QUESO AMERICANO BLANCO 108 1.36 KG",
+    "precio": 820.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "026638251102.jpg",
+    "existencia": 24.0
+  },
+  {
+    "codigo": "026638269909",
+    "descripcion": "HAOLAM PARMESAN GRATED CHEESE",
+    "precio": 220.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "026638269909.JPG",
+    "existencia": 78.0
+  },
+  {
+    "codigo": "03345",
+    "descripcion": "COVADONGA QUESO PARMESANO KG",
+    "precio": 670.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "K",
+    "foto": "03345.jpg",
+    "existencia": 235.0
+  },
+  {
+    "codigo": "7501134510432",
+    "descripcion": "COVADONGA QUESO PANELA KOSHER 500 GRS",
+    "precio": 125.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134510432.jpg",
+    "existencia": 25.0
+  },
+  {
+    "codigo": "7501134503953",
+    "descripcion": "COVADONGA QUESO PANELA KOSHER 1 KG",
+    "precio": 225.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134503953.jpg",
+    "existencia": 815.0
+  },
+  {
+    "codigo": "7501134503984",
+    "descripcion": "COVADONGA QUESO OAXACA KOSHER 500 GRS",
+    "precio": 142.0,
+    "familia": "QUESOS Y LACTEO NACIONAL",
+    "unidad": "PZ",
+    "foto": "7501134503984.jpg",
+    "existencia": 288.0
+  },
+  {
+    "codigo": "850775007410",
+    "descripcion": "TIRAT ZVI TURKEY BREAST MEXICAN 120Z",
+    "precio": 270.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "850775007410.jpg",
+    "existencia": 20.0
+  },
+  {
+    "codigo": "890360003038",
+    "descripcion": "NORMAN'S TASTE PEACH APRICOT 5 OZ",
+    "precio": 30.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "890360003038.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "890360004455",
+    "descripcion": "NORMAN'S SQZ MILK YOGURT STRAWBERRY 99 GRS",
+    "precio": 35.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "890360004455.jpeg",
+    "existencia": 108.0
+  },
+  {
+    "codigo": "890360004073",
+    "descripcion": "NORMAN'S GREEK I.Q. VIRTUOSO VANILLA 3.3 OZ",
+    "precio": 44.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "890360004073.jpg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "890360004431",
+    "descripcion": "NORMAN'S CHOCOLATE LEBEN 3.5 OZ",
+    "precio": 47.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "890360004431.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "014353102410",
+    "descripcion": "MEHADRIM YO SMART STRAWBERRY 100 GRS",
+    "precio": 40.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353102410.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "014353110026",
+    "descripcion": "MEHADRIM WHIPPED BUTTER 227 GRS",
+    "precio": 160.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353110026.jpg",
+    "existencia": 54.0
+  },
+  {
+    "codigo": "014353100089",
+    "descripcion": "MEHADRIM LEBEN POUCH CHOCOLATE 3.5 OZ",
+    "precio": 39.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353100089.jpg",
+    "existencia": 72.0
+  },
+  {
+    "codigo": "014353100041",
+    "descripcion": "MEHADRIM LEBEN CHOCOLATE 142 G",
+    "precio": 38.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353100041.jpg",
+    "existencia": 19.0
+  },
+  {
+    "codigo": "041740000042",
+    "descripcion": "GOLDS PREPARED HORSERADISH AND BEETS 6 OZ",
+    "precio": 80.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "041740000042.JPG",
+    "existencia": 216.0
+  },
+  {
+    "codigo": "014353102809",
+    "descripcion": "GIVAT YOGOLITE KIDS VAINILLA 113 GRS",
+    "precio": 24.0,
+    "familia": "REFRIGERADO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "014353102809.jpg",
+    "existencia": 47.0
+  },
+  {
+    "codigo": "852884001358",
+    "descripcion": "ZACHLAWI PLATINUM VODKA COLD BREW 750 ML",
+    "precio": 1055.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001358.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884001419",
+    "descripcion": "ZACHLAWI PLATINUM RESERVE GOURMET FIG ARAK",
+    "precio": 840.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001419.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884003567",
+    "descripcion": "ZACHLAWI PISTACHIO ARAK 750 ML",
+    "precio": 1129.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884003567.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884001457",
+    "descripcion": "ZACHLAWI FIG ARAK 750 ML",
+    "precio": 840.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001457.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884001426",
+    "descripcion": "ZACHLAWI CLASSIC ARAK 750 ML",
+    "precio": 750.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001426.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884001433",
+    "descripcion": "ZACHLAWI CLASSIC ARAK 750 ML",
+    "precio": 900.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001433.jpg",
+    "existencia": 78.0
+  },
+  {
+    "codigo": "751778906352",
+    "descripcion": "ZACHLAWI CHOCOLATE DREAM VODKA 750 ML",
+    "precio": 1292.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "751778906352.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "852884003550",
+    "descripcion": "ZACHLAWI BLACK CHERRY ARAK 750 ML",
+    "precio": 1371.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884003550.jpg",
+    "existencia": 19.0
+  },
+  {
+    "codigo": "852884001082",
+    "descripcion": "ZACHLAWI BLACK ARAK 750 ML",
+    "precio": 1133.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "852884001082.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "851561007270",
+    "descripcion": "YATIR CREEK RED 750 ML",
+    "precio": 1000.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "851561007270.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "736040003472",
+    "descripcion": "YARDEN ROSE 750 ML",
+    "precio": 780.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "736040003472.jpg",
+    "existencia": 13.0
+  },
+  {
+    "codigo": "736040011804",
+    "descripcion": "YARDEN MERLOT 750 ML",
+    "precio": 1000.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "736040011804.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "736040011798",
+    "descripcion": "YARDEN CARBERNET SAUVIGNON 750 ML",
+    "precio": 1824.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "736040011798.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752013816",
+    "descripcion": "WEINSTOCK MOSCATO WHITE WINE 750 ML",
+    "precio": 284.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752013816.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752015155",
+    "descripcion": "WEINSTOCK CELLAR SELECT CHARDONAY 750 ML",
+    "precio": 644.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752015155.jpg",
+    "existencia": 18.0
+  },
+  {
+    "codigo": "087752015148",
+    "descripcion": "WEINSTOCK CELLAR SELECT 750 ML",
+    "precio": 583.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752015148.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752015346",
+    "descripcion": "WEINSTOCK CABERNET SAUVINGON 1.5 LT",
+    "precio": 452.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752015346.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752015001",
+    "descripcion": "WEINSTOCK CABERNET SAUVIGNON CALIFORNIA 750 ML",
+    "precio": 320.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752015001.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "9310489200091",
+    "descripcion": "VINO TIERRA SALVAJE CHARDONNAY 750 ML",
+    "precio": 320.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "9310489200091.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752012796",
+    "descripcion": "TZUBA METZUDA RESERVE 750 ML",
+    "precio": 989.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752012796.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752012741",
+    "descripcion": "TZUBA METZUDA 750 ML",
+    "precio": 946.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752012741.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "877520127582",
+    "descripcion": "TZUBA CABERNET SAUVINGNON 750 ML",
+    "precio": 849.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "877520127582.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643554605",
+    "descripcion": "THE BUTCHERS DAUGTHER SAUVIGNON BLANC 750 ML",
+    "precio": 322.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643554605.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643554599",
+    "descripcion": "THE BUTCHERS DAUGHTER ROSE 750 ML",
+    "precio": 397.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643554599.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643513169",
+    "descripcion": "THE BUTCHERS DAUGHTER CHARDONAY 750 ML",
+    "precio": 402.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643513169.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019627",
+    "descripcion": "TEPERBERG VISION WHITE SEMI DRY 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019627.jpg",
+    "existencia": 23.0
+  },
+  {
+    "codigo": "087752021279",
+    "descripcion": "TEPERBERG VISION SHIRAZ 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752021279.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019603",
+    "descripcion": "TEPERBERG VISION MERLOT 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019603.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752023327",
+    "descripcion": "TEPERBERG VISION MALBEC 750 ML",
+    "precio": 332.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752023327.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752023310",
+    "descripcion": "TEPERBERG VISION DRY WHITE WINE 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752023310.jpg",
+    "existencia": 21.0
+  },
+  {
+    "codigo": "087752019610",
+    "descripcion": "TEPERBERG VISION CABERNET SAUVIGNON 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019610.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752038666",
+    "descripcion": "TEPERBERG INSPIRE ART SERIES DABOUKI 750 ML",
+    "precio": 673.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752038666.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019658",
+    "descripcion": "TEPERBERG IMPRESSION ROJO M 750 ML",
+    "precio": 500.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019658.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019665",
+    "descripcion": "TEPERBERG IMPRESSION ROJO C 750 ML",
+    "precio": 500.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019665.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019696",
+    "descripcion": "TEPERBERG ESSENCE ROJO C 750 ML",
+    "precio": 1066.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019696.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752021545",
+    "descripcion": "TEPERBERG ESSENCE MERLOT 750  ML",
+    "precio": 1455.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752021545.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752024713",
+    "descripcion": "TEPERBERG CABERNET SAUVIGNON PETITE SIRAH",
+    "precio": 280.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752024713.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752006566",
+    "descripcion": "TEAL LAKE SHIRAZ 750 ML",
+    "precio": 276.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752006566.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752021644",
+    "descripcion": "TABOR ADAMA BARBERA ROSE 750 ML",
+    "precio": 538.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752021644.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "023632082435",
+    "descripcion": "SIVIANO MERLOT",
+    "precio": 325.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "023632082435.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "023632082459",
+    "descripcion": "SIVIANO CHARDONAY",
+    "precio": 325.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "023632082459.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752011805",
+    "descripcion": "SHILOH CABERNET SAUVIGNON SHOR SHILOH 750 ML",
+    "precio": 990.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752011805.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752012932",
+    "descripcion": "SHILOH BARBERA SHOR 750 ML",
+    "precio": 700.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752012932.jpg",
+    "existencia": 6.0
+  },
+  {
+    "codigo": "087752016282",
+    "descripcion": "SHILO LEGEND II 2010 750 ML",
+    "precio": 689.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752016282.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752014462",
+    "descripcion": "SHILO LEGEND 2009",
+    "precio": 827.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752014462.jpg",
+    "existencia": 6.0
+  },
+  {
+    "codigo": "087752028391",
+    "descripcion": "SFORNO RED BLEN GRAN RESERVA 750 ML",
+    "precio": 484.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752028391.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752028377",
+    "descripcion": "SFORNO CABERNET SAUVIGNON RESERVA 750 ML",
+    "precio": 271.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752028377.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752028339",
+    "descripcion": "SFORNO CABERNET SAUVIGNON 750 ML",
+    "precio": 301.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752028339.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017234",
+    "descripcion": "SCHMERLINGS COFFEE LIQUEUR 750 ML",
+    "precio": 716.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017234.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017227",
+    "descripcion": "SCHMERLINGS CHOCOLATE LIQUEUR 750 ML",
+    "precio": 716.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017227.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752021897",
+    "descripcion": "SAINTE BEATRICE ROSA 750 ML",
+    "precio": 476.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752021897.jpeg",
+    "existencia": 36.0
+  },
+  {
+    "codigo": "085662003125",
+    "descripcion": "SABRA CHOCOLATE ORANGE LUQUEUR 750 ML",
+    "precio": 863.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "085662003125.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752005972",
+    "descripcion": "ROYALE  CABERNET SAUVIGNON 187 ML",
+    "precio": 120.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752005972.JPG",
+    "existencia": null
+  },
+  {
+    "codigo": "087752020043",
+    "descripcion": "RASHI RASHI CONCORD LIGHT RED 750 ML",
+    "precio": 121.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752020043.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752020050",
+    "descripcion": "RASHI CONCORD LIGHT WHITE 750 ML",
+    "precio": 121.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752020050.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752020029",
+    "descripcion": "RASHI CONCORD LIGHT PINK 750 ML",
+    "precio": 113.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752020029.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752025413",
+    "descripcion": "RAMON CARDOVA RIOJA RESERVA OLD VINES 750 ML",
+    "precio": 520.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752025413.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752015575",
+    "descripcion": "RAMON CARDOVA RIOJA GARNACHA 750 ML",
+    "precio": 418.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752015575.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752007907",
+    "descripcion": "RAMON CARDOVA RIOJA 750 ML",
+    "precio": 500.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752007907.jpg",
+    "existencia": 6.0
+  },
+  {
+    "codigo": "087752007921",
+    "descripcion": "RAMON CARDOVA CRIANZA 750 ML",
+    "precio": 587.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752007921.jpg",
+    "existencia": 56.0
+  },
+  {
+    "codigo": "844510022103",
+    "descripcion": "RAMBAM MOSCATO 750 ML",
+    "precio": 389.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510022103.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510021120",
+    "descripcion": "RAMBAM JOVEN WHITE 750 ML",
+    "precio": 260.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510021120.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752019207",
+    "descripcion": "PSAGOT SINAI RED MEVUSAHL 750 ML",
+    "precio": 620.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752019207.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752011225",
+    "descripcion": "PSAGOT EDOM 750 ML",
+    "precio": 1250.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752011225.jpg",
+    "existencia": 19.0
+  },
+  {
+    "codigo": "087752011218",
+    "descripcion": "PSAGOT CABERNET SAUVIGNON 750 ML",
+    "precio": 998.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752011218.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752009840",
+    "descripcion": "PETIT CASTEL 750 ML",
+    "precio": 2076.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752009840.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752016138",
+    "descripcion": "PERAJ PETITA CAPCANES ROSAT",
+    "precio": 393.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752016138.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752016428",
+    "descripcion": "OR HAGANUZ AMUKA SEMI SWEET 750 ML",
+    "precio": 573.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752016428.jpg",
+    "existencia": 35.0
+  },
+  {
+    "codigo": "899361002316",
+    "descripcion": "ODW YERS CREEK SAUVIGNON BLANC 750 ML",
+    "precio": 516.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "899361002316.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "9421902131073",
+    "descripcion": "ODW YERS CREEK PINOT NOIR 750 ML",
+    "precio": 820.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "9421902131073.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "9421010231610",
+    "descripcion": "ODW YERS CREEK CHARDONAY 750 ML",
+    "precio": 515.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "9421010231610.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752013625",
+    "descripcion": "MORAD WINERY POMEGRANATE 750 ML",
+    "precio": 577.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752013625.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752013632",
+    "descripcion": "MORAD WINERY PASSION FRUIT 750 ML",
+    "precio": 618.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752013632.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752016749",
+    "descripcion": "MORAD WINERY LYCHEE WINE 750 ML",
+    "precio": 800.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752016749.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752022009",
+    "descripcion": "MORAD WILD BERRIES WINE 750 ML",
+    "precio": 618.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752022009.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "791163371662",
+    "descripcion": "MELODIE DU CHATEAU ROSE",
+    "precio": 250.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "791163371662.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "0791163371679",
+    "descripcion": "MELODIE DU CAHTEAU RED",
+    "precio": 238.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "791163371679.jpg",
+    "existencia": 2.0
+  },
+  {
+    "codigo": "5236810",
+    "descripcion": "MATAR CB 70 ML",
+    "precio": 2105.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "5236810.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752024577",
+    "descripcion": "MATAR CABERNET SAUVIGNON 750 ML",
+    "precio": 1512.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752024577.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643515446",
+    "descripcion": "MADEMOISELLE ROSE 750 ML",
+    "precio": 800.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643515446.jpg",
+    "existencia": 216.0
+  },
+  {
+    "codigo": "844510015280",
+    "descripcion": "LAVIE PRALINE LIQUEUR 750 ML",
+    "precio": 717.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015280.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510015044",
+    "descripcion": "LAVIE MINT CHOCOLATE LIQUEUR 750 ML",
+    "precio": 632.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015044.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510015082",
+    "descripcion": "LAVIE DULCE DE LECHE LIQUEUR 750 ML",
+    "precio": 716.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015082.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510015099",
+    "descripcion": "LAVIE DULCE DE LECHE 200 ML",
+    "precio": 367.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015099.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510015211",
+    "descripcion": "LAVIE COFFEE & CREAM 200 ML",
+    "precio": 272.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015211.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510015020",
+    "descripcion": "LAVIE CHOCOLATE PISTACHIO LIQUEUR 750 ML",
+    "precio": 855.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510015020.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643513107",
+    "descripcion": "LA FILLE DU BOUCHER MUSCAT PREMIUM SPARKLING 750 ML",
+    "precio": 572.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643513107.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643513121",
+    "descripcion": "LA FILLE DU BOUCHER CABERNET SAUVIGNON 750 ML",
+    "precio": 397.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643513121.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "7290014151093",
+    "descripcion": "LA CITADELLE DE DIAMANT MARIUS CAB SAUVIGNON",
+    "precio": 702.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "7290014151093.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "7290014151369",
+    "descripcion": "LA CITADELLE DE DIAMANT MADEMOISELLE SAUVIGNON BLANC 750 ML",
+    "precio": 800.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "7290014151369.jpg",
+    "existencia": 57.0
+  },
+  {
+    "codigo": "015643527616",
+    "descripcion": "LA CITADELLE DE DIAMANT FANNY 750 ML",
+    "precio": 804.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643527616.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "015643517365",
+    "descripcion": "LA CITADELLE CAESAR CABERNET SAUVIGNON",
+    "precio": 1124.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "015643517365.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "7501134503946",
+    "descripcion": "KURSON ARAK 750 ML",
+    "precio": 70.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "7501134503946.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "876641900166",
+    "descripcion": "KRAEMER WHITE SPARKLING WINE SEMI DRY 750 ML",
+    "precio": 300.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "876641900166.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "081452443102",
+    "descripcion": "KING DAVID CONCORD 750 ML",
+    "precio": 192.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "081452443102.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "040885186130",
+    "descripcion": "KESSER LIGTH RED N/M FARBREGEN 750 ML",
+    "precio": 113.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "040885186130.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "040885186048",
+    "descripcion": "KESSER HARMONY N/MEVUSHAL 750 ML",
+    "precio": 114.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "040885186048.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "040885186208",
+    "descripcion": "KESSER FARBRENGEN DANCING LIGHT CONCORD 750 ML",
+    "precio": 113.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "040885186208.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017401",
+    "descripcion": "KEDEM VODKA 750 ML",
+    "precio": 400.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017401.jpg",
+    "existencia": 111.0
+  },
+  {
+    "codigo": "087752009185",
+    "descripcion": "KEDEM MATUK KAL 4.5%",
+    "precio": 162.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752009185.JPG",
+    "existencia": null
+  },
+  {
+    "codigo": "087752009291",
+    "descripcion": "KEDEM MATUK KAL 4.5 % 1.5 LT",
+    "precio": 316.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752009291.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752001363",
+    "descripcion": "KEDEM MALAGA WINE 750 ML",
+    "precio": 140.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752001363.JPG",
+    "existencia": 47.0
+  },
+  {
+    "codigo": "087752005699",
+    "descripcion": "KEDEM KEDEM MATUK ROUGE SOFT 750 ML",
+    "precio": 150.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752005699.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752001301",
+    "descripcion": "KEDEM KEDEM CREAM PINK CONCORD 750 ML",
+    "precio": 121.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752001301.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752003800",
+    "descripcion": "KEDEM KEDEM CREAM NIAGARA 750 ML",
+    "precio": 121.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752003800.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752002490",
+    "descripcion": "KEDEM CREAM RED CONCORD 750 ML",
+    "precio": 140.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752002490.JPG",
+    "existencia": null
+  },
+  {
+    "codigo": "087752006894",
+    "descripcion": "KEDEM CONCORD KAL 750 ML",
+    "precio": 140.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752006894.JPG",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "087752006900",
+    "descripcion": "KEDEM CONCORD KAL 1.5 LT",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752006900.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752001295",
+    "descripcion": "KEDEM CONCORD GRAPE 750 ML",
+    "precio": 114.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752001295.jpg",
+    "existencia": 12.0
+  },
+  {
+    "codigo": "087752002001",
+    "descripcion": "KEDEM CONCORD GRAPE 187 ML",
+    "precio": 74.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752002001.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752001738",
+    "descripcion": "KEDEM CONCORD GRAPE 1.5 LTS",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752001738.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752001509",
+    "descripcion": "KEDEM CHAMPAGNE WHITE N.Y.S. 750 ML",
+    "precio": 290.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752001509.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752005897",
+    "descripcion": "KEDEM BLUSH CONCORD 750 ML",
+    "precio": 140.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752005897.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752005903",
+    "descripcion": "KEDEM BLUSH CONCORD 1.5 LTS",
+    "precio": 239.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752005903.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "7290004658809",
+    "descripcion": "KADMON SWEET WINE",
+    "precio": 362.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "7290004658809.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752014905",
+    "descripcion": "JUST TULIP CABERNET SAUVIGNON 750 ML",
+    "precio": 648.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752014905.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752006481",
+    "descripcion": "JOYVIN WHITE RASHI 750 ML",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752006481.jpg",
+    "existencia": 48.0
+  },
+  {
+    "codigo": "087752006474",
+    "descripcion": "JOYVIN VINO RED",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752006474.jpeg",
+    "existencia": 37.0
+  },
+  {
+    "codigo": "087752035740",
+    "descripcion": "JOYVIN MOSCATO MANGO 750 ML",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752035740.jpeg",
+    "existencia": 54.0
+  },
+  {
+    "codigo": "087752035757",
+    "descripcion": "JOYVIN DURAZNO 750",
+    "precio": 245.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752035757.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752012994",
+    "descripcion": "JEUNESSE CHARDONAY 750 ML",
+    "precio": 283.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752012994.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "5205",
+    "descripcion": "JERUSALEM VINO 750 ML",
+    "precio": 257.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "5205.JPG",
+    "existencia": null
+  },
+  {
+    "codigo": "1952",
+    "descripcion": "JERUSALEM VINO 200 ML",
+    "precio": 98.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "1952.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "844510013309",
+    "descripcion": "HH JESURALEM HILLS RESERVE RED 750 ML",
+    "precio": 779.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "844510013309.jpeg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752009826",
+    "descripcion": "HERZOG NAPA VALLEY CABERNET 750 ML",
+    "precio": 1000.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752009826.jpeg",
+    "existencia": 34.0
+  },
+  {
+    "codigo": "087752023457",
+    "descripcion": "HERZOG LINEAGE CHARDONYAY HERZOG 750 ML",
+    "precio": 425.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752023457.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752023440",
+    "descripcion": "HERZOG LINEAGE CABERNET SAUVIGNON 750 ML",
+    "precio": 505.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752023440.jpg",
+    "existencia": 13.0
+  },
+  {
+    "codigo": "087752036211",
+    "descripcion": "HERZOG LINEAGE CABERNET SAUVIGNON 375 ML",
+    "precio": 347.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752036211.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017722",
+    "descripcion": "HAVENS NOUGAT 750 ML",
+    "precio": 632.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017722.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017746",
+    "descripcion": "HAVENS DARK CHOCOLATE 750 ML",
+    "precio": 632.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017746.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752018231",
+    "descripcion": "HAVENS CLASSIC CHOCOLATE 750 ML",
+    "precio": 697.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752018231.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752017739",
+    "descripcion": "HAVENS CARAMEL TOFFEE 750 ML",
+    "precio": 632.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752017739.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "090282555893",
+    "descripcion": "HAGAFEN CELLARS FAMILY VINEYARD WHITE BLEND 750 ML",
+    "precio": 2700.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "090282555893.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752023365",
+    "descripcion": "GUSH ETZION BLESSED VALLEY RED 750 ML.",
+    "precio": 1900.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752023365.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752010419",
+    "descripcion": "GOOSE BAY SAUVIGNON BLANC 750 ML",
+    "precio": 905.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752010419.jpg",
+    "existencia": 7.0
+  },
+  {
+    "codigo": "087752014967",
+    "descripcion": "GOOSE BAY PINOT GRIGIO 750 ML",
+    "precio": 741.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752014967.jpg",
+    "existencia": null
+  },
+  {
+    "codigo": "087752010372",
+    "descripcion": "GOOSE BAY P N",
+    "precio": 530.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752010372.jpg",
+    "existencia": 8.0
+  },
+  {
+    "codigo": "087752011614",
+    "descripcion": "GOOSE BAY CHAR 750 ML",
+    "precio": 530.0,
+    "familia": "VINO IMPORTADO",
+    "unidad": "PZ",
+    "foto": "087752011614.jpg",
+    "existencia": null
   },
   {
     "codigo": "736040014270",
@@ -3964,15 +4405,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "10028",
-    "descripcion": "FILETE DE RES KOSHER KG",
-    "precio": 1638.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10028.jpg",
-    "existencia": 259.64
-  },
-  {
     "codigo": "040885186109",
     "descripcion": "FARBRENGER MELODY 750 ML",
     "precio": 120.0,
@@ -3980,24 +4412,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "040885186109.jpg",
     "existencia": null
-  },
-  {
-    "codigo": "10025",
-    "descripcion": "FALDA DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10025.jpg",
-    "existencia": 47.24
-  },
-  {
-    "codigo": "60707",
-    "descripcion": "FAJITAS DE POLLO ORGANICO KG",
-    "precio": 420.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 7.5
   },
   {
     "codigo": "331152601648",
@@ -4009,51 +4423,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "7290112331946",
-    "descripcion": "Elite-Cho- Reva L'esheva Wafer Rolls Tortit (5.6oz)",
-    "precio": 264.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 11.0
-  },
-  {
-    "codigo": "077245107931",
-    "descripcion": "ELITE TURKISH COFFEE WHIT CARDAMON 100 GRS",
-    "precio": 99.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "077245107931.jpg",
-    "existencia": 50.0
-  },
-  {
-    "codigo": "077245108310",
-    "descripcion": "ELITE PESEK ZMAN MINI BAGS 400 GR",
-    "precio": 390.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "077245108310.jpg",
-    "existencia": 60.0
-  },
-  {
-    "codigo": "815871012829",
-    "descripcion": "ELITE GUM S/F SPEARMINT CUBES 2OZ",
-    "precio": 100.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 12.0
-  },
-  {
-    "codigo": "815871017626",
-    "descripcion": "ELITE CHOCOLIT DRINK MIX 17.6 OZ",
-    "precio": 300.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "815871017626.jpg",
-    "existencia": 5.0
-  },
-  {
     "codigo": "087752023426",
     "descripcion": "ELITE ARAK 750 ML",
     "precio": 508.0,
@@ -4061,24 +4430,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "087752023426.jpg",
     "existencia": null
-  },
-  {
-    "codigo": "605453520961",
-    "descripcion": "DYNA-SEA IMITACION CAMARON 300 GRS",
-    "precio": 200.0,
-    "familia": "CONGELADO IMPORTADO",
-    "unidad": "PZ",
-    "foto": "605453520961.jpg",
-    "existencia": 96.0
-  },
-  {
-    "codigo": "049200045503",
-    "descripcion": "DOMINO SUGAR 4 LB",
-    "precio": 175.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "049200045503.jpg",
-    "existencia": 39.0
   },
   {
     "codigo": "087752009833",
@@ -4099,15 +4450,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "10022",
-    "descripcion": "DIEZMILLO DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10022.jpg",
-    "existencia": 36.7
-  },
-  {
     "codigo": "7290014503540",
     "descripcion": "DALTON 20TH WHITE 750 ML",
     "precio": 2021.0,
@@ -4115,42 +4457,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "7290014503540.jpg",
     "existencia": null
-  },
-  {
-    "codigo": "046676182121",
-    "descripcion": "DAGIM SOLID WHITE TUNA IN WATER 6 OZ",
-    "precio": 84.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "046676182121.jpg",
-    "existencia": 90.0
-  },
-  {
-    "codigo": "046676132522",
-    "descripcion": "DAGIM CHUNK LIGHT TUNA IN WATER 6 OZ",
-    "precio": 54.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "046676132522.jpg",
-    "existencia": 912.0
-  },
-  {
-    "codigo": "730127100009",
-    "descripcion": "CUCUMBER IN BRINE 7-9 19 OZ",
-    "precio": 110.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "730127100009.jpg",
-    "existencia": 168.0
-  },
-  {
-    "codigo": "077485003857",
-    "descripcion": "CRISP RICE TREAT MINTY COATED",
-    "precio": 144.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 80.0
   },
   {
     "codigo": "705105864372",
@@ -4187,87 +4493,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "019962371905.jpg",
     "existencia": null
-  },
-  {
-    "codigo": "03345",
-    "descripcion": "COVADONGA QUESO PARMESANO KG",
-    "precio": 670.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "K",
-    "foto": "03345.jpg",
-    "existencia": 235.0
-  },
-  {
-    "codigo": "7501134510432",
-    "descripcion": "COVADONGA QUESO PANELA KOSHER 500 GRS",
-    "precio": 125.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134510432.jpg",
-    "existencia": 25.0
-  },
-  {
-    "codigo": "7501134503953",
-    "descripcion": "COVADONGA QUESO PANELA KOSHER 1 KG",
-    "precio": 225.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134503953.jpg",
-    "existencia": 815.0
-  },
-  {
-    "codigo": "7501134503984",
-    "descripcion": "COVADONGA QUESO OAXACA KOSHER 500 GRS",
-    "precio": 142.0,
-    "familia": "QUESOS Y LACTEO NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501134503984.jpg",
-    "existencia": 288.0
-  },
-  {
-    "codigo": "10069",
-    "descripcion": "COSTILLA DE TERNERA KOSHER kg.",
-    "precio": 1110.0,
-    "familia": "TERNERA",
-    "unidad": "K",
-    "foto": "10069.jpg",
-    "existencia": 133.0
-  },
-  {
-    "codigo": "10016",
-    "descripcion": "COSTILLA DE RES KOSHER CON HUESO KG",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10016.jpg",
-    "existencia": 8.0
-  },
-  {
-    "codigo": "40091",
-    "descripcion": "COSTILLA DE CARNERO KOSHER kg.",
-    "precio": 1400.0,
-    "familia": "CARNERO",
-    "unidad": "K",
-    "foto": "40091.jpg",
-    "existencia": 478.0
-  },
-  {
-    "codigo": "20556",
-    "descripcion": "CORAZONES DE POLLO KOSHER KG",
-    "precio": 60.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20556.jpg",
-    "existencia": 10.6
-  },
-  {
-    "codigo": "2377039801",
-    "descripcion": "CHERRY FILLING 40 LB",
-    "precio": 6000.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 10.0
   },
   {
     "codigo": "791163371990",
@@ -4351,33 +4576,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "7503008629004",
-    "descripcion": "CHARTUM HOJA DE PARRA",
-    "precio": 170.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503008629004.jpg",
-    "existencia": 60.0
-  },
-  {
-    "codigo": "10021",
-    "descripcion": "CHAMBARETE SIN HUESO DE RES KOSHER KG (MOZAT)",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10021.jpg",
-    "existencia": 74.02
-  },
-  {
-    "codigo": "10020",
-    "descripcion": "CHAMBARETE CON HUESO DE RES KOSHER KG (MOZAT)",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10020.jpg",
-    "existencia": 15.9
-  },
-  {
     "codigo": "851561007720",
     "descripcion": "CARMEL SIGNATURE CABERNET SAUV SPECIAL RE",
     "precio": 1000.0,
@@ -4414,42 +4612,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "10014",
-    "descripcion": "BROCHETA PARA ALAMBRE  kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10014.jpg",
-    "existencia": 136.92
-  },
-  {
-    "codigo": "017252152746",
-    "descripcion": "BOSCO SYRUP VANILLA 22 OZ",
-    "precio": 125.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "017252152746.jpg",
-    "existencia": 30.0
-  },
-  {
-    "codigo": "017252501513",
-    "descripcion": "BOSCO SYRUP STRAWBERRY 22 OZ",
-    "precio": 125.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "017252501513.jpg",
-    "existencia": 54.0
-  },
-  {
-    "codigo": "017252500004",
-    "descripcion": "BOSCO SYRUP CHOCOLATE  22 OZ",
-    "precio": 125.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "017252500004.jpg",
-    "existencia": 17.0
-  },
-  {
     "codigo": "0791163372102",
     "descripcion": "BLUMANTTI MOSCATO ROSE",
     "precio": 430.0,
@@ -4466,24 +4628,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "023632082213.jpg",
     "existencia": 58.0
-  },
-  {
-    "codigo": "073490153006",
-    "descripcion": "BLANCHARD & BLANCHARD HONEY MUSTARD 9 OZ",
-    "precio": 118.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "073490153006.jpg",
-    "existencia": 7.0
-  },
-  {
-    "codigo": "10009",
-    "descripcion": "BISTECK ,MILANESA DE RES KOSHER kg",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10009.jpg",
-    "existencia": 21.12
   },
   {
     "codigo": "085662002234",
@@ -4592,15 +4736,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "085662002166.jpeg",
     "existencia": null
-  },
-  {
-    "codigo": "051328708437",
-    "descripcion": "BET YOSEF BEEF FRANKS SBD 340 GRS",
-    "precio": 550.0,
-    "familia": "CARNES FRIAS IMPORTADAS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 36.0
   },
   {
     "codigo": "087752013236",
@@ -5071,15 +5206,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "096086000348",
-    "descripcion": "AVIV MATZO CHOCOLATE FLAVORED COATED 200 GRS",
-    "precio": 168.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "096086000348.jpg",
-    "existencia": 90.0
-  },
-  {
     "codigo": "087752017036",
     "descripcion": "ASKALON ARAK SPECIAL 750 ML",
     "precio": 353.0,
@@ -5087,15 +5213,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "087752017036.jpg",
     "existencia": 36.0
-  },
-  {
-    "codigo": "10002",
-    "descripcion": "ARRACHERA DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10002.jpg",
-    "existencia": 268.8
   },
   {
     "codigo": "015643472619",
@@ -5114,42 +5231,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "765522096.jpg",
     "existencia": null
-  },
-  {
-    "codigo": "7501516411128",
-    "descripcion": "ARACELI LECHE LIGHT 1 LT",
-    "precio": 38.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501516411128.jpg",
-    "existencia": 2544.0
-  },
-  {
-    "codigo": "7501516411180",
-    "descripcion": "ARACELI LECHE ENTERA 1 LT",
-    "precio": 38.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501516411180.jpg",
-    "existencia": 2280.0
-  },
-  {
-    "codigo": "7501516411135",
-    "descripcion": "ARACELI LECHE DESLACTOSADA 1 LT",
-    "precio": 38.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7501516411135.jpg",
-    "existencia": 75.0
-  },
-  {
-    "codigo": "074702002228",
-    "descripcion": "APOLLO FILLO",
-    "precio": 160.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "074702002228.JPG",
-    "existencia": 36.0
   },
   {
     "codigo": "087752016466",
@@ -5206,33 +5287,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "8850389104637",
-    "descripcion": "ALOE VERA PEACH 24X330ml",
-    "precio": 90.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "",
-    "existencia": 72.0
-  },
-  {
-    "codigo": "61003",
-    "descripcion": "ALITAS DE POLLO ORGANICO KOSHER KG",
-    "precio": 140.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 51.5
-  },
-  {
-    "codigo": "20003",
-    "descripcion": "ALITAS DE POLLO KOSHER KG",
-    "precio": 70.0,
-    "familia": "POLLO",
-    "unidad": "K",
-    "foto": "20003.jpg",
-    "existencia": 1383.16
-  },
-  {
     "codigo": "087752005781",
     "descripcion": "ALFASI VINO CABERNET SAUVIGNON 750 ML",
     "precio": 248.0,
@@ -5260,51 +5314,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "10007",
-    "descripcion": "AGUJAS SIN HUESO DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10007.jpg",
-    "existencia": 19.1
-  },
-  {
-    "codigo": "10008",
-    "descripcion": "AGUJAS CON HUESO DE RES KOSHER kg.",
-    "precio": 539.0,
-    "familia": "RES",
-    "unidad": "K",
-    "foto": "10008.jpg",
-    "existencia": 455.88
-  },
-  {
-    "codigo": "865",
-    "descripcion": "AGRI PASTRAMI BRISKET",
-    "precio": 1572.0,
-    "familia": "CARNES FRIAS IMPORTADAS",
-    "unidad": "K",
-    "foto": "",
-    "existencia": 0
-  },
-  {
-    "codigo": "7503028931132",
-    "descripcion": "AGRABA HOJA DE PARRA EN SALMUERA 500 GRS",
-    "precio": 199.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503028931132.jpg",
-    "existencia": 24.0
-  },
-  {
-    "codigo": "7503028931026",
-    "descripcion": "e",
-    "precio": 280.0,
-    "familia": "ABARROTES NACIONAL",
-    "unidad": "PZ",
-    "foto": "7503028931026.jpg",
-    "existencia": 36.0
-  },
-  {
     "codigo": "087752016022",
     "descripcion": "ADAMA TABOR CABERNET SAUVIGNON 750 ML",
     "precio": 558.0,
@@ -5314,24 +5323,6 @@ const PRODUCTOS = [
     "existencia": null
   },
   {
-    "codigo": "857531000050",
-    "descripcion": "ACHVA HALVA VANILLA SESAME 454 GRS",
-    "precio": 140.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "857531000050.jpg",
-    "existencia": 48.0
-  },
-  {
-    "codigo": "857531000067",
-    "descripcion": "ACHVA HALVA MARBLE SESAME 454 GRS",
-    "precio": 160.0,
-    "familia": "ABARROTES IMPORTADOS",
-    "unidad": "PZ",
-    "foto": "857531000067.jpg",
-    "existencia": 84.0
-  },
-  {
     "codigo": "844510004246",
     "descripcion": "ABOUHAV CABERNET SAUVIGNON 750 ML",
     "precio": 3052.0,
@@ -5339,15 +5330,6 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "844510004246.jpeg",
     "existencia": null
-  },
-  {
-    "codigo": "032973100005",
-    "descripcion": "A&B FAMOUS GEFILTE FISH 565 GRS",
-    "precio": 370.0,
-    "familia": "CONGELADO NACIONAL",
-    "unidad": "PZ",
-    "foto": "032973100005.jpeg",
-    "existencia": 48.0
   },
   {
     "codigo": "087752015902",
@@ -5393,6 +5375,15 @@ const PRODUCTOS = [
     "unidad": "PZ",
     "foto": "087752015926.jpeg",
     "existencia": null
+  },
+  {
+    "codigo": "085976033931",
+    "descripcion": "MANISCHEWITZ CONCORD GRAPE 750 ML",
+    "precio": 235.0,
+    "familia": "VINO NACIONAL",
+    "unidad": "PZ",
+    "foto": "085976033931.JPG",
+    "existencia": 168.0
   }
 ];
 
