@@ -613,7 +613,7 @@
         card.className = 'card';
 
         const foto = p.foto
-          ? `<img class="foto" src="imagenes/${p.foto}" alt="${p.descripcion}" onerror="this.outerHTML='<div class=\\'foto sin-foto\\'>📦</div>'">`
+          ? `<img class="foto" src="imagenes/${p.foto}" alt="${p.descripcion}" loading="lazy" decoding="async" onerror="this.outerHTML='<div class=\\'foto sin-foto\\'>📦</div>'">`
           : `<div class="foto sin-foto">📦</div>`;
 
         const lineaCodigo = p.codigo ? `<div class="codigo">Código: <b>${p.codigo}</b></div>` : "";
